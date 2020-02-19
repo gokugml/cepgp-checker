@@ -1,43 +1,52 @@
 import utility
 
-# baseline = "/Users/menglongguan/git/ala_epgp/test_data/20_02_06 post-raid"
-baseline = "/Users/menglongguan/git/ala_epgp/test_data/20_02_13 post-raid"
-current = "/Users/menglongguan/git/ala_epgp/test_data/20_02_13 pre-raid"
-data_baseline = utility.read_in_csv(baseline)
-data_current = utility.read_in_csv(current)
-
-get_list = ['二团老铁', '副会长']  #
 team_2_fuhuizhang = ('Titanhecate', 'Gigihadid')
 
-dict_baseline = {}
-dict_current = {}
 
-# build data dictionary
-for i in get_list:
-    tmp_baseline = utility.get_epgp_dict_by_level(data_baseline, i)
-    tmp_current = utility.get_epgp_dict_by_level(data_current, i)
-    if i == '副会长':
-        for name, epgp in tmp_baseline.items():
-            if name in team_2_fuhuizhang:
-                dict_baseline.update({name: epgp})
-        for name, epgp in tmp_current.items():
-            if name in team_2_fuhuizhang:
-                dict_current.update({name: epgp})
-    else:
-        dict_baseline.update(tmp_baseline)
-        dict_current.update(tmp_current)
+def check_diff():
+    baseline = "/Users/menglongguan/git/ala_epgp/test_data/20_02_13 post-raid"
+    current = "/Users/menglongguan/git/ala_epgp/test_data/20_02_13 pre-raid"
+    data_baseline = utility.read_in_csv(baseline)
+    data_current = utility.read_in_csv(current)
 
-# remove same items
-delete_list = []
-for name, epgp in dict_baseline.items():
-    if name in dict_current:
-        if dict_current[name] == epgp:
-            delete_list.append(name)
+    get_tuple = ('二团老铁', '副会长')  #
 
-for name in delete_list:
-    del dict_baseline[name]
-    del dict_current[name]
+    # build data dictionary
+    dict_baseline = utility.get_epgp_dict_by_level(data_baseline, get_tuple, team_2_fuhuizhang)
+    dict_current = utility.get_epgp_dict_by_level(data_current, get_tuple, team_2_fuhuizhang)
 
-# see output
-print("n_baseline: ", len(dict_baseline), "baseline: ", dict_baseline)
-print("n_current: ", len(dict_current), "current: ", dict_current)
+    # remove same items
+    delete_list = []
+    for name, epgp in dict_baseline.items():
+        if name in dict_current:
+            if dict_current[name] == epgp:
+                delete_list.append(name)
+
+    for name in delete_list:
+        del dict_baseline[name]
+        del dict_current[name]
+
+    # see output
+    print("n_baseline: ", len(dict_baseline), "baseline: ", dict_baseline)
+    print("n_current: ", len(dict_current), "current: ", dict_current)
+
+
+def fix_decay_issue():
+    baseline = "/Users/menglongguan/git/ala_epgp/test_data/20_02_06 post-raid"
+    pre_raid = "/Users/menglongguan/git/ala_epgp/test_data/20_02_13 pre-raid"
+    post_raid = "/Users/menglongguan/git/ala_epgp/test_data/20_02_18 post-raid"
+
+    data_baseline = utility.read_in_csv(baseline)
+    data_pre_raid = utility.read_in_csv(pre_raid)
+    data_post_raid = utility.read_in_csv(post_raid)
+
+    get_tuple = ('二团老铁', '副会长')  #
+
+    # build data dictionary
+    dict_baseline = utility.get_epgp_dict_by_level(data_baseline, get_tuple, team_2_fuhuizhang)
+    dict_pre_raid = utility.get_epgp_dict_by_level(data_pre_raid, get_tuple, team_2_fuhuizhang)
+    dict_post_raid = utility.get_epgp_dict_by_level(data_post_raid, get_tuple, team_2_fuhuizhang)
+
+
+if __name__ == "__main__":
+    check_diff()
