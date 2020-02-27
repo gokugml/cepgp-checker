@@ -39,16 +39,61 @@ def compare_dict_diff(dict_0, dict_1):
     dict_current = dict_1.copy()
     # remove same items
     delete_list = []
+    dict_same = {}
+    dict_diff = {}
     for name, epgp in dict_baseline.items():
         if name in dict_current:
+            delete_list.append(name)
+            current_epgp = dict_current[name]
             if dict_current[name] == epgp:
-                delete_list.append(name)
+                dict_same.update({name: epgp})
+            else:
+                dict_diff.update({name: [int(current_epgp[0]) - int(epgp[0]), int(current_epgp[1]) - int(epgp[1])]})
 
     for name in delete_list:
         del dict_baseline[name]
         del dict_current[name]
 
-    return dict_baseline, dict_current
+    return dict_baseline, dict_current, dict_same, dict_diff
+
+
+def compare_dict_decay_diff(dict_0, dict_1):
+    dict_compare_0 = dict_0.copy()
+    dict_compare_1 = dict_1.copy()
+
+    delete_list = []
+    dict_diff = {}
+    dict_same = {}
+    for name, epgp in dict_compare_0.items():
+        if name in dict_compare_1:
+            delete_list.append(name)
+            if dict_compare_1[name] == epgp:
+                dict_same.update({name: epgp})
+            else:
+                if int(epgp[0]) == 0:
+                    epgp[0] = 1
+                ep_diff = float(dict_compare_1[name][0]) / float(epgp[0])
+                gp_diff = float(dict_compare_1[name][1]) / float(epgp[1])
+                pr_diff = (float(dict_compare_1[name][0]) / float(dict_compare_1[name][1])) - (
+                        float(epgp[0]) / float(epgp[1]))
+                dict_diff.update({name: [ep_diff, gp_diff, pr_diff]})
+
+    for name in delete_list:
+        del dict_compare_0[name]
+        del dict_compare_1[name]
+
+    return dict_compare_0, dict_compare_1, dict_same, dict_diff
+
+
+def compare_dict_decay_diff_highlight(dict_0, dict_1, decay):
+    dict_baseline, dict_current, dict_same, dict_diff = compare_dict_decay_diff(dict_0, dict_1)
+    dict_highlight = dict_diff.copy()
+
+    for name, epgp, in dict_diff.items():
+        if abs(epgp[0] - decay) > 0.02 or abs(epgp[1] - decay) > 0.02:
+            dict_highlight.update({name: epgp})
+
+    return dict_baseline, dict_current, dict_same, dict_diff, dict_highlight
 
 
 def decay_epgp(dict_pre_decay, decay_rate=0.9):

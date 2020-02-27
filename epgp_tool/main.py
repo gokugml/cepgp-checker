@@ -1,11 +1,9 @@
 import utility
 
-team_2_fuhuizhang = ('Titanhecate', 'Gigihadid')
+team_2_fuhuizhang = ('Titanhecate', 'Gigihadid', 'Omarlittlee')
 
 
-def check_diff():
-    baseline = "/Users/menglongguan/git/ala_epgp/test_data/20_02_13 post-raid"
-    current = "/Users/menglongguan/git/ala_epgp/test_data/20_02_13 pre-raid"
+def check_diff_within_week(baseline, current):
     data_baseline = utility.read_in_csv(baseline)
     data_current = utility.read_in_csv(current)
 
@@ -15,59 +13,33 @@ def check_diff():
     dict_baseline = utility.get_epgp_dict_by_level(data_baseline, get_tuple, team_2_fuhuizhang)
     dict_current = utility.get_epgp_dict_by_level(data_current, get_tuple, team_2_fuhuizhang)
 
-    # remove same items
-    dict_baseline, dict_current = utility.compare_dict_diff(dict_baseline, dict_current)
+    dict_baseline, dict_current, dict_same, dict_diff = utility.compare_dict_diff(dict_baseline, dict_current)
 
     # see output
     print("n_baseline: ", len(dict_baseline), "baseline: ", dict_baseline)
     print("n_current: ", len(dict_current), "current: ", dict_current)
+    print("n_same: ", len(dict_same), "current: ", dict_same)
+    print("n_diff: ", len(dict_diff), "current: ", dict_diff)
 
 
-def diff_within_week(dict_0, dict_1):
-    # calculate pre-raid post-raid difference
-    print("calculate pre-raid post-raid difference")
-    delete_list = []
-    dict_compare_0 = dict_0.copy()
-    dict_compare_1 = dict_1.copy()
-    dict_diff = {}
-    for name, epgp in dict_compare_0.items():
-        if name in dict_compare_1:
-            if dict_compare_1[name] == epgp:
-                delete_list.append(name)
-            else:
-                ep_diff = int(dict_compare_1[name][0]) - int(epgp[0])
-                gp_diff = int(dict_compare_1[name][1]) - int(epgp[1])
-                dict_diff.update({name: [ep_diff, gp_diff]})
+def check_diff_decay_week(baseline, current, decay):
+    data_baseline = utility.read_in_csv(baseline)
+    data_current = utility.read_in_csv(current)
 
-    for name in delete_list:
-        del dict_compare_0[name]
-        del dict_compare_1[name]
-    return dict_compare_0, dict_compare_1, dict_diff
+    get_tuple = ('二团老铁', '副会长')  #
 
+    # build data dictionary
+    dict_baseline = utility.get_epgp_dict_by_level(data_baseline, get_tuple, team_2_fuhuizhang)
+    dict_current = utility.get_epgp_dict_by_level(data_current, get_tuple, team_2_fuhuizhang)
 
-def diff_decay_week(dict_0, dict_1):
-    # calculate baseline pre-raid difference
-    print("calculate baseline pre-raid difference")
-    dict_compare_0 = dict_0.copy()
-    dict_compare_1 = dict_1.copy()
-
-    delete_list = []
-    dict_diff = {}
-    dict_same = {}
-    for name, epgp in dict_compare_0.items():
-        if name in dict_compare_1:
-            if dict_compare_1[name] == epgp:
-                dict_same.update({name: epgp})
-            else:
-                if int(epgp[0]) == 0:
-                    epgp[0] = 1
-                ep_diff = float(dict_compare_1[name][0]) / float(epgp[0])
-                gp_diff = float(dict_compare_1[name][1]) / float(epgp[1])
-                pr_diff = (float(dict_compare_1[name][0]) / float(dict_compare_1[name][1])) - (
-                        float(epgp[0]) / float(epgp[1]))
-                dict_diff.update({name: [ep_diff, gp_diff, pr_diff]})
-
-    return dict_compare_0, dict_compare_1, dict_diff, dict_same
+    dict_baseline, dict_current, dict_same, dict_diff, dict_highlight = \
+        utility.compare_dict_decay_diff_highlight(dict_baseline, dict_current, decay)
+    # see output
+    print("n_baseline: ", len(dict_baseline), "baseline: ", dict_baseline)
+    print("n_current: ", len(dict_current), "current: ", dict_current)
+    print("n_same: ", len(dict_same), "same: ", dict_same)
+    print("n_diff: ", len(dict_diff), "diff: ", dict_diff)
+    print("n_dict_highlight: ", len(dict_highlight), "highlight: ", dict_highlight)
 
 
 def fix_decay_issue():
@@ -93,7 +65,8 @@ def fix_decay_issue():
     dict_pre_raid = utility.get_epgp_dict_by_level(data_pre_raid, get_tuple, team_2_fuhuizhang)
     dict_post_raid = utility.get_epgp_dict_by_level(data_post_raid, get_tuple, team_2_fuhuizhang)
 
-    dict_week_start, dict_week_end, dict_week_diff = diff_within_week(dict_pre_raid, dict_post_raid)
+    dict_week_start, dict_week_end, dict_week_same, dict_week_diff = utility.compare_dict_diff(dict_pre_raid,
+                                                                                               dict_post_raid)
     # see output
 
     thur = 3 + 3 + 12 * 2
@@ -117,14 +90,16 @@ def fix_decay_issue():
 
     # decay
     dict_post_decay = utility.decay_epgp(dict_pre_decay, 0.9)
-    check_pre_decay, check_post_decay, check_decay_diff, check_decay_same = diff_decay_week(dict_pre_decay,
-                                                                                            dict_post_decay)
+    check_pre_decay, check_post_decay, check_decay_same, check_decay_diff, check_decay_diff_highlight = \
+        utility.compare_dict_decay_diff_highlight(dict_pre_decay, dict_post_decay, 0.9)
 
     # see output
     print("n_pre_decay: ", len(check_pre_decay), "pre_decay: ", check_pre_decay)
     print("n_post_decay: ", len(check_post_decay), "post_decay: ", check_post_decay)
     print("n_decay_diff: ", len(check_decay_diff), "decay_diff: ", check_decay_diff)
-    print("n_decay_same: ", len(check_decay_same), "decay_diff: ", check_decay_same)
+    print("n_decay_same: ", len(check_decay_same), "decay_same: ", check_decay_same)
+    print("n_decay_diff_highlight: ", len(check_decay_diff_highlight), "decay_diff_highlight: ",
+          check_decay_diff_highlight)
 
     # calculate week final
     dict_week_final = {}
@@ -147,23 +122,29 @@ def fix_decay_issue():
 
     # calculate week final decay
     dict_final = utility.decay_epgp(dict_week_final, 0.9)
-    check_final_pre_decay, check_final_post_decay, check_final_decay_diff, check_final_decay_same = diff_decay_week(
-        dict_week_final, dict_final)
+    check_final_pre_decay, check_final_post_decay, check_final_decay_same, check_final_decay_diff, check_final_decay_diff_highlight = \
+        utility.compare_dict_decay_diff_highlight(dict_week_final, dict_final, 0.9)
 
     # see output
     print("n_pre_decay: ", len(check_final_pre_decay), "pre_decay: ", check_final_pre_decay)
     print("n_post_decay: ", len(check_final_post_decay), "post_decay: ", check_final_post_decay)
     print("n_decay_diff: ", len(check_final_decay_diff), "decay_diff: ", check_final_decay_diff)
     print("n_decay_same: ", len(check_final_decay_same), "decay_same: ", check_final_decay_same)
+    print("n_decay_diff_highlight: ", len(check_final_decay_diff_highlight), "decay_diff_highlight: ",
+          check_final_decay_diff_highlight)
 
     # out_text_file
     out_text = ""
     for name, epgp in dict_final.items():
         out_text += "{},{},{},\n".format(name, epgp[0], epgp[1])
-    with open('../fix_epgp.txt', 'w') as f:
-        f.write(out_text)
+    return out_text
 
 
 if __name__ == "__main__":
-    #    check_diff()
-    fix_decay_issue()
+    baseline_file = "/Users/menglongguan/git/ala_epgp/02_23 post"
+    current_file = "/Users/menglongguan/git/ala_epgp/02_24 post"
+    # check_diff_within_week(baseline_file, current_file)
+    # check_diff_decay_week(baseline_file, current_file, 0.9)
+    out_text = fix_decay_issue()
+    # with open('../fix_epgp.txt', 'w') as f:
+    #     f.write(out_text)
