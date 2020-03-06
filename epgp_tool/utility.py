@@ -87,9 +87,11 @@ def compare_dict_decay_diff(dict_0, dict_1):
 
 def compare_dict_decay_diff_highlight(dict_0, dict_1, decay):
     dict_baseline, dict_current, dict_same, dict_diff = compare_dict_decay_diff(dict_0, dict_1)
-    dict_highlight = dict_diff.copy()
+    dict_highlight = {}
 
     for name, epgp, in dict_diff.items():
+        if epgp[1] == 1.0 and int(dict_0[name][1]) == 10:  # skip gp == 10 case
+            continue
         if abs(epgp[0] - decay) > 0.02 or abs(epgp[1] - decay) > 0.02:
             dict_highlight.update({name: epgp})
 
