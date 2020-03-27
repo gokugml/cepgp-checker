@@ -5,7 +5,7 @@ SHARED_LEVEL = '副会长'
 
 def read_in_csv(file_path, delimiter=','):
     data_list = []
-    with open(file_path, 'r') as csv_file:
+    with open(file_path, 'r', encoding='utf-8') as csv_file:
         handle = csv.reader(csv_file, delimiter=delimiter)
         for row in handle:
             data_list.append(row)
