@@ -139,12 +139,62 @@ def fix_decay_issue():
         out_text += "{},{},{},\n".format(name, epgp[0], epgp[1])
     return out_text
 
+def fix_epgp_within_week(baseline, current):
+    data_baseline = utility.read_in_csv(baseline)
+    data_current = utility.read_in_csv(current)
+
+    get_tuple = ('二团老铁', '副会长')  #
+
+    # build data dictionary
+    dict_baseline = utility.get_epgp_dict_by_level(data_baseline, get_tuple, team_2_fuhuizhang)
+    dict_current = utility.get_epgp_dict_by_level(data_current, get_tuple, team_2_fuhuizhang)
+
+    dict_baseline, _dict_current, dict_same, dict_diff = utility.compare_dict_diff(dict_baseline, dict_current)
+
+    fix_dict = {
+    'Doublefat': [3, 0],
+    'Mimihaobai': [18, 0],
+    'Miomioo': [13, 0],
+    'Agiao': [13, 0],
+    'Chaospower': [3, 0],
+    'Fishsheep': [-3, 0],
+    'Yobita': [-3, 0],
+    'Lfyah': [4, 0],
+    'Madaoo': [3, 0],
+    }
+    # add 3 for all boss 7
+    dict_final = utility.get_epgp_dict_by_level(data_current, get_tuple, team_2_fuhuizhang)
+    for name, epgp in dict_diff.items():
+        new_epgp = [int(dict_final[name][0]) + 3, int(dict_final[name][1])]
+        dict_final.update({name: new_epgp})
+
+    for name, epgp in fix_dict.items():
+        new_epgp = [int(dict_final[name][0]) + epgp[0], int(dict_final[name][1]) + epgp[1]]
+        dict_final.update({name: new_epgp})
+
+    #check result
+    #
+    # dict_baseline_check, dict_current_check, dict_same_check, dict_diff_check = \
+    #     utility.compare_dict_diff(dict_current, dict_final)
+    # # see output
+    # print("n_baseline: ", len(dict_baseline_check), "baseline: ", dict_baseline_check)
+    # print("n_current: ", len(dict_current_check), "current: ", dict_current_check)
+    # print("n_same: ", len(dict_same_check), "same: ", dict_same_check)
+    # print("n_diff: ", len(dict_diff_check), "diff: ", dict_diff_check)
+
+
+    out_text = ""
+    for name, epgp in dict_final.items():
+        out_text += "{},{},{},\n".format(name, epgp[0], epgp[1])
+    return out_text
+
 
 if __name__ == "__main__":
-    baseline_file = "/Users/menglongguan/git/ala_epgp/02_23 post"
-    current_file = "/Users/menglongguan/git/ala_epgp/02_24 post"
-    # check_diff_within_week(baseline_file, current_file)
+    baseline_file = r"D:\python\ala_epgp\20_03_30 post.txt"
+    current_file = r"D:\python\ala_epgp\after_fix"
+    check_diff_within_week(baseline_file, current_file)
     # check_diff_decay_week(baseline_file, current_file, 0.9)
-    out_text = fix_decay_issue()
+    # out_text = fix_decay_issue()
+    # out_text = fix_epgp_within_week(baseline_file, current_file)
     # with open('../fix_epgp.txt', 'w') as f:
     #     f.write(out_text)
