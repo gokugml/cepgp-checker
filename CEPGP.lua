@@ -61,7 +61,6 @@ CEPGP = {
 		["Percent"] = 100,
 		["Share"] = false,
 	},
-	["Notice"] = true,
 	["Exclusions"] = {
 		false, -- [1]
 		false, -- [2]
@@ -74,6 +73,7 @@ CEPGP = {
 		false, -- [9]
 		false, -- [10]
 	},
+	["Notice"] = true,
 	["Backups"] = {
 		["04:40:16PM, Tue, 31 March 2020 (Backup)"] = {
 			["Angelabeibei-Whitemane"] = "157,25",
@@ -430,14 +430,14 @@ CEPGP = {
 			["Lightoff-Whitemane"] = "0,10",
 			["Aprïl-Whitemane"] = "0,10",
 			["Yiqilnoue-Whitemane"] = "0,10",
-			["Teemò-Whitemane"] = "0,10",
-			["Effigon-Whitemane"] = "0,10",
 			["Aùgúst-Whitemane"] = "0,10",
-			["Xiaoshuaige-Whitemane"] = "0,10",
-			["Pidan-Whitemane"] = "0,10",
+			["Effigon-Whitemane"] = "0,10",
+			["Teemò-Whitemane"] = "0,10",
+			["Workingdad-Whitemane"] = "0,10",
+			["Yoloda-Whitemane"] = "0,10",
 			["Angelinaa-Whitemane"] = "0,10",
 			["Moonhare-Whitemane"] = "0,10",
-			["Yoloda-Whitemane"] = "0,10",
+			["Pidan-Whitemane"] = "0,10",
 			["Pythoneric-Whitemane"] = "0,10",
 			["Hairwetdontc-Whitemane"] = "333,137",
 			["Forsalock-Whitemane"] = "0,10",
@@ -475,11 +475,11 @@ CEPGP = {
 			["Pwu-Whitemane"] = "0,10",
 			["Caramelslife-Whitemane"] = "0,10",
 			["Ultrasoft-Whitemane"] = "0,10",
-			["Pothunter-Whitemane"] = "0,10",
+			["Applesidra-Whitemane"] = "0,10",
 			["Vinsent-Whitemane"] = "0,10",
 			["Oojbk-Whitemane"] = "166,134",
 			["Spz-Whitemane"] = "0,10",
-			["Applesidra-Whitemane"] = "0,10",
+			["Pothunter-Whitemane"] = "0,10",
 			["Seacatx-Whitemane"] = "0,10",
 			["Antheleon-Whitemane"] = "0,10",
 			["Hahakeke-Whitemane"] = "182,115",
@@ -514,7 +514,7 @@ CEPGP = {
 			["Ncix-Whitemane"] = "0,10",
 			["Shadowfiends-Whitemane"] = "0,10",
 			["Rollhundred-Whitemane"] = "0,10",
-			["Asani-Whitemane"] = "0,10",
+			["Zhangmazi-Whitemane"] = "0,10",
 			["Mevus-Whitemane"] = "0,10",
 			["Stepssister-Whitemane"] = "0,10",
 			["Wannister-Whitemane"] = "363,196",
@@ -523,8 +523,8 @@ CEPGP = {
 			["Duckson-Whitemane"] = "0,10",
 			["Spicechicken-Whitemane"] = "288,36",
 			["Griffing-Whitemane"] = "0,10",
-			["Madaoo-Whitemane"] = "338,137",
 			["Batchat-Whitemane"] = "1,10",
+			["Madaoo-Whitemane"] = "338,137",
 			["Xiaobaifa-Whitemane"] = "0,10",
 			["Bloodblood-Whitemane"] = "0,10",
 			["Nightchef-Whitemane"] = "24,10",
@@ -537,7 +537,7 @@ CEPGP = {
 			["Lovecraftt-Whitemane"] = "0,10",
 			["Aratare-Whitemane"] = "0,10",
 			["Luunna-Whitemane"] = "35,10",
-			["Snowhite-Whitemane"] = "0,10",
+			["Bengbengcha-Whitemane"] = "0,10",
 			["Xiongtu-Whitemane"] = "0,10",
 			["Valdeslr-Whitemane"] = "0,10",
 			["Knittz-Whitemane"] = "56,10",
@@ -550,7 +550,7 @@ CEPGP = {
 			["Mondaysha-Whitemane"] = "0,10",
 			["Jasonm-Whitemane"] = "45,14",
 			["Kksuper-Whitemane"] = "233,89",
-			["Sèptëmbér-Whitemane"] = "0,10",
+			["Neverlove-Whitemane"] = "0,10",
 			["Greatflood-Whitemane"] = "0,10",
 			["Akin-Whitemane"] = "340,39",
 			["Granittee-Whitemane"] = "25,10",
@@ -573,24 +573,24 @@ CEPGP = {
 			["Gwokgwok-Whitemane"] = "363,169",
 			["Wocao-Whitemane"] = "0,10",
 			["Zouhaobyby-Whitemane"] = "0,10",
-			["Ginko-Whitemane"] = "4,10",
+			["Tebiemeow-Whitemane"] = "223,58",
 			["Zagger-Whitemane"] = "0,10",
 			["Angelner-Whitemane"] = "0,10",
-			["Tebiemeow-Whitemane"] = "223,58",
+			["Ginko-Whitemane"] = "4,10",
 			["Gigihadid-Whitemane"] = "363,56",
 			["Tombradyy-Whitemane"] = "356,189",
-			["Polymorphism-Whitemane"] = "153,10",
+			["Feelnicd-Whitemane"] = "0,10",
 			["Greenradish-Whitemane"] = "0,10",
 			["Cnmlgb-Whitemane"] = "251,23",
 			["Silenx-Whitemane"] = "0,10",
-			["Feelnicd-Whitemane"] = "0,10",
+			["Polymorphism-Whitemane"] = "153,10",
 			["Banff-Whitemane"] = "0,10",
 			["Frozenj-Whitemane"] = "301,76",
 			["Ohlalawu-Whitemane"] = "0,10",
 			["Noogler-Whitemane"] = "132,76",
 			["Xiba-Whitemane"] = "0,10",
 			["Warriorster-Whitemane"] = "1,10",
-			["Lolveigar-Whitemane"] = "0,10",
+			["Tuyi-Whitemane"] = "",
 			["Freecss-Whitemane"] = "0,10",
 			["Iceiceices-Whitemane"] = "0,10",
 			["Tinypeanut-Whitemane"] = "0,10",
@@ -598,7 +598,7 @@ CEPGP = {
 			["Xiaoshenxian-Whitemane"] = "0,10",
 			["Windseek-Whitemane"] = "0,10",
 			["Hahamagnus-Whitemane"] = "0,10",
-			["Tuyi-Whitemane"] = "",
+			["Lolveigar-Whitemane"] = "0,10",
 			["Sohard-Whitemane"] = "0,10",
 			["Vcoldeur-Whitemane"] = "0,10",
 			["Solaporschel-Whitemane"] = "0,10",
@@ -622,12 +622,12 @@ CEPGP = {
 			["Ivybee-Whitemane"] = "0,10",
 			["Tencent-Whitemane"] = "0,10",
 			["Flamingheart-Whitemane"] = "0,10",
-			["Neverlove-Whitemane"] = "0,10",
+			["Sèptëmbér-Whitemane"] = "0,10",
 			["Docham-Whitemane"] = "0,10",
 			["Tongbutong-Whitemane"] = "0,10",
 			["Vvforce-Whitemane"] = "0,10",
 			["Shanqi-Whitemane"] = "0,10",
-			["Bengbengcha-Whitemane"] = "0,10",
+			["Snowhite-Whitemane"] = "0,10",
 			["Greath-Whitemane"] = "240,150",
 			["Lastsummer-Whitemane"] = "95,30",
 			["Ascarchii-Whitemane"] = "80,10",
@@ -635,7 +635,7 @@ CEPGP = {
 			["Darkages-Whitemane"] = "45,10",
 			["Letme-Whitemane"] = "0,10",
 			["Lalalalisa-Whitemane"] = "0,10",
-			["Zhangmazi-Whitemane"] = "0,10",
+			["Asani-Whitemane"] = "0,10",
 			["Cowofduty-Whitemane"] = "0,10",
 			["Mårçh-Whitemane"] = "0,10",
 			["Coquettish-Whitemane"] = "0,10",
@@ -665,7 +665,7 @@ CEPGP = {
 			["Balabala-Whitemane"] = "0,10",
 			["Junosorcerer-Whitemane"] = "0,10",
 			["Xiaxia-Whitemane"] = "0,10",
-			["Workingdad-Whitemane"] = "0,10",
+			["Xiaoshuaige-Whitemane"] = "0,10",
 			["Huizz-Whitemane"] = "0,10",
 			["Warlockdaddy-Whitemane"] = "239,34",
 			["Jimmybug-Whitemane"] = "295,107",
@@ -1053,7 +1053,7 @@ CEPGP = {
 			["Moonhare-Whitemane"] = "0,10",
 			["Pidan-Whitemane"] = "0,10",
 			["Pythoneric-Whitemane"] = "0,10",
-			["Angelinaa-Whitemane"] = "0,10",
+			["Hairwetdontc-Whitemane"] = "312,137",
 			["Forsalock-Whitemane"] = "0,10",
 			["Benbensao-Whitemane"] = "0,10",
 			["Trollforsale-Whitemane"] = "0,10",
@@ -1071,7 +1071,7 @@ CEPGP = {
 			["Miriam-Whitemane"] = "0,10",
 			["Jackylove-Whitemane"] = "0,10",
 			["Caramelslife-Whitemane"] = "0,10",
-			["Shinobuchan-Whitemane"] = "89,16",
+			["Whistflecha-Whitemane"] = "53,25",
 			["Qilou-Whitemane"] = "0,10",
 			["Slokos-Whitemane"] = "0,10",
 			["Adest-Whitemane"] = "0,10",
@@ -1079,7 +1079,7 @@ CEPGP = {
 			["Miomioo-Whitemane"] = "207,70",
 			["Xiaoyezi-Whitemane"] = "0,10",
 			["Anying-Whitemane"] = "0,10",
-			["Whistflecha-Whitemane"] = "53,25",
+			["Shinobuchan-Whitemane"] = "89,16",
 			["Xiaoyan-Whitemane"] = "135,109",
 			["Vanitoso-Whitemane"] = "0,10",
 			["Starfear-Whitemane"] = "0,10",
@@ -1090,13 +1090,13 @@ CEPGP = {
 			["Novavon-Whitemane"] = "313,104",
 			["Ultrasoft-Whitemane"] = "0,10",
 			["Cheran-Whitemane"] = "0,10",
-			["Seacatx-Whitemane"] = "0,10",
+			["Mythrain-Whitemane"] = "240,125",
 			["Oojbk-Whitemane"] = "166,134",
 			["Spz-Whitemane"] = "0,10",
-			["Applesidra-Whitemane"] = "0,10",
+			["Pothunter-Whitemane"] = "0,10",
 			["Maboi-Whitemane"] = "0,10",
-			["Antheleon-Whitemane"] = "0,10",
-			["Mythrain-Whitemane"] = "240,125",
+			["Vinsent-Whitemane"] = "0,10",
+			["Seacatx-Whitemane"] = "0,10",
 			["Chowbusvan-Whitemane"] = "0,10",
 			["Fsfs-Whitemane"] = "0,10",
 			["Taucrossnb-Whitemane"] = "0,10",
@@ -1114,10 +1114,10 @@ CEPGP = {
 			["Mewy-Whitemane"] = "0,10",
 			["Shadowfiends-Whitemane"] = "0,10",
 			["Magedaddy-Whitemane"] = "0,10",
-			["Arlado-Whitemane"] = "250,152",
-			["Rainbowbaby-Whitemane"] = "0,10",
-			["Zhaowei-Whitemane"] = "0,10",
+			["Haneda-Whitemane"] = "0,10",
 			["Bigchillx-Whitemane"] = "0,10",
+			["Zhaowei-Whitemane"] = "0,10",
+			["Rainbowbaby-Whitemane"] = "0,10",
 			["Cowofduty-Whitemane"] = "0,10",
 			["Aliceea-Whitemane"] = "0,10",
 			["Hentaisan-Whitemane"] = "0,10",
@@ -1128,7 +1128,7 @@ CEPGP = {
 			["Turnrightup-Whitemane"] = "0,10",
 			["Idiotss-Whitemane"] = "0,10",
 			["Rollhundred-Whitemane"] = "0,10",
-			["Asani-Whitemane"] = "0,10",
+			["Zhangmazi-Whitemane"] = "0,10",
 			["Mevus-Whitemane"] = "0,10",
 			["Gunzerker-Whitemane"] = "506,24",
 			["Wannister-Whitemane"] = "342,156",
@@ -1184,20 +1184,20 @@ CEPGP = {
 			["Gameislife-Whitemane"] = "185,83",
 			["Cityhunter-Whitemane"] = "323,59",
 			["Fatalblow-Whitemane"] = "16,10",
-			["Gwokgwok-Whitemane"] = "342,169",
+			["Straycatt-Whitemane"] = "147,19",
 			["Wocao-Whitemane"] = "0,10",
 			["Ohlalawu-Whitemane"] = "0,10",
-			["Ginko-Whitemane"] = "4,10",
+			["Tebiemeow-Whitemane"] = "223,58",
 			["Zagger-Whitemane"] = "0,10",
 			["Angelner-Whitemane"] = "0,10",
-			["Tebiemeow-Whitemane"] = "223,58",
+			["Ginko-Whitemane"] = "4,10",
 			["Fiancée-Whitemane"] = "0,10",
 			["Noogler-Whitemane"] = "132,76",
 			["Xiba-Whitemane"] = "0,10",
 			["Greenradish-Whitemane"] = "0,10",
 			["Cnmlgb-Whitemane"] = "251,23",
 			["Silenx-Whitemane"] = "0,10",
-			["Feelnicd-Whitemane"] = "0,10",
+			["Polymorphism-Whitemane"] = "153,10",
 			["Banff-Whitemane"] = "0,10",
 			["Pwu-Whitemane"] = "0,10",
 			["Ouhai-Whitemane"] = "0,10",
@@ -1206,20 +1206,20 @@ CEPGP = {
 			["Frozenj-Whitemane"] = "280,76",
 			["Lolveigar-Whitemane"] = "0,10",
 			["Warriorster-Whitemane"] = "1,10",
-			["Freecss-Whitemane"] = "0,10",
-			["Tinypeanut-Whitemane"] = "0,10",
 			["Iceiceices-Whitemane"] = "0,10",
+			["Tinypeanut-Whitemane"] = "0,10",
+			["Freecss-Whitemane"] = "0,10",
 			["Xiaoshenxian-Whitemane"] = "0,10",
 			["Windseek-Whitemane"] = "0,10",
 			["Hahamagnus-Whitemane"] = "0,10",
 			["Maskoo-Whitemane"] = "0,10",
 			["Sharker-Whitemane"] = "0,10",
-			["Polymorphism-Whitemane"] = "153,10",
+			["Feelnicd-Whitemane"] = "0,10",
 			["Doublefat-Whitemane"] = "32,10",
 			["Tch-Whitemane"] = "208,57",
 			["Whitefoxx-Whitemane"] = "0,10",
 			["Jezpali-Whitemane"] = "57,10",
-			["Straycatt-Whitemane"] = "147,19",
+			["Gwokgwok-Whitemane"] = "342,169",
 			["Wayward-Whitemane"] = "0,10",
 			["Shanghaojia-Whitemane"] = "0,10",
 			["Turnxturn-Whitemane"] = "0,10",
@@ -1246,21 +1246,21 @@ CEPGP = {
 			["Sololol-Whitemane"] = "0,10",
 			["Ascarchii-Whitemane"] = "80,10",
 			["Mårçh-Whitemane"] = "0,10",
-			["Zhangmazi-Whitemane"] = "0,10",
+			["Asani-Whitemane"] = "0,10",
 			["Handwash-Whitemane"] = "0,10",
 			["Lalalalisa-Whitemane"] = "0,10",
 			["Hahakeke-Whitemane"] = "182,115",
 			["Coquettish-Whitemane"] = "0,10",
 			["Cocoatale-Whitemane"] = "0,10",
-			["Haneda-Whitemane"] = "0,10",
+			["Arlado-Whitemane"] = "250,152",
 			["Yeshilani-Whitemane"] = "36,10",
 			["Kangol-Whitemane"] = "0,10",
 			["Dramatist-Whitemane"] = "0,10",
 			["Vforcee-Whitemane"] = "0,10",
 			["Shavronne-Whitemane"] = "0,10",
 			["Amefu-Whitemane"] = "231,86",
-			["Vinsent-Whitemane"] = "0,10",
-			["Pothunter-Whitemane"] = "0,10",
+			["Antheleon-Whitemane"] = "0,10",
+			["Applesidra-Whitemane"] = "0,10",
 			["Chengxuyuan-Whitemane"] = "237,148",
 			["Benjx-Whitemane"] = "241,83",
 			["Casualwower-Whitemane"] = "342,56",
@@ -1274,7 +1274,7 @@ CEPGP = {
 			["Myinvtwo-Whitemane"] = "0,10",
 			["Nakedchatol-Whitemane"] = "0,10",
 			["Baiduu-Whitemane"] = "0,10",
-			["Hairwetdontc-Whitemane"] = "312,137",
+			["Angelinaa-Whitemane"] = "0,10",
 			["Aùgúst-Whitemane"] = "0,10",
 			["Balabala-Whitemane"] = "0,10",
 			["Junosorcerer-Whitemane"] = "0,10",
@@ -1661,14 +1661,14 @@ CEPGP = {
 			["Dudounai-Whitemane"] = "0,10",
 			["Baiduu-Whitemane"] = "0,10",
 			["Effigon-Whitemane"] = "0,10",
-			["Aùgúst-Whitemane"] = "0,10",
+			["Teemò-Whitemane"] = "0,10",
 			["Xiaoshuaige-Whitemane"] = "0,10",
 			["Baldstrong-Whitemane"] = "0,10",
 			["Stepssister-Whitemane"] = "",
 			["Moonhare-Whitemane"] = "0,10",
 			["Yoloda-Whitemane"] = "0,10",
-			["Cowofduty-Whitemane"] = "0,10",
-			["Hairwetdontc-Whitemane"] = "317,153",
+			["Pythoneric-Whitemane"] = "0,10",
+			["Angelinaa-Whitemane"] = "0,10",
 			["Forsalock-Whitemane"] = "0,10",
 			["Kulolo-Whitemane"] = "0,10",
 			["Trollforsale-Whitemane"] = "0,10",
@@ -1704,11 +1704,11 @@ CEPGP = {
 			["Imapriestt-Whitemane"] = "0,10",
 			["Workingdad-Whitemane"] = "0,10",
 			["Ultrasoft-Whitemane"] = "0,10",
-			["Pothunter-Whitemane"] = "0,10",
+			["Applesidra-Whitemane"] = "0,10",
 			["Maboi-Whitemane"] = "0,10",
 			["Oojbk-Whitemane"] = "140,132",
 			["Spz-Whitemane"] = "0,10",
-			["Applesidra-Whitemane"] = "0,10",
+			["Pothunter-Whitemane"] = "0,10",
 			["Cocoatale-Whitemane"] = "0,10",
 			["Antheleon-Whitemane"] = "",
 			["Seacatx-Whitemane"] = "0,10",
@@ -1729,10 +1729,10 @@ CEPGP = {
 			["Mewy-Whitemane"] = "0,10",
 			["Yubi-Whitemane"] = "0,10",
 			["Magedaddy-Whitemane"] = "0,10",
-			["Fatalblow-Whitemane"] = "18,10",
+			["Arlado-Whitemane"] = "233,158",
 			["Krol-Whitemane"] = "0,10",
 			["Zhaowei-Whitemane"] = "0,10",
-			["Rainbowbaby-Whitemane"] = "0,10",
+			["Bigchillx-Whitemane"] = "0,10",
 			["Holymacarone-Whitemane"] = "48,14",
 			["Aliceea-Whitemane"] = "",
 			["Hentaisan-Whitemane"] = "0,10",
@@ -1741,9 +1741,9 @@ CEPGP = {
 			["Unclesam-Whitemane"] = "0,10",
 			["Murface-Whitemane"] = "0,10",
 			["Sololol-Whitemane"] = "0,10",
-			["Zhangmazi-Whitemane"] = "0,10",
-			["Rollhundred-Whitemane"] = "0,10",
 			["Asani-Whitemane"] = "0,10",
+			["Rollhundred-Whitemane"] = "0,10",
+			["Zhangmazi-Whitemane"] = "0,10",
 			["Mevus-Whitemane"] = "0,10",
 			["Turnrightup-Whitemane"] = "0,10",
 			["Wannister-Whitemane"] = "351,174",
@@ -1775,11 +1775,11 @@ CEPGP = {
 			["Asso-Whitemane"] = "0,10",
 			["Grouchygroom-Whitemane"] = "351,157",
 			["Lass-Whitemane"] = "315,50",
-			["Mondaysha-Whitemane"] = "0,10",
 			["Phothewin-Whitemane"] = "0,10",
+			["Mondaysha-Whitemane"] = "0,10",
 			["Jasonm-Whitemane"] = "51,16",
 			["Elyrath-Whitemane"] = "0,10",
-			["Sèptëmbér-Whitemane"] = "0,10",
+			["Neverlove-Whitemane"] = "0,10",
 			["Telnet-Whitemane"] = "0,10",
 			["Akin-Whitemane"] = "378,44",
 			["Tayde-Whitemane"] = "0,10",
@@ -1798,8 +1798,8 @@ CEPGP = {
 			["Shengwo-Whitemane"] = "0,10",
 			["Zouhaobyby-Whitemane"] = "0,10",
 			["Cityhunter-Whitemane"] = "329,66",
-			["Straycatt-Whitemane"] = "164,22",
 			["Gwokgwok-Whitemane"] = "351,188",
+			["Straycatt-Whitemane"] = "164,22",
 			["Wocao-Whitemane"] = "1,10",
 			["Maskoo-Whitemane"] = "0,10",
 			["Googleming-Whitemane"] = "0,10",
@@ -1812,7 +1812,7 @@ CEPGP = {
 			["Greenradish-Whitemane"] = "0,10",
 			["Cnmlgb-Whitemane"] = "279,26",
 			["Silenx-Whitemane"] = "0,10",
-			["Feelnicd-Whitemane"] = "0,10",
+			["Polymorphism-Whitemane"] = "171,10",
 			["Banff-Whitemane"] = "0,10",
 			["Yourolduncle-Whitemane"] = "340,175",
 			["Ginko-Whitemane"] = "5,10",
@@ -1821,15 +1821,15 @@ CEPGP = {
 			["Gameislife-Whitemane"] = "171,71",
 			["Lolveigar-Whitemane"] = "",
 			["Mythrain-Whitemane"] = "223,139",
-			["Freecss-Whitemane"] = "0,10",
-			["Tinypeanut-Whitemane"] = "0,10",
 			["Iceiceices-Whitemane"] = "0,10",
+			["Tinypeanut-Whitemane"] = "0,10",
+			["Freecss-Whitemane"] = "0,10",
 			["Xiaoshenxian-Whitemane"] = "0,10",
 			["Windseek-Whitemane"] = "0,10",
 			["Hahamagnus-Whitemane"] = "0,10",
 			["Vinsent-Whitemane"] = "0,10",
 			["Xiba-Whitemane"] = "0,10",
-			["Polymorphism-Whitemane"] = "171,10",
+			["Feelnicd-Whitemane"] = "0,10",
 			["Frozenj-Whitemane"] = "282,63",
 			["Tch-Whitemane"] = "193,64",
 			["Vcoldeur-Whitemane"] = "0,10",
@@ -1846,7 +1846,7 @@ CEPGP = {
 			["Sinledog-Whitemane"] = "0,10",
 			["Enricox-Whitemane"] = "0,10",
 			["Erdajie-Whitemane"] = "0,10",
-			["Neverlove-Whitemane"] = "0,10",
+			["Sèptëmbér-Whitemane"] = "0,10",
 			["Whiten-Whitemane"] = "0,10",
 			["Edvin-Whitemane"] = "0,10",
 			["Tencent-Whitemane"] = "0,10",
@@ -1865,8 +1865,8 @@ CEPGP = {
 			["Sleepysheep-Whitemane"] = "0,10",
 			["Lalalalisa-Whitemane"] = "0,10",
 			["Letme-Whitemane"] = "0,10",
-			["Bigchillx-Whitemane"] = "0,10",
-			["Arlado-Whitemane"] = "233,158",
+			["Rainbowbaby-Whitemane"] = "0,10",
+			["Fatalblow-Whitemane"] = "18,10",
 			["Darkages-Whitemane"] = "50,10",
 			["Jbbald-Whitemane"] = "0,10",
 			["Kangol-Whitemane"] = "0,10",
@@ -1888,9 +1888,9 @@ CEPGP = {
 			["Jucyboi-Whitemane"] = "8,10",
 			["Myinvtwo-Whitemane"] = "0,10",
 			["Nakedchatol-Whitemane"] = "0,10",
-			["Angelinaa-Whitemane"] = "0,10",
-			["Pythoneric-Whitemane"] = "0,10",
-			["Teemò-Whitemane"] = "0,10",
+			["Hairwetdontc-Whitemane"] = "317,153",
+			["Cowofduty-Whitemane"] = "0,10",
+			["Aùgúst-Whitemane"] = "0,10",
 			["Balabala-Whitemane"] = "0,10",
 			["Junosorcerer-Whitemane"] = "0,10",
 			["Vinitus-Whitemane"] = "8,10",
@@ -2274,7 +2274,7 @@ CEPGP = {
 			["Agoblin-Whitemane"] = "0,10",
 			["Angelinaa-Whitemane"] = "0,10",
 			["Moonhare-Whitemane"] = "0,10",
-			["Yoloda-Whitemane"] = "0,10",
+			["Pidan-Whitemane"] = "0,10",
 			["Cowofduty-Whitemane"] = "0,10",
 			["Hairwetdontc-Whitemane"] = "333,137",
 			["Forsalock-Whitemane"] = "0,10",
@@ -2317,8 +2317,8 @@ CEPGP = {
 			["Goskymonkey-Whitemane"] = "244,97",
 			["Spz-Whitemane"] = "0,10",
 			["Applesidra-Whitemane"] = "0,10",
-			["Antheleon-Whitemane"] = "0,10",
 			["Vinsent-Whitemane"] = "0,10",
+			["Antheleon-Whitemane"] = "0,10",
 			["Hahakeke-Whitemane"] = "182,115",
 			["Ohlalawu-Whitemane"] = "0,10",
 			["Fsfs-Whitemane"] = "0,10",
@@ -2351,7 +2351,7 @@ CEPGP = {
 			["Idiotss-Whitemane"] = "0,10",
 			["Pothunter-Whitemane"] = "0,10",
 			["Erjiu-Whitemane"] = "0,10",
-			["Zhangmazi-Whitemane"] = "0,10",
+			["Asani-Whitemane"] = "0,10",
 			["Mevus-Whitemane"] = "0,10",
 			["Alaguildbank-Whitemane"] = "0,10",
 			["Wannister-Whitemane"] = "363,196",
@@ -2360,9 +2360,9 @@ CEPGP = {
 			["Pembaba-Whitemane"] = "0,10",
 			["Spicechicken-Whitemane"] = "288,36",
 			["Griffing-Whitemane"] = "0,10",
-			["Batchat-Whitemane"] = "1,10",
-			["Greatflood-Whitemane"] = "0,10",
 			["Xiaobaifa-Whitemane"] = "0,10",
+			["Greatflood-Whitemane"] = "0,10",
+			["Batchat-Whitemane"] = "1,10",
 			["Bloodblood-Whitemane"] = "0,10",
 			["Nightchef-Whitemane"] = "24,10",
 			["Calathes-Whitemane"] = "0,10",
@@ -2376,8 +2376,8 @@ CEPGP = {
 			["Luunna-Whitemane"] = "35,10",
 			["Bengbengcha-Whitemane"] = "0,10",
 			["Xiongtu-Whitemane"] = "0,10",
-			["Knittz-Whitemane"] = "56,10",
 			["Valdeslr-Whitemane"] = "0,10",
+			["Knittz-Whitemane"] = "56,10",
 			["Jucyboi-Whitemane"] = "7,10",
 			["Arlado-Whitemane"] = "250,152",
 			["Asso-Whitemane"] = "0,10",
@@ -2387,7 +2387,7 @@ CEPGP = {
 			["Mondaysha-Whitemane"] = "0,10",
 			["Jasonm-Whitemane"] = "45,14",
 			["Kksuper-Whitemane"] = "233,89",
-			["Neverlove-Whitemane"] = "0,10",
+			["Sèptëmbér-Whitemane"] = "0,10",
 			["Enricox-Whitemane"] = "0,10",
 			["Akin-Whitemane"] = "340,39",
 			["Cutedoggcm-Whitemane"] = "0,10",
@@ -2413,21 +2413,21 @@ CEPGP = {
 			["Doublefat-Whitemane"] = "53,20",
 			["Zagger-Whitemane"] = "0,10",
 			["Angelner-Whitemane"] = "0,10",
-			["Ginko-Whitemane"] = "4,10",
+			["Tebiemeow-Whitemane"] = "223,58",
 			["Shadowfiends-Whitemane"] = "0,10",
 			["Aimuti-Whitemane"] = "0,10",
 			["Bizdcheating-Whitemane"] = "0,10",
 			["Greenradish-Whitemane"] = "0,10",
 			["Cnmlgb-Whitemane"] = "251,23",
 			["Silenx-Whitemane"] = "0,10",
-			["Polymorphism-Whitemane"] = "153,10",
+			["Feelnicd-Whitemane"] = "0,10",
 			["Banff-Whitemane"] = "0,10",
 			["Shadowlead-Whitemane"] = "0,10",
 			["Railgun-Whitemane"] = "0,10",
 			["Shanqi-Whitemane"] = "0,10",
 			["Pandaattack-Whitemane"] = "5,10",
 			["Nalus-Whitemane"] = "0,10",
-			["Tuyi-Whitemane"] = "",
+			["Lolveigar-Whitemane"] = "0,10",
 			["Freecss-Whitemane"] = "0,10",
 			["Iceiceices-Whitemane"] = "0,10",
 			["Tinypeanut-Whitemane"] = "0,10",
@@ -2435,15 +2435,15 @@ CEPGP = {
 			["Xiaoshenxian-Whitemane"] = "0,10",
 			["Windseek-Whitemane"] = "0,10",
 			["Hahamagnus-Whitemane"] = "0,10",
-			["Lolveigar-Whitemane"] = "0,10",
+			["Tuyi-Whitemane"] = "",
 			["Polarnight-Whitemane"] = "0,10",
 			["Handwash-Whitemane"] = "0,10",
 			["Chowbusvan-Whitemane"] = "0,10",
 			["Tch-Whitemane"] = "208,57",
-			["Feelnicd-Whitemane"] = "0,10",
+			["Polymorphism-Whitemane"] = "153,10",
 			["Jezpali-Whitemane"] = "57,10",
 			["Ganshaya-Whitemane"] = "0,10",
-			["Tebiemeow-Whitemane"] = "223,58",
+			["Ginko-Whitemane"] = "4,10",
 			["Shanghaojia-Whitemane"] = "0,10",
 			["Turnxturn-Whitemane"] = "0,10",
 			["Shadower-Whitemane"] = "0,10",
@@ -2459,7 +2459,7 @@ CEPGP = {
 			["Ssiren-Whitemane"] = "355,121",
 			["Tencent-Whitemane"] = "0,10",
 			["Flamingheart-Whitemane"] = "0,10",
-			["Sèptëmbér-Whitemane"] = "0,10",
+			["Neverlove-Whitemane"] = "0,10",
 			["Docham-Whitemane"] = "0,10",
 			["Tongbutong-Whitemane"] = "0,10",
 			["Fbiwarning-Whitemane"] = "0,10",
@@ -2472,7 +2472,7 @@ CEPGP = {
 			["Tebiegao-Whitemane"] = "0,10",
 			["Frozenj-Whitemane"] = "301,76",
 			["Lalalalisa-Whitemane"] = "0,10",
-			["Asani-Whitemane"] = "0,10",
+			["Zhangmazi-Whitemane"] = "0,10",
 			["Telnet-Whitemane"] = "0,10",
 			["Thecupcake-Whitemane"] = "0,10",
 			["Thomasmeng-Whitemane"] = "0,10",
@@ -2501,7 +2501,7 @@ CEPGP = {
 			["Nyaic-Whitemane"] = "0,10",
 			["Balabala-Whitemane"] = "0,10",
 			["Junosorcerer-Whitemane"] = "0,10",
-			["Pidan-Whitemane"] = "0,10",
+			["Yoloda-Whitemane"] = "0,10",
 			["Letme-Whitemane"] = "0,10",
 			["Yiqilnoue-Whitemane"] = "0,10",
 			["Warlockdaddy-Whitemane"] = "239,34",
@@ -2872,14 +2872,14 @@ CEPGP = {
 			["Lightoff-Whitemane"] = "0,10",
 			["Kenhaha-Whitemane"] = "0,10",
 			["Yiqilnoue-Whitemane"] = "0,10",
-			["Workingdad-Whitemane"] = "0,10",
-			["Effigon-Whitemane"] = "0,10",
-			["Aùgúst-Whitemane"] = "0,10",
 			["Letme-Whitemane"] = "0,10",
-			["Yoloda-Whitemane"] = "0,10",
+			["Effigon-Whitemane"] = "0,10",
+			["Teemò-Whitemane"] = "0,10",
+			["Workingdad-Whitemane"] = "0,10",
+			["Pidan-Whitemane"] = "0,10",
 			["Hairwetdontc-Whitemane"] = "335,138",
 			["Moonhare-Whitemane"] = "0,10",
-			["Pidan-Whitemane"] = "0,10",
+			["Yoloda-Whitemane"] = "0,10",
 			["Pythoneric-Whitemane"] = "0,10",
 			["Angelinaa-Whitemane"] = "0,10",
 			["Forsalock-Whitemane"] = "0,10",
@@ -2922,9 +2922,9 @@ CEPGP = {
 			["Oojbk-Whitemane"] = "188,120",
 			["Spz-Whitemane"] = "0,10",
 			["Pothunter-Whitemane"] = "0,10",
-			["Antheleon-Whitemane"] = "0,10",
 			["Vinsent-Whitemane"] = "0,10",
-			["Seacatx-Whitemane"] = "0,10",
+			["Antheleon-Whitemane"] = "0,10",
+			["Mythrain-Whitemane"] = "256,222",
 			["Cheran-Whitemane"] = "0,10",
 			["Fsfs-Whitemane"] = "0,10",
 			["Taucrossnb-Whitemane"] = "0,10",
@@ -2956,7 +2956,7 @@ CEPGP = {
 			["Shadowfiends-Whitemane"] = "0,10",
 			["Sololol-Whitemane"] = "0,10",
 			["Rollhundred-Whitemane"] = "0,10",
-			["Asani-Whitemane"] = "0,10",
+			["Zhangmazi-Whitemane"] = "0,10",
 			["Mevus-Whitemane"] = "0,10",
 			["Osgiliathn-Whitemane"] = "0,10",
 			["Wannister-Whitemane"] = "371,176",
@@ -2965,8 +2965,8 @@ CEPGP = {
 			["Screwdoor-Whitemane"] = "0,10",
 			["Spicechicken-Whitemane"] = "259,32",
 			["Griffing-Whitemane"] = "0,10",
-			["Xiaobaifa-Whitemane"] = "0,10",
 			["Madaoo-Whitemane"] = "338,107",
+			["Xiaobaifa-Whitemane"] = "0,10",
 			["Batchat-Whitemane"] = "0,10",
 			["Bloodblood-Whitemane"] = "0,10",
 			["Nightchef-Whitemane"] = "21,10",
@@ -2979,7 +2979,7 @@ CEPGP = {
 			["Lovecraftt-Whitemane"] = "0,10",
 			["Lastsummer-Whitemane"] = "125,47",
 			["Luunna-Whitemane"] = "42,15",
-			["Snowhite-Whitemane"] = "0,10",
+			["Bengbengcha-Whitemane"] = "0,10",
 			["Xiongtu-Whitemane"] = "0,10",
 			["Valdeslr-Whitemane"] = "0,10",
 			["Knittz-Whitemane"] = "50,10",
@@ -2992,7 +2992,7 @@ CEPGP = {
 			["Mondaysha-Whitemane"] = "0,10",
 			["Jasonm-Whitemane"] = "40,12",
 			["Kksuper-Whitemane"] = "248,100",
-			["Sèptëmbér-Whitemane"] = "0,10",
+			["Neverlove-Whitemane"] = "0,10",
 			["Goskymonkey-Whitemane"] = "256,118",
 			["Akin-Whitemane"] = "306,35",
 			["Lass-Whitemane"] = "342,58",
@@ -3018,7 +3018,7 @@ CEPGP = {
 			["Frozenj-Whitemane"] = "315,73",
 			["Zagger-Whitemane"] = "0,10",
 			["Angelner-Whitemane"] = "0,10",
-			["Ginko-Whitemane"] = "3,10",
+			["Tebiemeow-Whitemane"] = "227,52",
 			["Zyrox-Whitemane"] = "",
 			["Pikapikaq-Whitemane"] = "0,10",
 			["Ohlalawu-Whitemane"] = "0,10",
@@ -3031,8 +3031,8 @@ CEPGP = {
 			["Xiba-Whitemane"] = "0,10",
 			["Hissbood-Whitemane"] = "79,19",
 			["Warriorster-Whitemane"] = "0,10",
-			["Lolveigar-Whitemane"] = "0,10",
 			["Tuyi-Whitemane"] = "0,10",
+			["Lolveigar-Whitemane"] = "0,10",
 			["Freecss-Whitemane"] = "0,10",
 			["Iceiceices-Whitemane"] = "0,10",
 			["Tinypeanut-Whitemane"] = "0,10",
@@ -3048,7 +3048,7 @@ CEPGP = {
 			["Fatalblow-Whitemane"] = "14,10",
 			["Jezpali-Whitemane"] = "51,10",
 			["Thomasmeng-Whitemane"] = "0,10",
-			["Tebiemeow-Whitemane"] = "227,52",
+			["Ginko-Whitemane"] = "3,10",
 			["Shanghaojia-Whitemane"] = "0,10",
 			["Turnxturn-Whitemane"] = "0,10",
 			["Valdess-Whitemane"] = "0,10",
@@ -3064,12 +3064,12 @@ CEPGP = {
 			["Yyxxaa-Whitemane"] = "0,10",
 			["Tencent-Whitemane"] = "0,10",
 			["Flamingheart-Whitemane"] = "0,10",
-			["Neverlove-Whitemane"] = "0,10",
+			["Sèptëmbér-Whitemane"] = "0,10",
 			["Docham-Whitemane"] = "0,10",
 			["Tongbutong-Whitemane"] = "0,10",
 			["Darkages-Whitemane"] = "40,10",
 			["Shanqi-Whitemane"] = "0,10",
-			["Bengbengcha-Whitemane"] = "0,10",
+			["Snowhite-Whitemane"] = "0,10",
 			["Greath-Whitemane"] = "244,175",
 			["Kikoxx-Whitemane"] = "0,10",
 			["Ascarchii-Whitemane"] = "72,10",
@@ -3077,7 +3077,7 @@ CEPGP = {
 			["Sleepysheep-Whitemane"] = "0,10",
 			["Emmanueli-Whitemane"] = "0,10",
 			["Lalalalisa-Whitemane"] = "0,10",
-			["Zhangmazi-Whitemane"] = "0,10",
+			["Asani-Whitemane"] = "0,10",
 			["Mfan-Whitemane"] = "0,10",
 			["Pluvian-Whitemane"] = "202,98",
 			["Chubbie-Whitemane"] = "0,10",
@@ -3089,7 +3089,7 @@ CEPGP = {
 			["Amefu-Whitemane"] = "246,77",
 			["Yusyu-Whitemane"] = "0,10",
 			["Canyoulayegg-Whitemane"] = "371,69",
-			["Mythrain-Whitemane"] = "256,222",
+			["Seacatx-Whitemane"] = "0,10",
 			["Benjx-Whitemane"] = "254,184",
 			["Chengxuyuan-Whitemane"] = "246,138",
 			["Fruitlover-Whitemane"] = "89,10",
@@ -3107,7 +3107,7 @@ CEPGP = {
 			["Balabala-Whitemane"] = "0,10",
 			["Junosorcerer-Whitemane"] = "0,10",
 			["Baiduu-Whitemane"] = "0,10",
-			["Teemò-Whitemane"] = "0,10",
+			["Aùgúst-Whitemane"] = "0,10",
 			["Huizz-Whitemane"] = "0,10",
 			["Warlockdaddy-Whitemane"] = "255,34",
 			["Jimmybug-Whitemane"] = "265,96",
@@ -3222,152 +3222,7 @@ CEPGP = {
 		},
 		["AutoSort"] = true,
 	},
-	["EP"] = {
-		["BossEP"] = {
-			["High Priestess Jeklik"] = 2,
-			["Gothik the Harvester"] = 12,
-			["Buru the Gorger"] = 3,
-			["Wushoolay"] = 2,
-			["Silithid Royalty"] = 10,
-			["Ossirian the Unscarred"] = 4,
-			["Golemagg the Incinerator"] = 1,
-			["Grand Widow Faerlina"] = 12,
-			["High Priestess Mar'li"] = 2,
-			["Twin Emperors"] = 10,
-			["Majordomo Executus"] = 1,
-			["High Priest Venoxis"] = 2,
-			["Gehennas"] = 1,
-			["Taerar"] = 7,
-			["Ysondre"] = 7,
-			["Thane Korth'azz"] = 15,
-			["High Priest Thekal"] = 2,
-			["Noth the Plaguebringer"] = 12,
-			["Lethon"] = 7,
-			["Moam"] = 3,
-			["The Prophet Skeram"] = 10,
-			["Flamegor"] = 3,
-			["C'Thun"] = 12,
-			["General Rajaxx"] = 3,
-			["Princess Huhuran"] = 10,
-			["Thaddius"] = 15,
-			["Loatheb"] = 15,
-			["Ayamiss the Hunter"] = 3,
-			["Ebonroc"] = 3,
-			["Heigan the Unclean"] = 12,
-			["Azuregos"] = 7,
-			["Doom Lord Kazzak"] = 7,
-			["Baron Geddon"] = 1,
-			["High Priestess Arlokk"] = 2,
-			["Gri'lek"] = 2,
-			["Gahz'ranka"] = 2,
-			["Chromaggus"] = 3,
-			["Renataki"] = 2,
-			["Ouro"] = 10,
-			["Sapphiron"] = 15,
-			["Vaelastrasz the Corrupt"] = 3,
-			["Shazzrah"] = 1,
-			["Viscidus"] = 10,
-			["Battleguard Sartura"] = 10,
-			["Firemaw"] = 3,
-			["Kel'Thuzad"] = 15,
-			["Nefarian"] = 5,
-			["Fankriss the Unyielding"] = 10,
-			["Lucifron"] = 1,
-			["Anub'Rekhan"] = 12,
-			["Hazza'rah"] = 2,
-			["Razorgore the Untamed"] = 3,
-			["Kurinnaxx"] = 3,
-			["Ragnaros"] = 1,
-			["Broodlord Lashlayer"] = 3,
-			["Maexxna"] = 15,
-			["The Four Horsemen"] = 15,
-			["Hakkar"] = 3,
-			["Grobbulus"] = 12,
-			["Instructor Razuvious"] = 12,
-			["Emeriss"] = 7,
-			["Magmadar"] = 1,
-			["Gluth"] = 12,
-			["Onyxia"] = 1,
-			["Patchwerk"] = 12,
-			["Sulfuron Harbinger"] = 1,
-			["Bloodlord Mandokir"] = 2,
-			["Jin'do the Hexxer"] = 2,
-			["Garr"] = 1,
-		},
-		["AutoAward"] = {
-			["High Priestess Jeklik"] = false,
-			["Gothik the Harvester"] = false,
-			["Buru the Gorger"] = false,
-			["Wushoolay"] = true,
-			["Silithid Royalty"] = false,
-			["Ossirian the Unscarred"] = false,
-			["Golemagg the Incinerator"] = true,
-			["Grand Widow Faerlina"] = false,
-			["High Priestess Mar'li"] = false,
-			["Twin Emperors"] = false,
-			["Majordomo Executus"] = true,
-			["High Priest Venoxis"] = false,
-			["Gehennas"] = true,
-			["Taerar"] = true,
-			["Ysondre"] = true,
-			["Thane Korth'azz"] = true,
-			["High Priest Thekal"] = false,
-			["Noth the Plaguebringer"] = false,
-			["Lethon"] = true,
-			["Moam"] = false,
-			["The Prophet Skeram"] = false,
-			["Flamegor"] = true,
-			["C'Thun"] = false,
-			["General Rajaxx"] = false,
-			["The Edge of Madness"] = false,
-			["Princess Huhuran"] = false,
-			["Thaddius"] = false,
-			["Loatheb"] = false,
-			["Ayamiss the Hunter"] = false,
-			["Ebonroc"] = true,
-			["Heigan the Unclean"] = false,
-			["Azuregos"] = true,
-			["Doom Lord Kazzak"] = true,
-			["Baron Geddon"] = true,
-			["High Priestess Arlokk"] = false,
-			["Gri'lek"] = true,
-			["Gahz'ranka"] = false,
-			["Chromaggus"] = true,
-			["Renataki"] = true,
-			["Ouro"] = false,
-			["Sapphiron"] = false,
-			["Vaelastrasz the Corrupt"] = true,
-			["Shazzrah"] = true,
-			["Viscidus"] = false,
-			["Battleguard Sartura"] = false,
-			["Firemaw"] = true,
-			["Kel'Thuzad"] = false,
-			["Nefarian"] = true,
-			["Fankriss the Unyielding"] = false,
-			["Lucifron"] = true,
-			["Anub'Rekhan"] = false,
-			["Hazza'rah"] = true,
-			["Razorgore the Untamed"] = true,
-			["Kurinnaxx"] = false,
-			["Ragnaros"] = true,
-			["Broodlord Lashlayer"] = true,
-			["Maexxna"] = false,
-			["The Four Horsemen"] = false,
-			["Hakkar"] = false,
-			["Grobbulus"] = false,
-			["Instructor Razuvious"] = false,
-			["Emeriss"] = true,
-			["Magmadar"] = true,
-			["Gluth"] = false,
-			["Onyxia"] = false,
-			["Patchwerk"] = false,
-			["Sulfuron Harbinger"] = true,
-			["Bloodlord Mandokir"] = false,
-			["Jin'do the Hexxer"] = false,
-			["Garr"] = false,
-		},
-		["Keyword"] = "!need",
-	},
+	["Channel"] = "Guild",
 	["Attendance"] = {
 	},
 	["Overrides"] = {
@@ -20971,7 +20826,152 @@ CEPGP = {
 			"1586836312", -- [9]
 		}, -- [1652]
 	},
-	["Channel"] = "Guild",
+	["EP"] = {
+		["BossEP"] = {
+			["High Priestess Jeklik"] = 2,
+			["Gothik the Harvester"] = 12,
+			["Buru the Gorger"] = 3,
+			["Wushoolay"] = 2,
+			["Silithid Royalty"] = 10,
+			["Ossirian the Unscarred"] = 4,
+			["Golemagg the Incinerator"] = 1,
+			["Grand Widow Faerlina"] = 12,
+			["High Priestess Mar'li"] = 2,
+			["Twin Emperors"] = 10,
+			["Majordomo Executus"] = 1,
+			["High Priest Venoxis"] = 2,
+			["Gehennas"] = 1,
+			["Taerar"] = 7,
+			["Ysondre"] = 7,
+			["Thane Korth'azz"] = 15,
+			["High Priest Thekal"] = 2,
+			["Noth the Plaguebringer"] = 12,
+			["Lethon"] = 7,
+			["Moam"] = 3,
+			["The Prophet Skeram"] = 10,
+			["Flamegor"] = 3,
+			["C'Thun"] = 12,
+			["General Rajaxx"] = 3,
+			["Princess Huhuran"] = 10,
+			["Thaddius"] = 15,
+			["Loatheb"] = 15,
+			["Ayamiss the Hunter"] = 3,
+			["Ebonroc"] = 3,
+			["Heigan the Unclean"] = 12,
+			["Azuregos"] = 7,
+			["Doom Lord Kazzak"] = 7,
+			["Baron Geddon"] = 1,
+			["High Priestess Arlokk"] = 2,
+			["Gri'lek"] = 2,
+			["Gahz'ranka"] = 2,
+			["Chromaggus"] = 3,
+			["Renataki"] = 2,
+			["Ouro"] = 10,
+			["Sapphiron"] = 15,
+			["Vaelastrasz the Corrupt"] = 3,
+			["Shazzrah"] = 1,
+			["Viscidus"] = 10,
+			["Battleguard Sartura"] = 10,
+			["Firemaw"] = 3,
+			["Kel'Thuzad"] = 15,
+			["Nefarian"] = 5,
+			["Fankriss the Unyielding"] = 10,
+			["Lucifron"] = 1,
+			["Anub'Rekhan"] = 12,
+			["Hazza'rah"] = 2,
+			["Razorgore the Untamed"] = 3,
+			["Kurinnaxx"] = 3,
+			["Ragnaros"] = 1,
+			["Broodlord Lashlayer"] = 3,
+			["Maexxna"] = 15,
+			["The Four Horsemen"] = 15,
+			["Hakkar"] = 3,
+			["Grobbulus"] = 12,
+			["Instructor Razuvious"] = 12,
+			["Emeriss"] = 7,
+			["Magmadar"] = 1,
+			["Gluth"] = 12,
+			["Onyxia"] = 1,
+			["Patchwerk"] = 12,
+			["Sulfuron Harbinger"] = 1,
+			["Bloodlord Mandokir"] = 2,
+			["Jin'do the Hexxer"] = 2,
+			["Garr"] = 1,
+		},
+		["AutoAward"] = {
+			["High Priestess Jeklik"] = false,
+			["Gothik the Harvester"] = false,
+			["Buru the Gorger"] = false,
+			["Wushoolay"] = true,
+			["Silithid Royalty"] = false,
+			["Ossirian the Unscarred"] = false,
+			["Golemagg the Incinerator"] = true,
+			["Grand Widow Faerlina"] = false,
+			["High Priestess Mar'li"] = false,
+			["Twin Emperors"] = false,
+			["Majordomo Executus"] = true,
+			["High Priest Venoxis"] = false,
+			["Gehennas"] = true,
+			["Taerar"] = true,
+			["Ysondre"] = true,
+			["Thane Korth'azz"] = true,
+			["High Priest Thekal"] = false,
+			["Noth the Plaguebringer"] = false,
+			["Lethon"] = true,
+			["Moam"] = false,
+			["The Prophet Skeram"] = false,
+			["Flamegor"] = true,
+			["C'Thun"] = false,
+			["General Rajaxx"] = false,
+			["The Edge of Madness"] = false,
+			["Princess Huhuran"] = false,
+			["Thaddius"] = false,
+			["Loatheb"] = false,
+			["Ayamiss the Hunter"] = false,
+			["Ebonroc"] = true,
+			["Heigan the Unclean"] = false,
+			["Azuregos"] = true,
+			["Doom Lord Kazzak"] = true,
+			["Baron Geddon"] = true,
+			["High Priestess Arlokk"] = false,
+			["Gri'lek"] = true,
+			["Gahz'ranka"] = false,
+			["Chromaggus"] = true,
+			["Renataki"] = true,
+			["Ouro"] = false,
+			["Sapphiron"] = false,
+			["Vaelastrasz the Corrupt"] = true,
+			["Shazzrah"] = true,
+			["Viscidus"] = false,
+			["Battleguard Sartura"] = false,
+			["Firemaw"] = true,
+			["Kel'Thuzad"] = false,
+			["Nefarian"] = true,
+			["Fankriss the Unyielding"] = false,
+			["Lucifron"] = true,
+			["Anub'Rekhan"] = false,
+			["Hazza'rah"] = true,
+			["Razorgore the Untamed"] = true,
+			["Kurinnaxx"] = false,
+			["Ragnaros"] = true,
+			["Broodlord Lashlayer"] = true,
+			["Maexxna"] = false,
+			["The Four Horsemen"] = false,
+			["Hakkar"] = false,
+			["Grobbulus"] = false,
+			["Instructor Razuvious"] = false,
+			["Emeriss"] = true,
+			["Magmadar"] = true,
+			["Gluth"] = false,
+			["Onyxia"] = true,
+			["Patchwerk"] = false,
+			["Sulfuron Harbinger"] = true,
+			["Bloodlord Mandokir"] = false,
+			["Jin'do the Hexxer"] = false,
+			["Garr"] = false,
+		},
+		["Keyword"] = "!need",
+	},
 }
 CHANNEL = "Guild"
 CEPGP_lootChannel = "Raid"
@@ -21010,7 +21010,7 @@ AUTOEP = {
 	["The Silithid Royalty"] = true,
 	["Ayamiss the Hunter"] = false,
 	["Ebonroc"] = true,
-	["Gluth"] = false,
+	["Onyxia"] = true,
 	["Heigan the Unclean"] = false,
 	["Azuregos"] = true,
 	["Doom Lord Kazzak"] = true,
@@ -21018,11 +21018,11 @@ AUTOEP = {
 	["Baron Geddon"] = true,
 	["High Priestess Arlokk"] = false,
 	["Gri'lek"] = true,
-	["The Twin Emperors"] = true,
-	["Chromaggus"] = true,
-	["Onyxia"] = false,
-	["Renataki"] = true,
 	["Ouro"] = false,
+	["Chromaggus"] = true,
+	["The Twin Emperors"] = true,
+	["Renataki"] = true,
+	["Bloodlord Mandokir"] = false,
 	["Sapphiron"] = false,
 	["Razorgore the Untamed"] = true,
 	["Shazzrah"] = true,
@@ -21048,7 +21048,7 @@ AUTOEP = {
 	["Magmadar"] = true,
 	["Patchwerk"] = false,
 	["Sulfuron Harbinger"] = true,
-	["Bloodlord Mandokir"] = false,
+	["Gluth"] = false,
 	["Jin'do the Hexxer"] = false,
 	["Garr"] = false,
 }
@@ -21084,7 +21084,7 @@ EPVALS = {
 	["The Silithid Royalty"] = 10,
 	["Ayamiss the Hunter"] = 3,
 	["Ebonroc"] = 3,
-	["Gluth"] = 12,
+	["Onyxia"] = 1,
 	["Heigan the Unclean"] = 12,
 	["Azuregos"] = 7,
 	["Doom Lord Kazzak"] = 7,
@@ -21092,11 +21092,11 @@ EPVALS = {
 	["Baron Geddon"] = 1,
 	["High Priestess Arlokk"] = 2,
 	["Gri'lek"] = 2,
-	["The Twin Emperors"] = 10,
-	["Chromaggus"] = 3,
-	["Onyxia"] = 1,
-	["Renataki"] = 2,
 	["Ouro"] = 10,
+	["Chromaggus"] = 3,
+	["The Twin Emperors"] = 10,
+	["Renataki"] = 2,
+	["Bloodlord Mandokir"] = 2,
 	["Sapphiron"] = 15,
 	["Razorgore the Untamed"] = 3,
 	["Shazzrah"] = 1,
@@ -21122,7 +21122,7 @@ EPVALS = {
 	["Magmadar"] = 1,
 	["Patchwerk"] = 12,
 	["Sulfuron Harbinger"] = 1,
-	["Bloodlord Mandokir"] = 2,
+	["Gluth"] = 12,
 	["Jin'do the Hexxer"] = 2,
 	["Garr"] = 1,
 }
@@ -21554,14 +21554,14 @@ RECORDS = {
 		["Lightoff-Whitemane"] = "0,10",
 		["Aprïl-Whitemane"] = "0,10",
 		["Yiqilnoue-Whitemane"] = "0,10",
-		["Teemò-Whitemane"] = "0,10",
-		["Effigon-Whitemane"] = "0,10",
 		["Aùgúst-Whitemane"] = "0,10",
-		["Xiaoshuaige-Whitemane"] = "0,10",
-		["Pidan-Whitemane"] = "0,10",
+		["Effigon-Whitemane"] = "0,10",
+		["Teemò-Whitemane"] = "0,10",
+		["Workingdad-Whitemane"] = "0,10",
+		["Yoloda-Whitemane"] = "0,10",
 		["Angelinaa-Whitemane"] = "0,10",
 		["Moonhare-Whitemane"] = "0,10",
-		["Yoloda-Whitemane"] = "0,10",
+		["Pidan-Whitemane"] = "0,10",
 		["Pythoneric-Whitemane"] = "0,10",
 		["Hairwetdontc-Whitemane"] = "333,137",
 		["Forsalock-Whitemane"] = "0,10",
@@ -21599,11 +21599,11 @@ RECORDS = {
 		["Pwu-Whitemane"] = "0,10",
 		["Caramelslife-Whitemane"] = "0,10",
 		["Ultrasoft-Whitemane"] = "0,10",
-		["Pothunter-Whitemane"] = "0,10",
+		["Applesidra-Whitemane"] = "0,10",
 		["Vinsent-Whitemane"] = "0,10",
 		["Oojbk-Whitemane"] = "166,134",
 		["Spz-Whitemane"] = "0,10",
-		["Applesidra-Whitemane"] = "0,10",
+		["Pothunter-Whitemane"] = "0,10",
 		["Seacatx-Whitemane"] = "0,10",
 		["Antheleon-Whitemane"] = "0,10",
 		["Hahakeke-Whitemane"] = "182,115",
@@ -21638,7 +21638,7 @@ RECORDS = {
 		["Ncix-Whitemane"] = "0,10",
 		["Shadowfiends-Whitemane"] = "0,10",
 		["Rollhundred-Whitemane"] = "0,10",
-		["Asani-Whitemane"] = "0,10",
+		["Zhangmazi-Whitemane"] = "0,10",
 		["Mevus-Whitemane"] = "0,10",
 		["Stepssister-Whitemane"] = "0,10",
 		["Wannister-Whitemane"] = "363,196",
@@ -21647,8 +21647,8 @@ RECORDS = {
 		["Duckson-Whitemane"] = "0,10",
 		["Spicechicken-Whitemane"] = "288,36",
 		["Griffing-Whitemane"] = "0,10",
-		["Madaoo-Whitemane"] = "338,137",
 		["Batchat-Whitemane"] = "1,10",
+		["Madaoo-Whitemane"] = "338,137",
 		["Xiaobaifa-Whitemane"] = "0,10",
 		["Bloodblood-Whitemane"] = "0,10",
 		["Nightchef-Whitemane"] = "24,10",
@@ -21661,7 +21661,7 @@ RECORDS = {
 		["Lovecraftt-Whitemane"] = "0,10",
 		["Aratare-Whitemane"] = "0,10",
 		["Luunna-Whitemane"] = "35,10",
-		["Snowhite-Whitemane"] = "0,10",
+		["Bengbengcha-Whitemane"] = "0,10",
 		["Xiongtu-Whitemane"] = "0,10",
 		["Valdeslr-Whitemane"] = "0,10",
 		["Knittz-Whitemane"] = "56,10",
@@ -21674,7 +21674,7 @@ RECORDS = {
 		["Mondaysha-Whitemane"] = "0,10",
 		["Jasonm-Whitemane"] = "45,14",
 		["Kksuper-Whitemane"] = "233,89",
-		["Sèptëmbér-Whitemane"] = "0,10",
+		["Neverlove-Whitemane"] = "0,10",
 		["Greatflood-Whitemane"] = "0,10",
 		["Akin-Whitemane"] = "340,39",
 		["Granittee-Whitemane"] = "25,10",
@@ -21697,24 +21697,24 @@ RECORDS = {
 		["Gwokgwok-Whitemane"] = "363,169",
 		["Wocao-Whitemane"] = "0,10",
 		["Zouhaobyby-Whitemane"] = "0,10",
-		["Ginko-Whitemane"] = "4,10",
+		["Tebiemeow-Whitemane"] = "223,58",
 		["Zagger-Whitemane"] = "0,10",
 		["Angelner-Whitemane"] = "0,10",
-		["Tebiemeow-Whitemane"] = "223,58",
+		["Ginko-Whitemane"] = "4,10",
 		["Gigihadid-Whitemane"] = "363,56",
 		["Tombradyy-Whitemane"] = "356,189",
-		["Polymorphism-Whitemane"] = "153,10",
+		["Feelnicd-Whitemane"] = "0,10",
 		["Greenradish-Whitemane"] = "0,10",
 		["Cnmlgb-Whitemane"] = "251,23",
 		["Silenx-Whitemane"] = "0,10",
-		["Feelnicd-Whitemane"] = "0,10",
+		["Polymorphism-Whitemane"] = "153,10",
 		["Banff-Whitemane"] = "0,10",
 		["Frozenj-Whitemane"] = "301,76",
 		["Ohlalawu-Whitemane"] = "0,10",
 		["Noogler-Whitemane"] = "132,76",
 		["Xiba-Whitemane"] = "0,10",
 		["Warriorster-Whitemane"] = "1,10",
-		["Lolveigar-Whitemane"] = "0,10",
+		["Tuyi-Whitemane"] = "",
 		["Freecss-Whitemane"] = "0,10",
 		["Iceiceices-Whitemane"] = "0,10",
 		["Tinypeanut-Whitemane"] = "0,10",
@@ -21722,7 +21722,7 @@ RECORDS = {
 		["Xiaoshenxian-Whitemane"] = "0,10",
 		["Windseek-Whitemane"] = "0,10",
 		["Hahamagnus-Whitemane"] = "0,10",
-		["Tuyi-Whitemane"] = "",
+		["Lolveigar-Whitemane"] = "0,10",
 		["Sohard-Whitemane"] = "0,10",
 		["Vcoldeur-Whitemane"] = "0,10",
 		["Solaporschel-Whitemane"] = "0,10",
@@ -21746,12 +21746,12 @@ RECORDS = {
 		["Ivybee-Whitemane"] = "0,10",
 		["Tencent-Whitemane"] = "0,10",
 		["Flamingheart-Whitemane"] = "0,10",
-		["Neverlove-Whitemane"] = "0,10",
+		["Sèptëmbér-Whitemane"] = "0,10",
 		["Docham-Whitemane"] = "0,10",
 		["Tongbutong-Whitemane"] = "0,10",
 		["Vvforce-Whitemane"] = "0,10",
 		["Shanqi-Whitemane"] = "0,10",
-		["Bengbengcha-Whitemane"] = "0,10",
+		["Snowhite-Whitemane"] = "0,10",
 		["Greath-Whitemane"] = "240,150",
 		["Lastsummer-Whitemane"] = "95,30",
 		["Ascarchii-Whitemane"] = "80,10",
@@ -21759,7 +21759,7 @@ RECORDS = {
 		["Darkages-Whitemane"] = "45,10",
 		["Letme-Whitemane"] = "0,10",
 		["Lalalalisa-Whitemane"] = "0,10",
-		["Zhangmazi-Whitemane"] = "0,10",
+		["Asani-Whitemane"] = "0,10",
 		["Cowofduty-Whitemane"] = "0,10",
 		["Mårçh-Whitemane"] = "0,10",
 		["Coquettish-Whitemane"] = "0,10",
@@ -21789,7 +21789,7 @@ RECORDS = {
 		["Balabala-Whitemane"] = "0,10",
 		["Junosorcerer-Whitemane"] = "0,10",
 		["Xiaxia-Whitemane"] = "0,10",
-		["Workingdad-Whitemane"] = "0,10",
+		["Xiaoshuaige-Whitemane"] = "0,10",
 		["Huizz-Whitemane"] = "0,10",
 		["Warlockdaddy-Whitemane"] = "239,34",
 		["Jimmybug-Whitemane"] = "295,107",
@@ -22177,7 +22177,7 @@ RECORDS = {
 		["Moonhare-Whitemane"] = "0,10",
 		["Pidan-Whitemane"] = "0,10",
 		["Pythoneric-Whitemane"] = "0,10",
-		["Angelinaa-Whitemane"] = "0,10",
+		["Hairwetdontc-Whitemane"] = "312,137",
 		["Forsalock-Whitemane"] = "0,10",
 		["Benbensao-Whitemane"] = "0,10",
 		["Trollforsale-Whitemane"] = "0,10",
@@ -22195,7 +22195,7 @@ RECORDS = {
 		["Miriam-Whitemane"] = "0,10",
 		["Jackylove-Whitemane"] = "0,10",
 		["Caramelslife-Whitemane"] = "0,10",
-		["Shinobuchan-Whitemane"] = "89,16",
+		["Whistflecha-Whitemane"] = "53,25",
 		["Qilou-Whitemane"] = "0,10",
 		["Slokos-Whitemane"] = "0,10",
 		["Adest-Whitemane"] = "0,10",
@@ -22203,7 +22203,7 @@ RECORDS = {
 		["Miomioo-Whitemane"] = "207,70",
 		["Xiaoyezi-Whitemane"] = "0,10",
 		["Anying-Whitemane"] = "0,10",
-		["Whistflecha-Whitemane"] = "53,25",
+		["Shinobuchan-Whitemane"] = "89,16",
 		["Xiaoyan-Whitemane"] = "135,109",
 		["Vanitoso-Whitemane"] = "0,10",
 		["Starfear-Whitemane"] = "0,10",
@@ -22214,13 +22214,13 @@ RECORDS = {
 		["Novavon-Whitemane"] = "313,104",
 		["Ultrasoft-Whitemane"] = "0,10",
 		["Cheran-Whitemane"] = "0,10",
-		["Seacatx-Whitemane"] = "0,10",
+		["Mythrain-Whitemane"] = "240,125",
 		["Oojbk-Whitemane"] = "166,134",
 		["Spz-Whitemane"] = "0,10",
-		["Applesidra-Whitemane"] = "0,10",
+		["Pothunter-Whitemane"] = "0,10",
 		["Maboi-Whitemane"] = "0,10",
-		["Antheleon-Whitemane"] = "0,10",
-		["Mythrain-Whitemane"] = "240,125",
+		["Vinsent-Whitemane"] = "0,10",
+		["Seacatx-Whitemane"] = "0,10",
 		["Chowbusvan-Whitemane"] = "0,10",
 		["Fsfs-Whitemane"] = "0,10",
 		["Taucrossnb-Whitemane"] = "0,10",
@@ -22238,10 +22238,10 @@ RECORDS = {
 		["Mewy-Whitemane"] = "0,10",
 		["Shadowfiends-Whitemane"] = "0,10",
 		["Magedaddy-Whitemane"] = "0,10",
-		["Arlado-Whitemane"] = "250,152",
-		["Rainbowbaby-Whitemane"] = "0,10",
-		["Zhaowei-Whitemane"] = "0,10",
+		["Haneda-Whitemane"] = "0,10",
 		["Bigchillx-Whitemane"] = "0,10",
+		["Zhaowei-Whitemane"] = "0,10",
+		["Rainbowbaby-Whitemane"] = "0,10",
 		["Cowofduty-Whitemane"] = "0,10",
 		["Aliceea-Whitemane"] = "0,10",
 		["Hentaisan-Whitemane"] = "0,10",
@@ -22252,7 +22252,7 @@ RECORDS = {
 		["Turnrightup-Whitemane"] = "0,10",
 		["Idiotss-Whitemane"] = "0,10",
 		["Rollhundred-Whitemane"] = "0,10",
-		["Asani-Whitemane"] = "0,10",
+		["Zhangmazi-Whitemane"] = "0,10",
 		["Mevus-Whitemane"] = "0,10",
 		["Gunzerker-Whitemane"] = "506,24",
 		["Wannister-Whitemane"] = "342,156",
@@ -22308,20 +22308,20 @@ RECORDS = {
 		["Gameislife-Whitemane"] = "185,83",
 		["Cityhunter-Whitemane"] = "323,59",
 		["Fatalblow-Whitemane"] = "16,10",
-		["Gwokgwok-Whitemane"] = "342,169",
+		["Straycatt-Whitemane"] = "147,19",
 		["Wocao-Whitemane"] = "0,10",
 		["Ohlalawu-Whitemane"] = "0,10",
-		["Ginko-Whitemane"] = "4,10",
+		["Tebiemeow-Whitemane"] = "223,58",
 		["Zagger-Whitemane"] = "0,10",
 		["Angelner-Whitemane"] = "0,10",
-		["Tebiemeow-Whitemane"] = "223,58",
+		["Ginko-Whitemane"] = "4,10",
 		["Fiancée-Whitemane"] = "0,10",
 		["Noogler-Whitemane"] = "132,76",
 		["Xiba-Whitemane"] = "0,10",
 		["Greenradish-Whitemane"] = "0,10",
 		["Cnmlgb-Whitemane"] = "251,23",
 		["Silenx-Whitemane"] = "0,10",
-		["Feelnicd-Whitemane"] = "0,10",
+		["Polymorphism-Whitemane"] = "153,10",
 		["Banff-Whitemane"] = "0,10",
 		["Pwu-Whitemane"] = "0,10",
 		["Ouhai-Whitemane"] = "0,10",
@@ -22330,20 +22330,20 @@ RECORDS = {
 		["Frozenj-Whitemane"] = "280,76",
 		["Lolveigar-Whitemane"] = "0,10",
 		["Warriorster-Whitemane"] = "1,10",
-		["Freecss-Whitemane"] = "0,10",
-		["Tinypeanut-Whitemane"] = "0,10",
 		["Iceiceices-Whitemane"] = "0,10",
+		["Tinypeanut-Whitemane"] = "0,10",
+		["Freecss-Whitemane"] = "0,10",
 		["Xiaoshenxian-Whitemane"] = "0,10",
 		["Windseek-Whitemane"] = "0,10",
 		["Hahamagnus-Whitemane"] = "0,10",
 		["Maskoo-Whitemane"] = "0,10",
 		["Sharker-Whitemane"] = "0,10",
-		["Polymorphism-Whitemane"] = "153,10",
+		["Feelnicd-Whitemane"] = "0,10",
 		["Doublefat-Whitemane"] = "32,10",
 		["Tch-Whitemane"] = "208,57",
 		["Whitefoxx-Whitemane"] = "0,10",
 		["Jezpali-Whitemane"] = "57,10",
-		["Straycatt-Whitemane"] = "147,19",
+		["Gwokgwok-Whitemane"] = "342,169",
 		["Wayward-Whitemane"] = "0,10",
 		["Shanghaojia-Whitemane"] = "0,10",
 		["Turnxturn-Whitemane"] = "0,10",
@@ -22370,21 +22370,21 @@ RECORDS = {
 		["Sololol-Whitemane"] = "0,10",
 		["Ascarchii-Whitemane"] = "80,10",
 		["Mårçh-Whitemane"] = "0,10",
-		["Zhangmazi-Whitemane"] = "0,10",
+		["Asani-Whitemane"] = "0,10",
 		["Handwash-Whitemane"] = "0,10",
 		["Lalalalisa-Whitemane"] = "0,10",
 		["Hahakeke-Whitemane"] = "182,115",
 		["Coquettish-Whitemane"] = "0,10",
 		["Cocoatale-Whitemane"] = "0,10",
-		["Haneda-Whitemane"] = "0,10",
+		["Arlado-Whitemane"] = "250,152",
 		["Yeshilani-Whitemane"] = "36,10",
 		["Kangol-Whitemane"] = "0,10",
 		["Dramatist-Whitemane"] = "0,10",
 		["Vforcee-Whitemane"] = "0,10",
 		["Shavronne-Whitemane"] = "0,10",
 		["Amefu-Whitemane"] = "231,86",
-		["Vinsent-Whitemane"] = "0,10",
-		["Pothunter-Whitemane"] = "0,10",
+		["Antheleon-Whitemane"] = "0,10",
+		["Applesidra-Whitemane"] = "0,10",
 		["Chengxuyuan-Whitemane"] = "237,148",
 		["Benjx-Whitemane"] = "241,83",
 		["Casualwower-Whitemane"] = "342,56",
@@ -22398,7 +22398,7 @@ RECORDS = {
 		["Myinvtwo-Whitemane"] = "0,10",
 		["Nakedchatol-Whitemane"] = "0,10",
 		["Baiduu-Whitemane"] = "0,10",
-		["Hairwetdontc-Whitemane"] = "312,137",
+		["Angelinaa-Whitemane"] = "0,10",
 		["Aùgúst-Whitemane"] = "0,10",
 		["Balabala-Whitemane"] = "0,10",
 		["Junosorcerer-Whitemane"] = "0,10",
@@ -22785,14 +22785,14 @@ RECORDS = {
 		["Dudounai-Whitemane"] = "0,10",
 		["Baiduu-Whitemane"] = "0,10",
 		["Effigon-Whitemane"] = "0,10",
-		["Aùgúst-Whitemane"] = "0,10",
+		["Teemò-Whitemane"] = "0,10",
 		["Xiaoshuaige-Whitemane"] = "0,10",
 		["Baldstrong-Whitemane"] = "0,10",
 		["Stepssister-Whitemane"] = "",
 		["Moonhare-Whitemane"] = "0,10",
 		["Yoloda-Whitemane"] = "0,10",
-		["Cowofduty-Whitemane"] = "0,10",
-		["Hairwetdontc-Whitemane"] = "317,153",
+		["Pythoneric-Whitemane"] = "0,10",
+		["Angelinaa-Whitemane"] = "0,10",
 		["Forsalock-Whitemane"] = "0,10",
 		["Kulolo-Whitemane"] = "0,10",
 		["Trollforsale-Whitemane"] = "0,10",
@@ -22828,11 +22828,11 @@ RECORDS = {
 		["Imapriestt-Whitemane"] = "0,10",
 		["Workingdad-Whitemane"] = "0,10",
 		["Ultrasoft-Whitemane"] = "0,10",
-		["Pothunter-Whitemane"] = "0,10",
+		["Applesidra-Whitemane"] = "0,10",
 		["Maboi-Whitemane"] = "0,10",
 		["Oojbk-Whitemane"] = "140,132",
 		["Spz-Whitemane"] = "0,10",
-		["Applesidra-Whitemane"] = "0,10",
+		["Pothunter-Whitemane"] = "0,10",
 		["Cocoatale-Whitemane"] = "0,10",
 		["Antheleon-Whitemane"] = "",
 		["Seacatx-Whitemane"] = "0,10",
@@ -22853,10 +22853,10 @@ RECORDS = {
 		["Mewy-Whitemane"] = "0,10",
 		["Yubi-Whitemane"] = "0,10",
 		["Magedaddy-Whitemane"] = "0,10",
-		["Fatalblow-Whitemane"] = "18,10",
+		["Arlado-Whitemane"] = "233,158",
 		["Krol-Whitemane"] = "0,10",
 		["Zhaowei-Whitemane"] = "0,10",
-		["Rainbowbaby-Whitemane"] = "0,10",
+		["Bigchillx-Whitemane"] = "0,10",
 		["Holymacarone-Whitemane"] = "48,14",
 		["Aliceea-Whitemane"] = "",
 		["Hentaisan-Whitemane"] = "0,10",
@@ -22865,9 +22865,9 @@ RECORDS = {
 		["Unclesam-Whitemane"] = "0,10",
 		["Murface-Whitemane"] = "0,10",
 		["Sololol-Whitemane"] = "0,10",
-		["Zhangmazi-Whitemane"] = "0,10",
-		["Rollhundred-Whitemane"] = "0,10",
 		["Asani-Whitemane"] = "0,10",
+		["Rollhundred-Whitemane"] = "0,10",
+		["Zhangmazi-Whitemane"] = "0,10",
 		["Mevus-Whitemane"] = "0,10",
 		["Turnrightup-Whitemane"] = "0,10",
 		["Wannister-Whitemane"] = "351,174",
@@ -22899,11 +22899,11 @@ RECORDS = {
 		["Asso-Whitemane"] = "0,10",
 		["Grouchygroom-Whitemane"] = "351,157",
 		["Lass-Whitemane"] = "315,50",
-		["Mondaysha-Whitemane"] = "0,10",
 		["Phothewin-Whitemane"] = "0,10",
+		["Mondaysha-Whitemane"] = "0,10",
 		["Jasonm-Whitemane"] = "51,16",
 		["Elyrath-Whitemane"] = "0,10",
-		["Sèptëmbér-Whitemane"] = "0,10",
+		["Neverlove-Whitemane"] = "0,10",
 		["Telnet-Whitemane"] = "0,10",
 		["Akin-Whitemane"] = "378,44",
 		["Tayde-Whitemane"] = "0,10",
@@ -22922,8 +22922,8 @@ RECORDS = {
 		["Shengwo-Whitemane"] = "0,10",
 		["Zouhaobyby-Whitemane"] = "0,10",
 		["Cityhunter-Whitemane"] = "329,66",
-		["Straycatt-Whitemane"] = "164,22",
 		["Gwokgwok-Whitemane"] = "351,188",
+		["Straycatt-Whitemane"] = "164,22",
 		["Wocao-Whitemane"] = "1,10",
 		["Maskoo-Whitemane"] = "0,10",
 		["Googleming-Whitemane"] = "0,10",
@@ -22936,7 +22936,7 @@ RECORDS = {
 		["Greenradish-Whitemane"] = "0,10",
 		["Cnmlgb-Whitemane"] = "279,26",
 		["Silenx-Whitemane"] = "0,10",
-		["Feelnicd-Whitemane"] = "0,10",
+		["Polymorphism-Whitemane"] = "171,10",
 		["Banff-Whitemane"] = "0,10",
 		["Yourolduncle-Whitemane"] = "340,175",
 		["Ginko-Whitemane"] = "5,10",
@@ -22945,15 +22945,15 @@ RECORDS = {
 		["Gameislife-Whitemane"] = "171,71",
 		["Lolveigar-Whitemane"] = "",
 		["Mythrain-Whitemane"] = "223,139",
-		["Freecss-Whitemane"] = "0,10",
-		["Tinypeanut-Whitemane"] = "0,10",
 		["Iceiceices-Whitemane"] = "0,10",
+		["Tinypeanut-Whitemane"] = "0,10",
+		["Freecss-Whitemane"] = "0,10",
 		["Xiaoshenxian-Whitemane"] = "0,10",
 		["Windseek-Whitemane"] = "0,10",
 		["Hahamagnus-Whitemane"] = "0,10",
 		["Vinsent-Whitemane"] = "0,10",
 		["Xiba-Whitemane"] = "0,10",
-		["Polymorphism-Whitemane"] = "171,10",
+		["Feelnicd-Whitemane"] = "0,10",
 		["Frozenj-Whitemane"] = "282,63",
 		["Tch-Whitemane"] = "193,64",
 		["Vcoldeur-Whitemane"] = "0,10",
@@ -22970,7 +22970,7 @@ RECORDS = {
 		["Sinledog-Whitemane"] = "0,10",
 		["Enricox-Whitemane"] = "0,10",
 		["Erdajie-Whitemane"] = "0,10",
-		["Neverlove-Whitemane"] = "0,10",
+		["Sèptëmbér-Whitemane"] = "0,10",
 		["Whiten-Whitemane"] = "0,10",
 		["Edvin-Whitemane"] = "0,10",
 		["Tencent-Whitemane"] = "0,10",
@@ -22989,8 +22989,8 @@ RECORDS = {
 		["Sleepysheep-Whitemane"] = "0,10",
 		["Lalalalisa-Whitemane"] = "0,10",
 		["Letme-Whitemane"] = "0,10",
-		["Bigchillx-Whitemane"] = "0,10",
-		["Arlado-Whitemane"] = "233,158",
+		["Rainbowbaby-Whitemane"] = "0,10",
+		["Fatalblow-Whitemane"] = "18,10",
 		["Darkages-Whitemane"] = "50,10",
 		["Jbbald-Whitemane"] = "0,10",
 		["Kangol-Whitemane"] = "0,10",
@@ -23012,9 +23012,9 @@ RECORDS = {
 		["Jucyboi-Whitemane"] = "8,10",
 		["Myinvtwo-Whitemane"] = "0,10",
 		["Nakedchatol-Whitemane"] = "0,10",
-		["Angelinaa-Whitemane"] = "0,10",
-		["Pythoneric-Whitemane"] = "0,10",
-		["Teemò-Whitemane"] = "0,10",
+		["Hairwetdontc-Whitemane"] = "317,153",
+		["Cowofduty-Whitemane"] = "0,10",
+		["Aùgúst-Whitemane"] = "0,10",
 		["Balabala-Whitemane"] = "0,10",
 		["Junosorcerer-Whitemane"] = "0,10",
 		["Vinitus-Whitemane"] = "8,10",
@@ -23398,7 +23398,7 @@ RECORDS = {
 		["Agoblin-Whitemane"] = "0,10",
 		["Angelinaa-Whitemane"] = "0,10",
 		["Moonhare-Whitemane"] = "0,10",
-		["Yoloda-Whitemane"] = "0,10",
+		["Pidan-Whitemane"] = "0,10",
 		["Cowofduty-Whitemane"] = "0,10",
 		["Hairwetdontc-Whitemane"] = "333,137",
 		["Forsalock-Whitemane"] = "0,10",
@@ -23441,8 +23441,8 @@ RECORDS = {
 		["Goskymonkey-Whitemane"] = "244,97",
 		["Spz-Whitemane"] = "0,10",
 		["Applesidra-Whitemane"] = "0,10",
-		["Antheleon-Whitemane"] = "0,10",
 		["Vinsent-Whitemane"] = "0,10",
+		["Antheleon-Whitemane"] = "0,10",
 		["Hahakeke-Whitemane"] = "182,115",
 		["Ohlalawu-Whitemane"] = "0,10",
 		["Fsfs-Whitemane"] = "0,10",
@@ -23475,7 +23475,7 @@ RECORDS = {
 		["Idiotss-Whitemane"] = "0,10",
 		["Pothunter-Whitemane"] = "0,10",
 		["Erjiu-Whitemane"] = "0,10",
-		["Zhangmazi-Whitemane"] = "0,10",
+		["Asani-Whitemane"] = "0,10",
 		["Mevus-Whitemane"] = "0,10",
 		["Alaguildbank-Whitemane"] = "0,10",
 		["Wannister-Whitemane"] = "363,196",
@@ -23484,9 +23484,9 @@ RECORDS = {
 		["Pembaba-Whitemane"] = "0,10",
 		["Spicechicken-Whitemane"] = "288,36",
 		["Griffing-Whitemane"] = "0,10",
-		["Batchat-Whitemane"] = "1,10",
-		["Greatflood-Whitemane"] = "0,10",
 		["Xiaobaifa-Whitemane"] = "0,10",
+		["Greatflood-Whitemane"] = "0,10",
+		["Batchat-Whitemane"] = "1,10",
 		["Bloodblood-Whitemane"] = "0,10",
 		["Nightchef-Whitemane"] = "24,10",
 		["Calathes-Whitemane"] = "0,10",
@@ -23500,8 +23500,8 @@ RECORDS = {
 		["Luunna-Whitemane"] = "35,10",
 		["Bengbengcha-Whitemane"] = "0,10",
 		["Xiongtu-Whitemane"] = "0,10",
-		["Knittz-Whitemane"] = "56,10",
 		["Valdeslr-Whitemane"] = "0,10",
+		["Knittz-Whitemane"] = "56,10",
 		["Jucyboi-Whitemane"] = "7,10",
 		["Arlado-Whitemane"] = "250,152",
 		["Asso-Whitemane"] = "0,10",
@@ -23511,7 +23511,7 @@ RECORDS = {
 		["Mondaysha-Whitemane"] = "0,10",
 		["Jasonm-Whitemane"] = "45,14",
 		["Kksuper-Whitemane"] = "233,89",
-		["Neverlove-Whitemane"] = "0,10",
+		["Sèptëmbér-Whitemane"] = "0,10",
 		["Enricox-Whitemane"] = "0,10",
 		["Akin-Whitemane"] = "340,39",
 		["Cutedoggcm-Whitemane"] = "0,10",
@@ -23537,21 +23537,21 @@ RECORDS = {
 		["Doublefat-Whitemane"] = "53,20",
 		["Zagger-Whitemane"] = "0,10",
 		["Angelner-Whitemane"] = "0,10",
-		["Ginko-Whitemane"] = "4,10",
+		["Tebiemeow-Whitemane"] = "223,58",
 		["Shadowfiends-Whitemane"] = "0,10",
 		["Aimuti-Whitemane"] = "0,10",
 		["Bizdcheating-Whitemane"] = "0,10",
 		["Greenradish-Whitemane"] = "0,10",
 		["Cnmlgb-Whitemane"] = "251,23",
 		["Silenx-Whitemane"] = "0,10",
-		["Polymorphism-Whitemane"] = "153,10",
+		["Feelnicd-Whitemane"] = "0,10",
 		["Banff-Whitemane"] = "0,10",
 		["Shadowlead-Whitemane"] = "0,10",
 		["Railgun-Whitemane"] = "0,10",
 		["Shanqi-Whitemane"] = "0,10",
 		["Pandaattack-Whitemane"] = "5,10",
 		["Nalus-Whitemane"] = "0,10",
-		["Tuyi-Whitemane"] = "",
+		["Lolveigar-Whitemane"] = "0,10",
 		["Freecss-Whitemane"] = "0,10",
 		["Iceiceices-Whitemane"] = "0,10",
 		["Tinypeanut-Whitemane"] = "0,10",
@@ -23559,15 +23559,15 @@ RECORDS = {
 		["Xiaoshenxian-Whitemane"] = "0,10",
 		["Windseek-Whitemane"] = "0,10",
 		["Hahamagnus-Whitemane"] = "0,10",
-		["Lolveigar-Whitemane"] = "0,10",
+		["Tuyi-Whitemane"] = "",
 		["Polarnight-Whitemane"] = "0,10",
 		["Handwash-Whitemane"] = "0,10",
 		["Chowbusvan-Whitemane"] = "0,10",
 		["Tch-Whitemane"] = "208,57",
-		["Feelnicd-Whitemane"] = "0,10",
+		["Polymorphism-Whitemane"] = "153,10",
 		["Jezpali-Whitemane"] = "57,10",
 		["Ganshaya-Whitemane"] = "0,10",
-		["Tebiemeow-Whitemane"] = "223,58",
+		["Ginko-Whitemane"] = "4,10",
 		["Shanghaojia-Whitemane"] = "0,10",
 		["Turnxturn-Whitemane"] = "0,10",
 		["Shadower-Whitemane"] = "0,10",
@@ -23583,7 +23583,7 @@ RECORDS = {
 		["Ssiren-Whitemane"] = "355,121",
 		["Tencent-Whitemane"] = "0,10",
 		["Flamingheart-Whitemane"] = "0,10",
-		["Sèptëmbér-Whitemane"] = "0,10",
+		["Neverlove-Whitemane"] = "0,10",
 		["Docham-Whitemane"] = "0,10",
 		["Tongbutong-Whitemane"] = "0,10",
 		["Fbiwarning-Whitemane"] = "0,10",
@@ -23596,7 +23596,7 @@ RECORDS = {
 		["Tebiegao-Whitemane"] = "0,10",
 		["Frozenj-Whitemane"] = "301,76",
 		["Lalalalisa-Whitemane"] = "0,10",
-		["Asani-Whitemane"] = "0,10",
+		["Zhangmazi-Whitemane"] = "0,10",
 		["Telnet-Whitemane"] = "0,10",
 		["Thecupcake-Whitemane"] = "0,10",
 		["Thomasmeng-Whitemane"] = "0,10",
@@ -23625,7 +23625,7 @@ RECORDS = {
 		["Nyaic-Whitemane"] = "0,10",
 		["Balabala-Whitemane"] = "0,10",
 		["Junosorcerer-Whitemane"] = "0,10",
-		["Pidan-Whitemane"] = "0,10",
+		["Yoloda-Whitemane"] = "0,10",
 		["Letme-Whitemane"] = "0,10",
 		["Yiqilnoue-Whitemane"] = "0,10",
 		["Warlockdaddy-Whitemane"] = "239,34",
@@ -23996,14 +23996,14 @@ RECORDS = {
 		["Lightoff-Whitemane"] = "0,10",
 		["Kenhaha-Whitemane"] = "0,10",
 		["Yiqilnoue-Whitemane"] = "0,10",
-		["Workingdad-Whitemane"] = "0,10",
-		["Effigon-Whitemane"] = "0,10",
-		["Aùgúst-Whitemane"] = "0,10",
 		["Letme-Whitemane"] = "0,10",
-		["Yoloda-Whitemane"] = "0,10",
+		["Effigon-Whitemane"] = "0,10",
+		["Teemò-Whitemane"] = "0,10",
+		["Workingdad-Whitemane"] = "0,10",
+		["Pidan-Whitemane"] = "0,10",
 		["Hairwetdontc-Whitemane"] = "335,138",
 		["Moonhare-Whitemane"] = "0,10",
-		["Pidan-Whitemane"] = "0,10",
+		["Yoloda-Whitemane"] = "0,10",
 		["Pythoneric-Whitemane"] = "0,10",
 		["Angelinaa-Whitemane"] = "0,10",
 		["Forsalock-Whitemane"] = "0,10",
@@ -24046,9 +24046,9 @@ RECORDS = {
 		["Oojbk-Whitemane"] = "188,120",
 		["Spz-Whitemane"] = "0,10",
 		["Pothunter-Whitemane"] = "0,10",
-		["Antheleon-Whitemane"] = "0,10",
 		["Vinsent-Whitemane"] = "0,10",
-		["Seacatx-Whitemane"] = "0,10",
+		["Antheleon-Whitemane"] = "0,10",
+		["Mythrain-Whitemane"] = "256,222",
 		["Cheran-Whitemane"] = "0,10",
 		["Fsfs-Whitemane"] = "0,10",
 		["Taucrossnb-Whitemane"] = "0,10",
@@ -24080,7 +24080,7 @@ RECORDS = {
 		["Shadowfiends-Whitemane"] = "0,10",
 		["Sololol-Whitemane"] = "0,10",
 		["Rollhundred-Whitemane"] = "0,10",
-		["Asani-Whitemane"] = "0,10",
+		["Zhangmazi-Whitemane"] = "0,10",
 		["Mevus-Whitemane"] = "0,10",
 		["Osgiliathn-Whitemane"] = "0,10",
 		["Wannister-Whitemane"] = "371,176",
@@ -24089,8 +24089,8 @@ RECORDS = {
 		["Screwdoor-Whitemane"] = "0,10",
 		["Spicechicken-Whitemane"] = "259,32",
 		["Griffing-Whitemane"] = "0,10",
-		["Xiaobaifa-Whitemane"] = "0,10",
 		["Madaoo-Whitemane"] = "338,107",
+		["Xiaobaifa-Whitemane"] = "0,10",
 		["Batchat-Whitemane"] = "0,10",
 		["Bloodblood-Whitemane"] = "0,10",
 		["Nightchef-Whitemane"] = "21,10",
@@ -24103,7 +24103,7 @@ RECORDS = {
 		["Lovecraftt-Whitemane"] = "0,10",
 		["Lastsummer-Whitemane"] = "125,47",
 		["Luunna-Whitemane"] = "42,15",
-		["Snowhite-Whitemane"] = "0,10",
+		["Bengbengcha-Whitemane"] = "0,10",
 		["Xiongtu-Whitemane"] = "0,10",
 		["Valdeslr-Whitemane"] = "0,10",
 		["Knittz-Whitemane"] = "50,10",
@@ -24116,7 +24116,7 @@ RECORDS = {
 		["Mondaysha-Whitemane"] = "0,10",
 		["Jasonm-Whitemane"] = "40,12",
 		["Kksuper-Whitemane"] = "248,100",
-		["Sèptëmbér-Whitemane"] = "0,10",
+		["Neverlove-Whitemane"] = "0,10",
 		["Goskymonkey-Whitemane"] = "256,118",
 		["Akin-Whitemane"] = "306,35",
 		["Lass-Whitemane"] = "342,58",
@@ -24142,7 +24142,7 @@ RECORDS = {
 		["Frozenj-Whitemane"] = "315,73",
 		["Zagger-Whitemane"] = "0,10",
 		["Angelner-Whitemane"] = "0,10",
-		["Ginko-Whitemane"] = "3,10",
+		["Tebiemeow-Whitemane"] = "227,52",
 		["Zyrox-Whitemane"] = "",
 		["Pikapikaq-Whitemane"] = "0,10",
 		["Ohlalawu-Whitemane"] = "0,10",
@@ -24155,8 +24155,8 @@ RECORDS = {
 		["Xiba-Whitemane"] = "0,10",
 		["Hissbood-Whitemane"] = "79,19",
 		["Warriorster-Whitemane"] = "0,10",
-		["Lolveigar-Whitemane"] = "0,10",
 		["Tuyi-Whitemane"] = "0,10",
+		["Lolveigar-Whitemane"] = "0,10",
 		["Freecss-Whitemane"] = "0,10",
 		["Iceiceices-Whitemane"] = "0,10",
 		["Tinypeanut-Whitemane"] = "0,10",
@@ -24172,7 +24172,7 @@ RECORDS = {
 		["Fatalblow-Whitemane"] = "14,10",
 		["Jezpali-Whitemane"] = "51,10",
 		["Thomasmeng-Whitemane"] = "0,10",
-		["Tebiemeow-Whitemane"] = "227,52",
+		["Ginko-Whitemane"] = "3,10",
 		["Shanghaojia-Whitemane"] = "0,10",
 		["Turnxturn-Whitemane"] = "0,10",
 		["Valdess-Whitemane"] = "0,10",
@@ -24188,12 +24188,12 @@ RECORDS = {
 		["Yyxxaa-Whitemane"] = "0,10",
 		["Tencent-Whitemane"] = "0,10",
 		["Flamingheart-Whitemane"] = "0,10",
-		["Neverlove-Whitemane"] = "0,10",
+		["Sèptëmbér-Whitemane"] = "0,10",
 		["Docham-Whitemane"] = "0,10",
 		["Tongbutong-Whitemane"] = "0,10",
 		["Darkages-Whitemane"] = "40,10",
 		["Shanqi-Whitemane"] = "0,10",
-		["Bengbengcha-Whitemane"] = "0,10",
+		["Snowhite-Whitemane"] = "0,10",
 		["Greath-Whitemane"] = "244,175",
 		["Kikoxx-Whitemane"] = "0,10",
 		["Ascarchii-Whitemane"] = "72,10",
@@ -24201,7 +24201,7 @@ RECORDS = {
 		["Sleepysheep-Whitemane"] = "0,10",
 		["Emmanueli-Whitemane"] = "0,10",
 		["Lalalalisa-Whitemane"] = "0,10",
-		["Zhangmazi-Whitemane"] = "0,10",
+		["Asani-Whitemane"] = "0,10",
 		["Mfan-Whitemane"] = "0,10",
 		["Pluvian-Whitemane"] = "202,98",
 		["Chubbie-Whitemane"] = "0,10",
@@ -24213,7 +24213,7 @@ RECORDS = {
 		["Amefu-Whitemane"] = "246,77",
 		["Yusyu-Whitemane"] = "0,10",
 		["Canyoulayegg-Whitemane"] = "371,69",
-		["Mythrain-Whitemane"] = "256,222",
+		["Seacatx-Whitemane"] = "0,10",
 		["Benjx-Whitemane"] = "254,184",
 		["Chengxuyuan-Whitemane"] = "246,138",
 		["Fruitlover-Whitemane"] = "89,10",
@@ -24231,7 +24231,7 @@ RECORDS = {
 		["Balabala-Whitemane"] = "0,10",
 		["Junosorcerer-Whitemane"] = "0,10",
 		["Baiduu-Whitemane"] = "0,10",
-		["Teemò-Whitemane"] = "0,10",
+		["Aùgúst-Whitemane"] = "0,10",
 		["Huizz-Whitemane"] = "0,10",
 		["Warlockdaddy-Whitemane"] = "255,34",
 		["Jimmybug-Whitemane"] = "265,96",
@@ -24382,132 +24382,132 @@ RECORDS = {
 		["Titanhecate-Whitemane"] = "205,50",
 		["Botakchin-Whitemane"] = "0,10",
 		["Guklet-Whitemane"] = "0,10",
-		["Zubery-Whitemane"] = "0,10",
-		["Dmipk-Whitemane"] = "0,10",
 		["Zouhaobyby-Whitemane"] = "0,10",
-		["Titoto-Whitemane"] = "9,10",
-		["Zhangmazi-Whitemane"] = "0,10",
-		["Xiaozhou-Whitemane"] = "0,10",
+		["Dmipk-Whitemane"] = "0,10",
 		["Zhangduwei-Whitemane"] = "15,10",
-		["Zagger-Whitemane"] = "0,10",
+		["Titoto-Whitemane"] = "9,10",
+		["Yuukimura-Whitemane"] = "0,10",
+		["Xiaozhou-Whitemane"] = "0,10",
+		["Yatanana-Whitemane"] = "0,10",
+		["Yoyottv-Whitemane"] = "0,10",
 		["Diabol-Whitemane"] = "0,10",
 		["Shichen-Whitemane"] = "0,10",
-		["Yuukimura-Whitemane"] = "0,10",
+		["Zubery-Whitemane"] = "0,10",
 		["Yubi-Whitemane"] = "0,10",
-		["Yusyu-Whitemane"] = "0,10",
+		["Laysbbq-Whitemane"] = "0,10",
 		["Saveuras-Whitemane"] = "37,38",
 		["Fallenleaves-Whitemane"] = "0,10",
 		["Mlxlx-Whitemane"] = "0,10",
-		["Yoyottv-Whitemane"] = "0,10",
+		["Yusyu-Whitemane"] = "0,10",
 		["Ivybee-Whitemane"] = "0,10",
 		["Moommo-Whitemane"] = "0,10",
-		["Yourolduncle-Whitemane"] = "320,117",
 		["Solodemon-Whitemane"] = "0,10",
+		["Solaporschel-Whitemane"] = "0,10",
 		["Bigfatjoe-Whitemane"] = "0,10",
-		["Yoloda-Whitemane"] = "0,10",
+		["Ironskin-Whitemane"] = "0,10",
 		["Lightoff-Whitemane"] = "0,10",
 		["Shavronne-Whitemane"] = "0,10",
-		["Yiqilnoue-Whitemane"] = "0,10",
-		["Yatsuka-Whitemane"] = "0,10",
+		["Jkuo-Whitemane"] = "0,10",
+		["Chaospower-Whitemane"] = "231,95",
 		["Icemo-Whitemane"] = "0,10",
 		["Alamats-Whitemane"] = "0,10",
-		["Letme-Whitemane"] = "0,10",
-		["Yatanana-Whitemane"] = "0,10",
-		["Solaporschel-Whitemane"] = "0,10",
-		["Moonhare-Whitemane"] = "0,10",
+		["Workingdad-Whitemane"] = "0,10",
+		["Whiten-Whitemane"] = "0,10",
 		["Bigheiniu-Whitemane"] = "0,10",
+		["Moonhare-Whitemane"] = "0,10",
+		["Yoloda-Whitemane"] = "0,10",
 		["Achileus-Whitemane"] = "0,10",
 		["Angelinaa-Whitemane"] = "0,10",
 		["Goodÿ-Whitemane"] = "0,10",
-		["Xiaxia-Whitemane"] = "0,10",
-		["Xiaoyezi-Whitemane"] = "0,10",
-		["Xhh-Whitemane"] = "0,10",
-		["Xiaoyan-Whitemane"] = "240,111",
-		["Workingdad-Whitemane"] = "0,10",
-		["Dameng-Whitemane"] = "0,10",
-		["Baozisir-Whitemane"] = "0,10",
-		["Neigeshui-Whitemane"] = "0,10",
-		["Wocao-Whitemane"] = "0,10",
-		["Minikuku-Whitemane"] = "0,10",
-		["Tzk-Whitemane"] = "0,10",
-		["Peacebird-Whitemane"] = "12,10",
-		["Kikoxx-Whitemane"] = "0,10",
-		["Whiten-Whitemane"] = "0,10",
+		["Yiqilnoue-Whitemane"] = "0,10",
 		["Whiteintee-Whitemane"] = "0,10",
 		["Wayward-Whitemane"] = "0,10",
+		["Xiaoyan-Whitemane"] = "240,111",
 		["Tarli-Whitemane"] = "287,209",
+		["Dameng-Whitemane"] = "0,10",
 		["Vvforce-Whitemane"] = "0,10",
-		["Dreamboy-Whitemane"] = "0,10",
-		["Vinitus-Whitemane"] = "1,10",
+		["Neigeshui-Whitemane"] = "0,10",
+		["Vcoldeur-Whitemane"] = "0,10",
+		["Minikuku-Whitemane"] = "0,10",
+		["Tzk-Whitemane"] = "0,10",
+		["Valdess-Whitemane"] = "0,10",
+		["Kikoxx-Whitemane"] = "0,10",
+		["Umekawapanti-Whitemane"] = "0,10",
+		["Bizdkidding-Whitemane"] = "0,10",
+		["Dragoncrepe-Whitemane"] = "0,10",
+		["Frozenj-Whitemane"] = "320,155",
+		["Coquettish-Whitemane"] = "0,10",
+		["Roughncek-Whitemane"] = "0,10",
+		["Todaysohappy-Whitemane"] = "0,10",
 		["Parousia-Whitemane"] = "0,10",
 		["Miomioo-Whitemane"] = "277,90",
-		["Roughncek-Whitemane"] = "0,10",
+		["Xiaoyezi-Whitemane"] = "0,10",
 		["Anying-Whitemane"] = "0,10",
 		["Whistflecha-Whitemane"] = "26,11",
-		["Vcoldeur-Whitemane"] = "0,10",
+		["Alphas-Whitemane"] = "0,10",
 		["Ccp-Whitemane"] = "0,10",
-		["Valdess-Whitemane"] = "0,10",
+		["Sololol-Whitemane"] = "0,10",
 		["Peachpeach-Whitemane"] = "201,43",
 		["Unclesam-Whitemane"] = "0,10",
-		["Valdeslr-Whitemane"] = "0,10",
+		["Amoslumi-Whitemane"] = "0,10",
 		["Aoerka-Whitemane"] = "0,10",
-		["Umekawapanti-Whitemane"] = "0,10",
+		["Forsalock-Whitemane"] = "0,10",
 		["Cwayger-Whitemane"] = "0,10",
 		["Sokodame-Whitemane"] = "0,10",
-		["Bizdkidding-Whitemane"] = "0,10",
-		["Polarnight-Whitemane"] = "0,10",
-		["Dragoncrepe-Whitemane"] = "0,10",
+		["Teemò-Whitemane"] = "0,10",
+		["Tayde-Whitemane"] = "0,10",
+		["Summerrain-Whitemane"] = "0,10",
 		["Applesidra-Whitemane"] = "0,10",
-		["Turnrightup-Whitemane"] = "0,10",
+		["Taucrossnb-Whitemane"] = "0,10",
 		["Vinsent-Whitemane"] = "0,10",
 		["Seacatx-Whitemane"] = "0,10",
 		["Abeaclan-Whitemane"] = "0,10",
-		["Kimochiil-Whitemane"] = "0,10",
+		["Fsfs-Whitemane"] = "0,10",
 		["Duckson-Whitemane"] = "0,10",
-		["Toxictotem-Whitemane"] = "329,135",
-		["Caramelslife-Whitemane"] = "0,10",
-		["Alphas-Whitemane"] = "0,10",
-		["Tofumilk-Whitemane"] = "47,10",
+		["Sushis-Whitemane"] = "0,10",
+		["Choudan-Whitemane"] = "0,10",
+		["Muscleboi-Whitemane"] = "0,10",
+		["Beastianelli-Whitemane"] = "71,20",
 		["Monoo-Whitemane"] = "0,10",
 		["Leepeak-Whitemane"] = "0,10",
-		["Todaysohappy-Whitemane"] = "0,10",
+		["Fafafazer-Whitemane"] = "0,10",
 		["Tombradyy-Whitemane"] = "338,132",
 		["Omarbig-Whitemane"] = "0,10",
 		["Darkmomo-Whitemane"] = "139,18",
 		["Tomorroww-Whitemane"] = "9,10",
-		["Fafafazer-Whitemane"] = "0,10",
-		["Tinaer-Whitemane"] = "252,40",
+		["Mewy-Whitemane"] = "0,10",
+		["Screwdoor-Whitemane"] = "0,10",
 		["Gwaiwai-Whitemane"] = "0,10",
-		["Tiehanhan-Whitemane"] = "0,10",
-		["Thomasmeng-Whitemane"] = "0,10",
+		["Alaguildbank-Whitemane"] = "0,10",
+		["Shadowfiends-Whitemane"] = "0,10",
 		["Gokusoul-Whitemane"] = "0,10",
 		["Fishsheep-Whitemane"] = "312,118",
-		["Forsalock-Whitemane"] = "0,10",
+		["Rickyboy-Whitemane"] = "0,10",
 		["Aliceea-Whitemane"] = "0,10",
 		["Hentaisan-Whitemane"] = "0,10",
-		["Teemò-Whitemane"] = "0,10",
-		["Nuw-Whitemane"] = "2,10",
-		["Teemoyi-Whitemane"] = "0,10",
 		["Murface-Whitemane"] = "0,10",
-		["Tayde-Whitemane"] = "0,10",
-		["Taucrossnb-Whitemane"] = "0,10",
-		["Erjiu-Whitemane"] = "0,10",
+		["Nuw-Whitemane"] = "2,10",
+		["Agiao-Whitemane"] = "160,36",
+		["Tofumilk-Whitemane"] = "47,10",
+		["Aiooa-Whitemane"] = "0,10",
 		["Asani-Whitemane"] = "0,10",
+		["Erjiu-Whitemane"] = "0,10",
+		["Zhangmazi-Whitemane"] = "0,10",
 		["Mevus-Whitemane"] = "0,10",
 		["Lceman-Whitemane"] = "0,10",
 		["Wannister-Whitemane"] = "353,240",
-		["Sèptëmbér-Whitemane"] = "0,10",
+		["Ravenv-Whitemane"] = "0,10",
 		["Diabols-Whitemane"] = "0,10",
-		["Summerrain-Whitemane"] = "0,10",
+		["Chubbie-Whitemane"] = "0,10",
 		["Coyicoyi-Whitemane"] = "0,10",
-		["Sushis-Whitemane"] = "0,10",
+		["Polarnight-Whitemane"] = "0,10",
 		["Susubucirou-Whitemane"] = "0,10",
-		["Stephenpan-Whitemane"] = "27,10",
-		["Batchat-Whitemane"] = "0,10",
+		["Savannaah-Whitemane"] = "0,10",
+		["Madaoo-Whitemane"] = "238,76",
 		["Gugu-Whitemane"] = "0,10",
 		["Greatflood-Whitemane"] = "0,10",
 		["Calathes-Whitemane"] = "0,10",
-		["Sololol-Whitemane"] = "0,10",
+		["Valdeslr-Whitemane"] = "0,10",
 		["Yourlife-Whitemane"] = "24,17",
 		["Sgtm-Whitemane"] = "0,10",
 		["Angertp-Whitemane"] = "0,10",
@@ -24515,144 +24515,144 @@ RECORDS = {
 		["Lovecraftt-Whitemane"] = "0,10",
 		["Lostthunder-Whitemane"] = "256,28",
 		["Luunna-Whitemane"] = "133,44",
-		["Bengbengcha-Whitemane"] = "0,10",
+		["Tiehanhan-Whitemane"] = "0,10",
 		["Xiongtu-Whitemane"] = "0,10",
-		["Prettypreist-Whitemane"] = "0,10",
+		["Vinitus-Whitemane"] = "1,10",
 		["Knittz-Whitemane"] = "28,10",
 		["Booyah-Whitemane"] = "35,27",
-		["Savannaah-Whitemane"] = "0,10",
-		["Asso-Whitemane"] = "0,10",
+		["Sèptëmbér-Whitemane"] = "0,10",
+		["Jucyboi-Whitemane"] = "1,10",
 		["Grouchygroom-Whitemane"] = "351,97",
 		["Papafrank-Whitemane"] = "0,10",
 		["Skeletank-Whitemane"] = "267,54",
-		["Erickahume-Whitemane"] = "0,10",
+		["Mondaysha-Whitemane"] = "0,10",
 		["Jasonm-Whitemane"] = "22,10",
 		["Deathcheater-Whitemane"] = "308,90",
 		["Neverlove-Whitemane"] = "0,10",
-		["Rotkisburing-Whitemane"] = "0,10",
+		["Pythoneric-Whitemane"] = "0,10",
 		["Kissdark-Whitemane"] = "0,10",
-		["Sharker-Whitemane"] = "0,10",
-		["Sharkchili-Whitemane"] = "36,40",
-		["Shanqi-Whitemane"] = "0,10",
 		["Noturnonred-Whitemane"] = "0,10",
 		["Mftcy-Whitemane"] = "6,10",
-		["Shadowfiends-Whitemane"] = "0,10",
-		["Shadower-Whitemane"] = "0,10",
-		["Hunterz-Whitemane"] = "0,10",
-		["Rickyboy-Whitemane"] = "0,10",
-		["Giaogi-Whitemane"] = "0,10",
-		["Screwdoor-Whitemane"] = "0,10",
+		["Dreamboy-Whitemane"] = "0,10",
+		["Janer-Whitemane"] = "0,10",
+		["Lalafei-Whitemane"] = "0,10",
 		["Silverknight-Whitemane"] = "0,10",
+		["Lesliem-Whitemane"] = "0,10",
+		["Hunterz-Whitemane"] = "0,10",
+		["Gokuclose-Whitemane"] = "0,10",
+		["Giaogi-Whitemane"] = "0,10",
+		["Wocao-Whitemane"] = "0,10",
+		["Stephenpan-Whitemane"] = "27,10",
 		["Conquering-Whitemane"] = "0,10",
-		["Shengwo-Whitemane"] = "0,10",
+		["Teemoyi-Whitemane"] = "0,10",
 		["Sevetar-Whitemane"] = "32,10",
 		["Cityhunter-Whitemane"] = "330,54",
-		["Lesliem-Whitemane"] = "0,10",
-		["Gokuclose-Whitemane"] = "0,10",
+		["Moneyu-Whitemane"] = "207,89",
+		["Gwokgwok-Whitemane"] = "348,136",
 		["Jackylove-Whitemane"] = "0,10",
 		["Caxton-Whitemane"] = "0,10",
-		["Reagane-Whitemane"] = "0,10",
-		["Midoorz-Whitemane"] = "0,10",
+		["Oçtøbër-Whitemane"] = "0,10",
+		["Zagger-Whitemane"] = "0,10",
 		["Angelner-Whitemane"] = "0,10",
 		["Ginko-Whitemane"] = "0,10",
-		["Oçtøbër-Whitemane"] = "0,10",
-		["Ravenv-Whitemane"] = "0,10",
-		["Railgun-Whitemane"] = "0,10",
-		["Pythoneric-Whitemane"] = "0,10",
+		["Toxictotem-Whitemane"] = "329,135",
+		["Preserby-Whitemane"] = "0,10",
+		["Pothunter-Whitemane"] = "0,10",
+		["Yatsuka-Whitemane"] = "0,10",
 		["Cnmlgb-Whitemane"] = "130,10",
 		["Silenx-Whitemane"] = "0,10",
 		["Hissbood-Whitemane"] = "45,10",
 		["Banff-Whitemane"] = "0,10",
-		["Preserby-Whitemane"] = "0,10",
+		["Polymorphism-Whitemane"] = "80,10",
 		["Omarlittlee-Whitemane"] = "137,64",
 		["Febhoney-Whitemane"] = "0,10",
-		["Pothunter-Whitemane"] = "0,10",
-		["Polymorphism-Whitemane"] = "80,10",
-		["Tuyi-Whitemane"] = "83,42",
 		["Nowyousmile-Whitemane"] = "0,10",
+		["Pidan-Whitemane"] = "0,10",
+		["Tuyi-Whitemane"] = "83,42",
+		["Pembaba-Whitemane"] = "0,10",
 		["Freecss-Whitemane"] = "0,10",
 		["Tinypeanut-Whitemane"] = "0,10",
-		["Pidan-Whitemane"] = "0,10",
-		["Pembaba-Whitemane"] = "0,10",
-		["Windseek-Whitemane"] = "0,10",
 		["Panbie-Whitemane"] = "0,10",
-		["Darkages-Whitemane"] = "22,10",
+		["Nyaic-Whitemane"] = "0,10",
+		["Windseek-Whitemane"] = "0,10",
 		["Orzbillcn-Whitemane"] = "0,10",
+		["Darkages-Whitemane"] = "22,10",
+		["Peacebird-Whitemane"] = "12,10",
 		["Gigihadid-Whitemane"] = "353,162",
 		["Oothree-Whitemane"] = "0,10",
 		["Tuotuo-Whitemane"] = "0,10",
 		["Ohayo-Whitemane"] = "0,10",
 		["Jezpali-Whitemane"] = "28,10",
-		["Nyaic-Whitemane"] = "0,10",
+		["Shadower-Whitemane"] = "0,10",
 		["Pluvette-Whitemane"] = "0,10",
 		["Shanghaojia-Whitemane"] = "0,10",
 		["Turnxturn-Whitemane"] = "0,10",
 		["Nimas-Whitemane"] = "0,10",
 		["Fallenwizard-Whitemane"] = "0,10",
 		["Nidie-Whitemane"] = "351,121",
+		["Casualwower-Whitemane"] = "352,94",
 		["Effigon-Whitemane"] = "0,10",
 		["Destyjustc-Whitemane"] = "0,10",
-		["Moneyu-Whitemane"] = "207,89",
-		["Escapes-Whitemane"] = "0,10",
+		["Midoorz-Whitemane"] = "0,10",
 		["Erdajie-Whitemane"] = "0,10",
 		["Twokickfeet-Whitemane"] = "0,10",
-		["Aiooa-Whitemane"] = "0,10",
+		["Shengwo-Whitemane"] = "0,10",
 		["Mimihaobai-Whitemane"] = "228,82",
 		["Tencent-Whitemane"] = "0,10",
 		["Flamingheart-Whitemane"] = "0,10",
-		["Alaguildbank-Whitemane"] = "0,10",
+		["Hollowmage-Whitemane"] = "0,10",
 		["Docham-Whitemane"] = "0,10",
 		["Tongbutong-Whitemane"] = "0,10",
-		["Beastianelli-Whitemane"] = "71,20",
-		["Muscleboi-Whitemane"] = "0,10",
-		["Laysbbq-Whitemane"] = "0,10",
-		["Jucyboi-Whitemane"] = "1,10",
+		["Erickahume-Whitemane"] = "0,10",
+		["Asso-Whitemane"] = "0,10",
+		["Shanqi-Whitemane"] = "0,10",
+		["Bengbengcha-Whitemane"] = "0,10",
 		["Pikapikaq-Whitemane"] = "0,10",
 		["Ascarchii-Whitemane"] = "40,10",
-		["Mewy-Whitemane"] = "0,10",
-		["Choudan-Whitemane"] = "0,10",
-		["Mondaysha-Whitemane"] = "0,10",
-		["Agiao-Whitemane"] = "160,36",
-		["Needgold-Whitemane"] = "0,10",
-		["Fsfs-Whitemane"] = "0,10",
-		["Bigrogue-Whitemane"] = "0,10",
+		["Batchat-Whitemane"] = "0,10",
+		["Xiaxia-Whitemane"] = "0,10",
+		["Escapes-Whitemane"] = "0,10",
+		["Lalalalisa-Whitemane"] = "0,10",
+		["Railgun-Whitemane"] = "0,10",
+		["Reagane-Whitemane"] = "0,10",
+		["Ahegao-Whitemane"] = "0,10",
 		["Anmu-Whitemane"] = "0,10",
-		["Mfan-Whitemane"] = "0,10",
+		["Sharkchili-Whitemane"] = "36,40",
 		["Kangol-Whitemane"] = "0,10",
 		["Dramatist-Whitemane"] = "0,10",
-		["Ahegao-Whitemane"] = "0,10",
-		["Madaoo-Whitemane"] = "238,76",
+		["Sharker-Whitemane"] = "0,10",
+		["Rotkisburing-Whitemane"] = "0,10",
+		["Yourolduncle-Whitemane"] = "320,117",
+		["Kimochiil-Whitemane"] = "0,10",
+		["Needgold-Whitemane"] = "0,10",
+		["Bigrogue-Whitemane"] = "0,10",
+		["Prettypreist-Whitemane"] = "0,10",
+		["Mfan-Whitemane"] = "0,10",
+		["Huangyunabao-Whitemane"] = "0,10",
+		["Mãrch-Whitemane"] = "0,10",
 		["Lostsandru-Whitemane"] = "0,10",
+		["Jackiejun-Whitemane"] = "135,27",
 		["Likewt-Whitemane"] = "0,10",
-		["Coquettish-Whitemane"] = "0,10",
-		["Frozenj-Whitemane"] = "320,155",
+		["Kulolo-Whitemane"] = "0,10",
+		["Caramelslife-Whitemane"] = "0,10",
 		["Bizdcheating-Whitemane"] = "0,10",
 		["Hairwetdontc-Whitemane"] = "319,156",
-		["Amoslumi-Whitemane"] = "0,10",
-		["Mãrch-Whitemane"] = "0,10",
+		["Thomasmeng-Whitemane"] = "0,10",
+		["Tinaer-Whitemane"] = "252,40",
+		["Xhh-Whitemane"] = "0,10",
 		["Lemonsushi-Whitemane"] = "0,10",
-		["Jackiejun-Whitemane"] = "135,27",
-		["Lalalalisa-Whitemane"] = "0,10",
-		["Kulolo-Whitemane"] = "0,10",
+		["Turnrightup-Whitemane"] = "0,10",
 		["Emmanueli-Whitemane"] = "0,10",
-		["Lalafei-Whitemane"] = "0,10",
-		["Chubbie-Whitemane"] = "0,10",
-		["Casualwower-Whitemane"] = "352,94",
 		["Inouebaby-Whitemane"] = "0,10",
-		["Hollowmage-Whitemane"] = "0,10",
-		["Baymaxx-Whitemane"] = "0,10",
-		["Janer-Whitemane"] = "0,10",
-		["Chaospower-Whitemane"] = "231,95",
-		["Jkuo-Whitemane"] = "0,10",
 		["Wookoong-Whitemane"] = "5,10",
-		["Ironskin-Whitemane"] = "0,10",
+		["Baymaxx-Whitemane"] = "0,10",
 		["Jimmybug-Whitemane"] = "154,55",
-		["Ivoray-Whitemane"] = "0,10",
+		["Letme-Whitemane"] = "0,10",
 		["Lowning-Whitemane"] = "0,10",
-		["Idiotss-Whitemane"] = "0,10",
-		["Huangyunabao-Whitemane"] = "0,10",
+		["Baozisir-Whitemane"] = "0,10",
+		["Ivoray-Whitemane"] = "0,10",
 		["Oluluna-Whitemane"] = "0,10",
-		["Gwokgwok-Whitemane"] = "348,136",
+		["Idiotss-Whitemane"] = "0,10",
 		["Kumapaw-Whitemane"] = "0,10",
 		["Dudounai-Whitemane"] = "0,10",
 		["Goldenramsay-Whitemane"] = "0,10",
@@ -25053,7 +25053,7 @@ RECORDS = {
 		["Mondaysha-Whitemane"] = "0,10",
 		["Jasonm-Whitemane"] = "32,10",
 		["Kulolo-Whitemane"] = "0,10",
-		["Neverlove-Whitemane"] = "0,10",
+		["Sèptëmbér-Whitemane"] = "0,10",
 		["Knittz-Whitemane"] = "40,10",
 		["Akin-Whitemane"] = "247,27",
 		["Tinaer-Whitemane"] = "300,41",
@@ -25068,8 +25068,8 @@ RECORDS = {
 		["Giaogi-Whitemane"] = "0,10",
 		["Handwash-Whitemane"] = "0,10",
 		["Angdi-Whitemane"] = "0,10",
-		["Teemoyi-Whitemane"] = "0,10",
 		["Shengwo-Whitemane"] = "0,10",
+		["Teemoyi-Whitemane"] = "0,10",
 		["Oçtøbër-Whitemane"] = "0,10",
 		["Cityhunter-Whitemane"] = "339,75",
 		["Lesliem-Whitemane"] = "0,10",
@@ -25095,7 +25095,7 @@ RECORDS = {
 		["Xiaoyan-Whitemane"] = "213,148",
 		["Tuyi-Whitemane"] = "0,10",
 		["Yoloda-Whitemane"] = "0,10",
-		["Freecss-Whitemane"] = "0,10",
+		["Iceiceices-Whitemane"] = "0,10",
 		["Tinypeanut-Whitemane"] = "0,10",
 		["Sanjidaoo-Whitemane"] = "0,10",
 		["Huntaarrd-Whitemane"] = "0,10",
@@ -25139,7 +25139,7 @@ RECORDS = {
 		["Canyoulayegg-Whitemane"] = "362,82",
 		["Lalalalisa-Whitemane"] = "0,10",
 		["Vcoldeur-Whitemane"] = "0,10",
-		["Iceiceices-Whitemane"] = "0,10",
+		["Freecss-Whitemane"] = "0,10",
 		["Duckson-Whitemane"] = "0,10",
 		["Sharker-Whitemane"] = "0,10",
 		["Nidie-Whitemane"] = "361,168",
@@ -25163,7 +25163,7 @@ RECORDS = {
 		["Applesidra-Whitemane"] = "0,10",
 		["Nakedchatol-Whitemane"] = "0,10",
 		["Yuukimura-Whitemane"] = "0,10",
-		["Sèptëmbér-Whitemane"] = "0,10",
+		["Neverlove-Whitemane"] = "0,10",
 		["Antheleon-Whitemane"] = "0,10",
 		["Balabala-Whitemane"] = "0,10",
 		["Junosorcerer-Whitemane"] = "0,10",
@@ -47698,6 +47698,1332 @@ TRAFFIC = {
 		1589445679.264, -- [10]
 		"Player-4395-0067E2F0", -- [11]
 	}, -- [2030]
+	{
+		"Agiao", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +15 (t2 hand)", -- [3]
+		202, -- [4]
+		202, -- [5]
+		36, -- [6]
+		51, -- [7]
+		"", -- [8]
+		1588950976, -- [9]
+		1589510623.806, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2031]
+	{
+		"Yourolduncle", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract EP -37 (remove tibu)", -- [3]
+		360, -- [4]
+		323, -- [5]
+		117, -- [6]
+		117, -- [7]
+		"", -- [8]
+		1589003679, -- [9]
+		1589616030.35, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2032]
+	{
+		"Raid", -- [1]
+		"Gokusoul", -- [2]
+		"Add Raid EP +1 - Onyxia", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589250033, -- [9]
+		1590108738.774, -- [10]
+		"Player-4395-004B53F0", -- [11]
+	}, -- [2033]
+	{
+		"", -- [1]
+		"Gokusoul", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cff1eff00|Hitem:17966:::::::::::::|h[Onyxia Hide Backpack]|h|r", -- [8]
+		1589250084, -- [9]
+		1590108840.106, -- [10]
+		"Player-4395-004B53F0", -- [11]
+	}, -- [2034]
+	{
+		"Booyah", -- [1]
+		"Gokusoul", -- [2]
+		"Add GP 10 (Full Price)", -- [3]
+		83, -- [4]
+		83, -- [5]
+		37, -- [6]
+		47, -- [7]
+		"|cffa335ee|Hitem:18422:::::::::::::|h[Head of Onyxia]|h|r", -- [8]
+		1589250110, -- [9]
+		1590108892.834, -- [10]
+		"Player-4395-004B53F0", -- [11]
+	}, -- [2035]
+	{
+		"Needgold", -- [1]
+		"Gokusoul", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		11, -- [4]
+		11, -- [5]
+		10, -- [6]
+		15, -- [7]
+		"|cffa335ee|Hitem:17078:::::::::::::|h[Sapphiron Drape]|h|r", -- [8]
+		1589250140, -- [9]
+		1590108952.029, -- [10]
+		"Player-4395-004B53F0", -- [11]
+	}, -- [2036]
+	{
+		"Luunna", -- [1]
+		"Gokusoul", -- [2]
+		"Add GP 10 (Full Price)", -- [3]
+		173, -- [4]
+		173, -- [5]
+		59, -- [6]
+		69, -- [7]
+		"|cffa335ee|Hitem:16939:::::::::::::|h[Dragonstalker's Helm]|h|r", -- [8]
+		1589250162, -- [9]
+		1590108996.268, -- [10]
+		"Player-4395-004B53F0", -- [11]
+	}, -- [2037]
+	{
+		"", -- [1]
+		"Gokusoul", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16947:::::::::::::|h[Helmet of Ten Storms]|h|r", -- [8]
+		1589250194, -- [9]
+		1590109060.676, -- [10]
+		"Player-4395-004B53F0", -- [11]
+	}, -- [2038]
+	{
+		"Guild", -- [1]
+		"Titanhecate", -- [2]
+		"Decayed EPGP -10% (20_05_14 decay)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589504836, -- [9]
+		1589634980.609, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2039]
+	{
+		"Luunna", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract GP -4 (t2 head)", -- [3]
+		155, -- [4]
+		155, -- [5]
+		62, -- [6]
+		58, -- [7]
+		"", -- [8]
+		1589507317, -- [9]
+		1589639942.464, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2040]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Razorgore the Untamed", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589507871, -- [9]
+		1589641051.088, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2041]
+	{
+		"Casualwower", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 40 (Full Price)", -- [3]
+		357, -- [4]
+		357, -- [5]
+		84, -- [6]
+		124, -- [7]
+		"|cffa335ee|Hitem:19370:::::::::::::|h[Mantle of the Blackwing Cabal]|h|r", -- [8]
+		1589507917, -- [9]
+		1589641142.693, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2042]
+	{
+		"Niubility", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		75, -- [4]
+		75, -- [5]
+		66, -- [6]
+		86, -- [7]
+		"|cffa335ee|Hitem:16904:::::::::::::|h[Stormrage Bracers]|h|r", -- [8]
+		1589507936, -- [9]
+		1589641181.103, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2043]
+	{
+		"Deathcheater", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		318, -- [4]
+		318, -- [5]
+		117, -- [6]
+		137, -- [7]
+		"|cffa335ee|Hitem:16911:::::::::::::|h[Bloodfang Bracers]|h|r", -- [8]
+		1589507953, -- [9]
+		1589641214.314, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2044]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Vaelastrasz the Corrupt", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589508275, -- [9]
+		1589641859.025, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2045]
+	{
+		"Yobita", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 0 (Full Price)", -- [3]
+		338, -- [4]
+		338, -- [5]
+		84, -- [6]
+		84, -- [7]
+		"|cffa335ee|Hitem:19339:::::::::::::|h[Mind Quickening Gem]|h|r", -- [8]
+		1589508372, -- [9]
+		1589642052.26, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2046]
+	{
+		"Casualwower", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		360, -- [4]
+		360, -- [5]
+		124, -- [6]
+		144, -- [7]
+		"|cffa335ee|Hitem:16933:::::::::::::|h[Nemesis Belt]|h|r", -- [8]
+		1589508402, -- [9]
+		1589642112.98, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2047]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16933:::::::::::::|h[Nemesis Belt]|h|r", -- [8]
+		1589508430, -- [9]
+		1589642168.886, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2048]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Broodlord Lashlayer", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589509820, -- [9]
+		1589644948.902, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2049]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:19342:::::::::::::|h[Venomous Totem]|h|r", -- [8]
+		1589509878, -- [9]
+		1589645065.066, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2050]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16906:::::::::::::|h[Bloodfang Boots]|h|r", -- [8]
+		1589509899, -- [9]
+		1589645106.705, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2051]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16927:::::::::::::|h[Nemesis Boots]|h|r", -- [8]
+		1589509920, -- [9]
+		1589645148.749, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2052]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 (jihe)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589510228, -- [9]
+		1589645764.954, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2053]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Firemaw", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589510532, -- [9]
+		1589646372.589, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2054]
+	{
+		"Pigecha", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		172, -- [4]
+		172, -- [5]
+		157, -- [6]
+		177, -- [7]
+		"|cffa335ee|Hitem:16948:::::::::::::|h[Gauntlets of Ten Storms]|h|r", -- [8]
+		1589510616, -- [9]
+		1589646540.777, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2055]
+	{
+		"Deathcheater", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 0 (Pass)", -- [3]
+		330, -- [4]
+		330, -- [5]
+		137, -- [6]
+		137, -- [7]
+		"|cffa335ee|Hitem:19365:::::::::::::|h[Claw of the Black Drake]|h|r", -- [8]
+		1589510650, -- [9]
+		1589646608.827, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2056]
+	{
+		"Booyah", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +8 (heilongzhua)", -- [3]
+		89, -- [4]
+		89, -- [5]
+		42, -- [6]
+		50, -- [7]
+		"", -- [8]
+		1589510670, -- [9]
+		1589646648.803, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2057]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Ebonroc", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589511855, -- [9]
+		1589649019.015, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2058]
+	{
+		"Noeita", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		352, -- [4]
+		352, -- [5]
+		103, -- [6]
+		123, -- [7]
+		"|cffa335ee|Hitem:19405:::::::::::::|h[Malfurion's Blessed Bulwark]|h|r", -- [8]
+		1589511939, -- [9]
+		1589649186.677, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2059]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16928:::::::::::::|h[Nemesis Gloves]|h|r", -- [8]
+		1589511963, -- [9]
+		1589649234.531, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2060]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Flamegor", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589512146, -- [9]
+		1589649601.073, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2061]
+	{
+		"Sleepywayge", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 120 (Full Price)", -- [3]
+		321, -- [4]
+		321, -- [5]
+		109, -- [6]
+		229, -- [7]
+		"|cffa335ee|Hitem:19395:::::::::::::|h[Rejuvenating Gem]|h|r", -- [8]
+		1589512172, -- [9]
+		1589649652.517, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2062]
+	{
+		"Huluwa", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		59, -- [4]
+		59, -- [5]
+		13, -- [6]
+		33, -- [7]
+		"|cffa335ee|Hitem:19433:::::::::::::|h[Emberweave Leggings]|h|r", -- [8]
+		1589512196, -- [9]
+		1589649700.765, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2063]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Chromaggus", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589512681, -- [9]
+		1589650670.258, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2064]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16924:::::::::::::|h[Pauldrons of Transcendence]|h|r", -- [8]
+		1589512718, -- [9]
+		1589650745.134, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2065]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16832:::::::::::::|h[Bloodfang Spaulders]|h|r", -- [8]
+		1589512740, -- [9]
+		1589650788.186, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2066]
+	{
+		"Sleepywayge", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 4 (gp20)", -- [3]
+		324, -- [4]
+		324, -- [5]
+		229, -- [6]
+		233, -- [7]
+		"|cffa335ee|Hitem:19389:::::::::::::|h[Taut Dragonhide Shoulderpads]|h|r", -- [8]
+		1589512764, -- [9]
+		1589650836.878, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2067]
+	{
+		"Sleepywayge", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 4 (gp20)", -- [3]
+		324, -- [4]
+		324, -- [5]
+		233, -- [6]
+		237, -- [7]
+		"|cffa335ee|Hitem:19390:::::::::::::|h[Taut Dragonhide Gloves]|h|r", -- [8]
+		1589512781, -- [9]
+		1589650870.864, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2068]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +5 - Nefarian", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589513557, -- [9]
+		1589652422.716, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2069]
+	{
+		"Canyoulayegg", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 120 (Full Price)", -- [3]
+		383, -- [4]
+		383, -- [5]
+		52, -- [6]
+		172, -- [7]
+		"|cffa335ee|Hitem:19379:::::::::::::|h[Neltharion's Tear]|h|r", -- [8]
+		1589513613, -- [9]
+		1589652535.131, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2070]
+	{
+		"Booyah", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 40 (Full Price)", -- [3]
+		103, -- [4]
+		103, -- [5]
+		50, -- [6]
+		90, -- [7]
+		"|cffa335ee|Hitem:19002:::::::::::::|h[Head of Nefarian]|h|r", -- [8]
+		1589513638, -- [9]
+		1589652584.392, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2071]
+	{
+		"Luunna", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		184, -- [4]
+		184, -- [5]
+		58, -- [6]
+		78, -- [7]
+		"|cffa335ee|Hitem:16942:::::::::::::|h[Dragonstalker's Breastplate]|h|r", -- [8]
+		1589513656, -- [9]
+		1589652620.23, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2072]
+	{
+		"Luunna", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 40 (Full Price)", -- [3]
+		184, -- [4]
+		184, -- [5]
+		78, -- [6]
+		118, -- [7]
+		"|cffa335ee|Hitem:19377:::::::::::::|h[Prestor's Talisman of Connivery]|h|r", -- [8]
+		1589513706, -- [9]
+		1589652720.459, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2073]
+	{
+		"Casualwower", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		383, -- [4]
+		383, -- [5]
+		144, -- [6]
+		164, -- [7]
+		"|cffa335ee|Hitem:16931:::::::::::::|h[Nemesis Robes]|h|r", -- [8]
+		1589513718, -- [9]
+		1589652744.627, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2074]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16799:::::::::::::|h[Arcanist Bindings]|h|r", -- [8]
+		1589515583, -- [9]
+		1589656474.727, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2075]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Lucifron", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589515792, -- [9]
+		1589656892.96, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2076]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:17109:::::::::::::|h[Choker of Enlightenment]|h|r", -- [8]
+		1589515823, -- [9]
+		1589656955.07, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2077]
+	{
+		"Toxiccow", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +5 (pijiakuzi )", -- [3]
+		1, -- [4]
+		1, -- [5]
+		10, -- [6]
+		15, -- [7]
+		"", -- [8]
+		1589516078, -- [9]
+		1589657464.845, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2078]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Magmadar", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589516141, -- [9]
+		1589657590.857, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2079]
+	{
+		"Saveuras", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		103, -- [4]
+		103, -- [5]
+		47, -- [6]
+		52, -- [7]
+		"|cffa335ee|Hitem:17065:::::::::::::|h[Medallion of Steadfast Might]|h|r", -- [8]
+		1589516163, -- [9]
+		1589657634.667, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2080]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16814:::::::::::::|h[Pants of Prophecy]|h|r", -- [8]
+		1589516183, -- [9]
+		1589657674.489, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2081]
+	{
+		"Doublefat", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		236, -- [4]
+		236, -- [5]
+		71, -- [6]
+		76, -- [7]
+		"|cffa335ee|Hitem:19143:::::::::::::|h[Flameguard Gauntlets]|h|r", -- [8]
+		1589516197, -- [9]
+		1589657703.056, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2082]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Gehennas", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589516613, -- [9]
+		1589658534.335, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2083]
+	{
+		"Huluwa", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		70, -- [4]
+		70, -- [5]
+		33, -- [6]
+		38, -- [7]
+		"|cffa335ee|Hitem:16849:::::::::::::|h[Giantstalker's Boots]|h|r", -- [8]
+		1589516634, -- [9]
+		1589658576.197, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2084]
+	{
+		"Toxiccow", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		3, -- [4]
+		3, -- [5]
+		15, -- [6]
+		20, -- [7]
+		"|cffa335ee|Hitem:16839:::::::::::::|h[Earthfury Gauntlets]|h|r", -- [8]
+		1589516649, -- [9]
+		1589658606.241, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2085]
+	{
+		"Yatanana", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 0 (Full Price)", -- [3]
+		37, -- [4]
+		37, -- [5]
+		10, -- [6]
+		10, -- [7]
+		"|cffa335ee|Hitem:17071:::::::::::::|h[Gutgore Ripper]|h|r", -- [8]
+		1589517253, -- [9]
+		1589659814.87, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2086]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16866:::::::::::::|h[Helm of Might]|h|r", -- [8]
+		1589517273, -- [9]
+		1589659854.34, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2087]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:19144:::::::::::::|h[Sabatons of the Flamewalker]|h|r", -- [8]
+		1589517302, -- [9]
+		1589659912.503, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2088]
+	{
+		"Yatanana", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +10 (bishou)", -- [3]
+		37, -- [4]
+		37, -- [5]
+		10, -- [6]
+		20, -- [7]
+		"", -- [8]
+		1589517343, -- [9]
+		1589659994.883, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2089]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Baron Geddon", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589517662, -- [9]
+		1589660632.986, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2090]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16836:::::::::::::|h[Cenarion Spaulders]|h|r", -- [8]
+		1589517689, -- [9]
+		1589660686.255, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2091]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Shazzrah", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589518060, -- [9]
+		1589661428.263, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2092]
+	{
+		"Huluwa", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		72, -- [4]
+		72, -- [5]
+		38, -- [6]
+		43, -- [7]
+		"|cffa335ee|Hitem:16852:::::::::::::|h[Giantstalker's Gloves]|h|r", -- [8]
+		1589518092, -- [9]
+		1589661492.617, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2093]
+	{
+		"Yatanana", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		39, -- [4]
+		39, -- [5]
+		20, -- [6]
+		25, -- [7]
+		"|cffa335ee|Hitem:16824:::::::::::::|h[Nightslayer Boots]|h|r", -- [8]
+		1589518107, -- [9]
+		1589661523.009, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2094]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 (boss4)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589518126, -- [9]
+		1589661560.473, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2095]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Sulfuron Harbinger", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589518687, -- [9]
+		1589662682.898, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2096]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16868:::::::::::::|h[Pauldrons of Might]|h|r", -- [8]
+		1589518707, -- [9]
+		1589662723.095, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2097]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16816:::::::::::::|h[Mantle of Prophecy]|h|r", -- [8]
+		1589518746, -- [9]
+		1589662800.622, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2098]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Golemagg the Incinerator", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589519103, -- [9]
+		1589663515.075, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2099]
+	{
+		"Toxiccow", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		8, -- [4]
+		8, -- [5]
+		20, -- [6]
+		25, -- [7]
+		"|cffa335ee|Hitem:16841:::::::::::::|h[Earthfury Vestments]|h|r", -- [8]
+		1589519187, -- [9]
+		1589663682.34, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2100]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Majordomo Executus", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589519485, -- [9]
+		1589664278.422, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2101]
+	{
+		"Hairwetdontc", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		345, -- [4]
+		345, -- [5]
+		144, -- [6]
+		149, -- [7]
+		"|cffa335ee|Hitem:18812:::::::::::::|h[Wristguards of True Flight]|h|r", -- [8]
+		1589519551, -- [9]
+		1589664410.855, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2102]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:18803:::::::::::::|h[Finkle's Lava Dredger]|h|r", -- [8]
+		1589519574, -- [9]
+		1589664456.505, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2103]
+	{
+		"Toxiccow", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +20 (tongyu)", -- [3]
+		9, -- [4]
+		9, -- [5]
+		25, -- [6]
+		45, -- [7]
+		"", -- [8]
+		1589519776, -- [9]
+		1589664860.182, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2104]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Ragnaros", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589520102, -- [9]
+		1589665512.37, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2105]
+	{
+		"Grankain", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +29 (tibu)", -- [3]
+		360, -- [4]
+		389, -- [5]
+		99, -- [6]
+		99, -- [7]
+		"", -- [8]
+		1589520162, -- [9]
+		1589665632.549, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2106]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 (jiesan)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1589520169, -- [9]
+		1589665647.086, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2107]
+	{
+		"Xiaoguangtou", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +7 (jiesan)", -- [3]
+		338, -- [4]
+		345, -- [5]
+		75, -- [6]
+		75, -- [7]
+		"", -- [8]
+		1589520191, -- [9]
+		1589665690.678, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2108]
+	{
+		"Dragons", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		350, -- [4]
+		350, -- [5]
+		51, -- [6]
+		71, -- [7]
+		"|cffa335ee|Hitem:17076:::::::::::::|h[Bonereaver's Edge]|h|r", -- [8]
+		1589520313, -- [9]
+		1589665935.162, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2109]
+	{
+		"Dragons", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 10 (Full Price)", -- [3]
+		350, -- [4]
+		350, -- [5]
+		71, -- [6]
+		81, -- [7]
+		"|cffa335ee|Hitem:17063:::::::::::::|h[Band of Accuria]|h|r", -- [8]
+		1589520411, -- [9]
+		1589666130.519, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2110]
+	{
+		"Jijijuda", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +10 (t2 leg)", -- [3]
+		151, -- [4]
+		151, -- [5]
+		32, -- [6]
+		42, -- [7]
+		"", -- [8]
+		1589520459, -- [9]
+		1589666227.002, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2111]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16915:::::::::::::|h[Netherwind Pants]|h|r", -- [8]
+		1589520465, -- [9]
+		1589666239.147, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2112]
+	{
+		"Toxiccow", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 10 (Full Price)", -- [3]
+		13, -- [4]
+		13, -- [5]
+		45, -- [6]
+		55, -- [7]
+		"|cffa335ee|Hitem:16946:::::::::::::|h[Legplates of Ten Storms]|h|r", -- [8]
+		1589520480, -- [9]
+		1589666268.295, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2113]
+	{
+		"Miomioo", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		329, -- [4]
+		329, -- [5]
+		81, -- [6]
+		101, -- [7]
+		"|cffa335ee|Hitem:18816:::::::::::::|h[Perdition's Blade]|h|r", -- [8]
+		1589521211, -- [9]
+		1589667731.11, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2114]
+	{
+		"Miomioo", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +15 (t2 foot)", -- [3]
+		329, -- [4]
+		329, -- [5]
+		101, -- [6]
+		116, -- [7]
+		"", -- [8]
+		1589521366, -- [9]
+		1589668040.609, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2115]
+	{
+		"Niubility", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract GP -5 (t2 huwan)", -- [3]
+		114, -- [4]
+		114, -- [5]
+		86, -- [6]
+		81, -- [7]
+		"", -- [8]
+		1589521420, -- [9]
+		1589668148.185, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2116]
+	{
+		"Miomioo", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +5 (t2 foot)", -- [3]
+		329, -- [4]
+		329, -- [5]
+		116, -- [6]
+		121, -- [7]
+		"", -- [8]
+		1589521431, -- [9]
+		1589668170.328, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2117]
+	{
+		"Booyah", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +5 (t1 waist)", -- [3]
+		116, -- [4]
+		116, -- [5]
+		90, -- [6]
+		95, -- [7]
+		"", -- [8]
+		1589522384, -- [9]
+		1589670076.238, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2118]
+	{
+		"Agiao", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +15 (t2 shoulder)", -- [3]
+		211, -- [4]
+		211, -- [5]
+		45, -- [6]
+		60, -- [7]
+		"", -- [8]
+		1589523650, -- [9]
+		1589672608.422, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2119]
+	{
+		"Zhanan", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +39 (tibu)", -- [3]
+		338, -- [4]
+		377, -- [5]
+		175, -- [6]
+		175, -- [7]
+		"", -- [8]
+		1589524169, -- [9]
+		1589673646.511, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2120]
+	{
+		"Toxictotem", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +32 (tibu)", -- [3]
+		341, -- [4]
+		373, -- [5]
+		135, -- [6]
+		135, -- [7]
+		"", -- [8]
+		1589524196, -- [9]
+		1589673700.561, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2121]
+	{
+		"Agoblin", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +29 (tibu)", -- [3]
+		13, -- [4]
+		42, -- [5]
+		10, -- [6]
+		10, -- [7]
+		"", -- [8]
+		1589524498, -- [9]
+		1589674304.673, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2122]
+	{
+		"Yatanana", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +29 (tibu)", -- [3]
+		47, -- [4]
+		76, -- [5]
+		25, -- [6]
+		25, -- [7]
+		"", -- [8]
+		1589524638, -- [9]
+		1589674585.132, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2123]
+	{
+		"Toxiccow", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +29 (tibu)", -- [3]
+		13, -- [4]
+		42, -- [5]
+		55, -- [6]
+		55, -- [7]
+		"", -- [8]
+		1589524683, -- [9]
+		1589674674.257, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2124]
+	{
+		"Tombradyy", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +22 (tibu)", -- [3]
+		335, -- [4]
+		357, -- [5]
+		118, -- [6]
+		118, -- [7]
+		"", -- [8]
+		1589524696, -- [9]
+		1589674700.261, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2125]
+	{
+		"Sleepywayge", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +11 (tibu)", -- [3]
+		337, -- [4]
+		348, -- [5]
+		237, -- [6]
+		237, -- [7]
+		"", -- [8]
+		1589524708, -- [9]
+		1589674724.276, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2126]
+	{
+		"Peachpeach", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +13 (tibu)", -- [3]
+		209, -- [4]
+		222, -- [5]
+		38, -- [6]
+		38, -- [7]
+		"", -- [8]
+		1589524717, -- [9]
+		1589674742.598, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2127]
+	{
+		"Canyoulayegg", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +13 (tibu)", -- [3]
+		383, -- [4]
+		396, -- [5]
+		172, -- [6]
+		172, -- [7]
+		"", -- [8]
+		1589524729, -- [9]
+		1589674766.562, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2128]
+	{
+		"Agiao", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +13 (tibu)", -- [3]
+		211, -- [4]
+		224, -- [5]
+		60, -- [6]
+		60, -- [7]
+		"", -- [8]
+		1589524739, -- [9]
+		1589674786.648, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2129]
+	{
+		"Nidie", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +13 (tibu)", -- [3]
+		383, -- [4]
+		396, -- [5]
+		108, -- [6]
+		108, -- [7]
+		"", -- [8]
+		1589524750, -- [9]
+		1589674808.79, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2130]
+	{
+		"Tarli", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +13 (tibu)", -- [3]
+		326, -- [4]
+		339, -- [5]
+		210, -- [6]
+		210, -- [7]
+		"", -- [8]
+		1589524760, -- [9]
+		1589674828.431, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2131]
+	{
+		"Wannister", -- [1]
+		"Titanhecate", -- [2]
+		"Add EP +8 (tibu)", -- [3]
+		367, -- [4]
+		375, -- [5]
+		216, -- [6]
+		216, -- [7]
+		"", -- [8]
+		1589524770, -- [9]
+		1589674848.575, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2132]
 }
 CEPGP_raid_logs = {
 }
