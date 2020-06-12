@@ -117,10 +117,10 @@ CEPGP = {
 			["Emeriss"] = 7,
 			["Kurinnaxx"] = 3,
 			["Ragnaros"] = 1,
-			["Maexxna"] = 15,
-			["Hakkar"] = 3,
-			["The Four Horsemen"] = 15,
 			["Broodlord Lashlayer"] = 3,
+			["Maexxna"] = 15,
+			["The Four Horsemen"] = 15,
+			["Hakkar"] = 3,
 			["Grobbulus"] = 12,
 			["Instructor Razuvious"] = 12,
 			["Razorgore the Untamed"] = 3,
@@ -189,10 +189,10 @@ CEPGP = {
 			["Emeriss"] = true,
 			["Kurinnaxx"] = false,
 			["Ragnaros"] = true,
-			["Maexxna"] = false,
-			["Hakkar"] = false,
-			["The Four Horsemen"] = false,
 			["Broodlord Lashlayer"] = true,
+			["Maexxna"] = false,
+			["The Four Horsemen"] = false,
+			["Hakkar"] = false,
 			["Grobbulus"] = false,
 			["Instructor Razuvious"] = false,
 			["Razorgore the Untamed"] = true,
@@ -17818,6 +17818,47 @@ CEPGP = {
 			"1586836312", -- [9]
 		}, -- [1652]
 	},
+	["Sync"] = {
+		false, -- [1]
+		1, -- [2]
+	},
+	["Attendance"] = {
+	},
+	["Channel"] = "Guild",
+	["GP"] = {
+		["Min"] = 10,
+		["Mod"] = 1,
+		["Multiplier"] = 1,
+		["Base"] = 5,
+		["Tooltips"] = true,
+		["SlotWeights"] = {
+			["2HWEAPON"] = 4,
+			["NECK"] = 2,
+			["HEAD"] = 1,
+			["WEAPON"] = 1.5,
+			["WRIST"] = 1,
+			["WEAPONMAINHAND"] = 4,
+			["SHIELD"] = 4,
+			["HOLDABLE"] = 4,
+			["CLOAK"] = 1,
+			["THROWN"] = 4,
+			["RELIC"] = 4,
+			["FEET"] = 1,
+			["RANGEDRIGHT"] = 4,
+			["WEAPONOFFHAND"] = 4,
+			["FINGER"] = 2,
+			["TRINKET"] = 4,
+			["WAND"] = 0.5,
+			["CHEST"] = 1,
+			["ROBE"] = 1,
+			["HAND"] = 1,
+			["LEGS"] = 1,
+			["WAIST"] = 1,
+			["EXCEPTION"] = 1,
+			["RANGED"] = 2,
+			["SHOULDER"] = 1,
+		},
+	},
 	["Loot"] = {
 		["SuppressResponses"] = true,
 		["RaidVisibility"] = true,
@@ -17874,50 +17915,9 @@ CEPGP = {
 		},
 		["Announcement"] = "Whisper me for loot",
 	},
-	["Attendance"] = {
-	},
-	["Channel"] = "Guild",
-	["GP"] = {
-		["Min"] = 10,
-		["Mod"] = 1,
-		["Tooltips"] = true,
-		["Multiplier"] = 1,
-		["Base"] = 20,
-		["SlotWeights"] = {
-			["2HWEAPON"] = 4,
-			["NECK"] = 2,
-			["HEAD"] = 1,
-			["WEAPON"] = 1.5,
-			["WRIST"] = 1,
-			["WEAPONMAINHAND"] = 4,
-			["SHIELD"] = 4,
-			["HOLDABLE"] = 4,
-			["CLOAK"] = 1,
-			["THROWN"] = 4,
-			["RELIC"] = 4,
-			["FEET"] = 1,
-			["RANGEDRIGHT"] = 4,
-			["WEAPONOFFHAND"] = 4,
-			["FINGER"] = 2,
-			["TRINKET"] = 4,
-			["WAND"] = 0.5,
-			["CHEST"] = 1,
-			["ROBE"] = 1,
-			["HAND"] = 1,
-			["LEGS"] = 1,
-			["WAIST"] = 1,
-			["EXCEPTION"] = 1,
-			["RANGED"] = 2,
-			["SHOULDER"] = 1,
-		},
-	},
-	["Overrides"] = {
-	},
 	["LootChannel"] = "Raid",
 	["PollRate"] = 0.0001,
-	["Sync"] = {
-		false, -- [1]
-		1, -- [2]
+	["Overrides"] = {
 	},
 	["Backups"] = {
 		["04:40:16PM, Tue, 31 March 2020 (Backup)"] = {
@@ -18325,9 +18325,9 @@ CEPGP = {
 			["Oojbk-Whitemane"] = "166,134",
 			["Spz-Whitemane"] = "0,10",
 			["Applesidra-Whitemane"] = "0,10",
-			["Hahakeke-Whitemane"] = "182,115",
+			["Seacatx-Whitemane"] = "0,10",
 			["Vinsent-Whitemane"] = "0,10",
-			["Mythrain-Whitemane"] = "240,125",
+			["Hahakeke-Whitemane"] = "182,115",
 			["Casualwower-Whitemane"] = "363,56",
 			["Fsfs-Whitemane"] = "0,10",
 			["Taucrossnb-Whitemane"] = "0,10",
@@ -18384,8 +18384,8 @@ CEPGP = {
 			["Luunna-Whitemane"] = "35,10",
 			["Bengbengcha-Whitemane"] = "0,10",
 			["Xiongtu-Whitemane"] = "0,10",
+			["Valdeslr-Whitemane"] = "0,10",
 			["Knittz-Whitemane"] = "56,10",
-			["Shanqi-Whitemane"] = "0,10",
 			["Vvforce-Whitemane"] = "0,10",
 			["Lass-Whitemane"] = "331,65",
 			["Asso-Whitemane"] = "0,10",
@@ -18471,7 +18471,7 @@ CEPGP = {
 			["Docham-Whitemane"] = "0,10",
 			["Tongbutong-Whitemane"] = "0,10",
 			["Jieli-Whitemane"] = "0,10",
-			["Valdeslr-Whitemane"] = "0,10",
+			["Shanqi-Whitemane"] = "0,10",
 			["Aratare-Whitemane"] = "0,10",
 			["Greath-Whitemane"] = "240,150",
 			["Screwdoor-Whitemane"] = "0,10",
@@ -18492,7 +18492,7 @@ CEPGP = {
 			["Maboi-Whitemane"] = "0,10",
 			["Pandaattack-Whitemane"] = "5,10",
 			["Likewt-Whitemane"] = "0,10",
-			["Seacatx-Whitemane"] = "0,10",
+			["Mythrain-Whitemane"] = "240,125",
 			["Benjx-Whitemane"] = "241,83",
 			["Pothunter-Whitemane"] = "0,10",
 			["Fruitlover-Whitemane"] = "99,10",
@@ -18983,8 +18983,8 @@ CEPGP = {
 			["Spicechicken-Whitemane"] = "288,36",
 			["Griffing-Whitemane"] = "0,10",
 			["Ssiren-Whitemane"] = "334,101",
+			["Madaoo-Whitemane"] = "318,57",
 			["Xiaobaifa-Whitemane"] = "0,10",
-			["Batchat-Whitemane"] = "0,10",
 			["Bloodblood-Whitemane"] = "0,10",
 			["Nightchef-Whitemane"] = "24,10",
 			["Calathes-Whitemane"] = "0,10",
@@ -19086,7 +19086,7 @@ CEPGP = {
 			["Tongbutong-Whitemane"] = "0,10",
 			["Diabol-Whitemane"] = "0,10",
 			["Telnet-Whitemane"] = "0,10",
-			["Madaoo-Whitemane"] = "318,57",
+			["Batchat-Whitemane"] = "0,10",
 			["Greath-Whitemane"] = "240,150",
 			["Nalus-Whitemane"] = "0,10",
 			["Ascarchii-Whitemane"] = "80,10",
@@ -19598,8 +19598,8 @@ CEPGP = {
 			["Spicechicken-Whitemane"] = "320,41",
 			["Griffing-Whitemane"] = "0,10",
 			["Solaporschel-Whitemane"] = "0,10",
+			["Batchat-Whitemane"] = "0,10",
 			["Xiaobaifa-Whitemane"] = "0,10",
-			["Madaoo-Whitemane"] = "347,64",
 			["Bloodblood-Whitemane"] = "0,10",
 			["Nightchef-Whitemane"] = "27,10",
 			["Calathes-Whitemane"] = "0,10",
@@ -19613,8 +19613,8 @@ CEPGP = {
 			["Luunna-Whitemane"] = "38,10",
 			["Bengbengcha-Whitemane"] = "0,10",
 			["Xiongtu-Whitemane"] = "0,10",
+			["Valdeslr-Whitemane"] = "0,10",
 			["Knittz-Whitemane"] = "63,10",
-			["Shanqi-Whitemane"] = "0,10",
 			["Flamingheart-Whitemane"] = "0,10",
 			["Chengxuyuan-Whitemane"] = "218,76",
 			["Asso-Whitemane"] = "0,10",
@@ -19696,11 +19696,11 @@ CEPGP = {
 			["Lass-Whitemane"] = "315,50",
 			["Tencent-Whitemane"] = "0,10",
 			["Kksuper-Whitemane"] = "228,99",
-			["Valdeslr-Whitemane"] = "0,10",
+			["Shanqi-Whitemane"] = "0,10",
 			["Docham-Whitemane"] = "0,10",
 			["Tongbutong-Whitemane"] = "0,10",
 			["Screwdoor-Whitemane"] = "0,10",
-			["Batchat-Whitemane"] = "0,10",
+			["Madaoo-Whitemane"] = "347,64",
 			["Duckson-Whitemane"] = "0,10",
 			["Greath-Whitemane"] = "223,123",
 			["Larianna-Whitemane"] = "0,10",
@@ -20112,10 +20112,10 @@ CEPGP = {
 			["Lightoff-Whitemane"] = "0,10",
 			["Aprïl-Whitemane"] = "0,10",
 			["Yiqilnoue-Whitemane"] = "0,10",
-			["Workingdad-Whitemane"] = "0,10",
+			["Xiaoshuaige-Whitemane"] = "0,10",
 			["Effigon-Whitemane"] = "0,10",
 			["Aùgúst-Whitemane"] = "0,10",
-			["Letme-Whitemane"] = "0,10",
+			["Workingdad-Whitemane"] = "0,10",
 			["Yoloda-Whitemane"] = "0,10",
 			["Hairwetdontc-Whitemane"] = "333,137",
 			["Moonhare-Whitemane"] = "0,10",
@@ -20347,7 +20347,7 @@ CEPGP = {
 			["Balabala-Whitemane"] = "0,10",
 			["Junosorcerer-Whitemane"] = "0,10",
 			["Agoblin-Whitemane"] = "0,10",
-			["Xiaoshuaige-Whitemane"] = "0,10",
+			["Letme-Whitemane"] = "0,10",
 			["Huizz-Whitemane"] = "0,10",
 			["Warlockdaddy-Whitemane"] = "239,34",
 			["Jimmybug-Whitemane"] = "295,107",
@@ -20826,8 +20826,8 @@ CEPGP = {
 			["Luunna-Whitemane"] = "42,15",
 			["Bengbengcha-Whitemane"] = "0,10",
 			["Xiongtu-Whitemane"] = "0,10",
+			["Valdeslr-Whitemane"] = "0,10",
 			["Knittz-Whitemane"] = "50,10",
-			["Shanqi-Whitemane"] = "0,10",
 			["Darkages-Whitemane"] = "40,10",
 			["Granittee-Whitemane"] = "22,10",
 			["Asso-Whitemane"] = "0,10",
@@ -20913,7 +20913,7 @@ CEPGP = {
 			["Docham-Whitemane"] = "0,10",
 			["Tongbutong-Whitemane"] = "0,10",
 			["Diabol-Whitemane"] = "0,10",
-			["Valdeslr-Whitemane"] = "0,10",
+			["Shanqi-Whitemane"] = "0,10",
 			["Lastsummer-Whitemane"] = "125,47",
 			["Greath-Whitemane"] = "244,175",
 			["Greatflood-Whitemane"] = "0,10",
@@ -20975,7 +20975,7 @@ CEPGP = {
 }
 CHANNEL = "Guild"
 CEPGP_lootChannel = "Raid"
-COEF = 20
+COEF = 5
 MOD_COEF = 1
 MOD = 1
 AUTOEP = {
@@ -21010,19 +21010,19 @@ AUTOEP = {
 	["The Silithid Royalty"] = true,
 	["Ayamiss the Hunter"] = false,
 	["Ebonroc"] = true,
-	["Azuregos"] = true,
+	["Gluth"] = false,
 	["Heigan the Unclean"] = false,
 	["Onyxia"] = true,
 	["Doom Lord Kazzak"] = true,
-	["High Priestess Arlokk"] = false,
+	["Gahz'ranka"] = false,
 	["Baron Geddon"] = true,
 	["Sulfuron Harbinger"] = true,
 	["Gri'lek"] = true,
-	["Ouro"] = false,
-	["Jin'do the Hexxer"] = false,
 	["The Twin Emperors"] = true,
-	["Gahz'ranka"] = false,
-	["Bloodlord Mandokir"] = false,
+	["Jin'do the Hexxer"] = false,
+	["Azuregos"] = true,
+	["Renataki"] = true,
+	["Ouro"] = false,
 	["Sapphiron"] = false,
 	["Emeriss"] = true,
 	["Shazzrah"] = true,
@@ -21047,8 +21047,8 @@ AUTOEP = {
 	["Razorgore the Untamed"] = true,
 	["Magmadar"] = true,
 	["Patchwerk"] = false,
-	["Renataki"] = true,
-	["Gluth"] = false,
+	["High Priestess Arlokk"] = false,
+	["Bloodlord Mandokir"] = false,
 	["Chromaggus"] = true,
 	["Garr"] = false,
 }
@@ -21084,19 +21084,19 @@ EPVALS = {
 	["The Silithid Royalty"] = 10,
 	["Ayamiss the Hunter"] = 3,
 	["Ebonroc"] = 3,
-	["Azuregos"] = 7,
+	["Gluth"] = 12,
 	["Heigan the Unclean"] = 12,
 	["Onyxia"] = 1,
 	["Doom Lord Kazzak"] = 7,
-	["High Priestess Arlokk"] = 2,
+	["Gahz'ranka"] = 2,
 	["Baron Geddon"] = 1,
 	["Sulfuron Harbinger"] = 1,
 	["Gri'lek"] = 2,
-	["Ouro"] = 10,
-	["Jin'do the Hexxer"] = 2,
 	["The Twin Emperors"] = 10,
-	["Gahz'ranka"] = 2,
-	["Bloodlord Mandokir"] = 2,
+	["Jin'do the Hexxer"] = 2,
+	["Azuregos"] = 7,
+	["Renataki"] = 2,
+	["Ouro"] = 10,
 	["Sapphiron"] = 15,
 	["Emeriss"] = 7,
 	["Shazzrah"] = 1,
@@ -21121,8 +21121,8 @@ EPVALS = {
 	["Razorgore the Untamed"] = 3,
 	["Magmadar"] = 1,
 	["Patchwerk"] = 12,
-	["Renataki"] = 2,
-	["Gluth"] = 12,
+	["High Priestess Arlokk"] = 2,
+	["Bloodlord Mandokir"] = 2,
 	["Chromaggus"] = 3,
 	["Garr"] = 1,
 }
@@ -21450,14 +21450,14 @@ RECORDS = {
 		["Diabols-Whitemane"] = "0,10",
 		["Polarnight-Whitemane"] = "0,10",
 		["Coyicoyi-Whitemane"] = "0,10",
-		["Valdeslr-Whitemane"] = "0,10",
+		["Shanqi-Whitemane"] = "0,10",
 		["Susubucirou-Whitemane"] = "0,10",
 		["Xiaxia-Whitemane"] = "0,10",
 		["Madaoo-Whitemane"] = "192,61",
 		["Gugu-Whitemane"] = "0,10",
 		["Greatflood-Whitemane"] = "0,10",
 		["Calathes-Whitemane"] = "0,10",
-		["Knittz-Whitemane"] = "22,10",
+		["Valdeslr-Whitemane"] = "0,10",
 		["Yourlife-Whitemane"] = "18,15",
 		["Sgtm-Whitemane"] = "0,10",
 		["Angertp-Whitemane"] = "0,10",
@@ -21467,11 +21467,11 @@ RECORDS = {
 		["Luunna-Whitemane"] = "219,126",
 		["Bengbengcha-Whitemane"] = "0,10",
 		["Xiongtu-Whitemane"] = "0,10",
-		["Jucyboi-Whitemane"] = "0,10",
-		["Shanqi-Whitemane"] = "0,10",
+		["Vinitus-Whitemane"] = "0,10",
+		["Knittz-Whitemane"] = "22,10",
 		["Booyah-Whitemane"] = "146,90",
 		["Sèptëmbér-Whitemane"] = "0,10",
-		["Savannaah-Whitemane"] = "0,10",
+		["Asso-Whitemane"] = "0,10",
 		["Grouchygroom-Whitemane"] = "398,78",
 		["Papafrank-Whitemane"] = "0,10",
 		["Skeletank-Whitemane"] = "216,43",
@@ -21553,8 +21553,8 @@ RECORDS = {
 		["Erickahume-Whitemane"] = "0,10",
 		["Docham-Whitemane"] = "0,10",
 		["Tongbutong-Whitemane"] = "0,10",
-		["Asso-Whitemane"] = "0,10",
-		["Vinitus-Whitemane"] = "0,10",
+		["Savannaah-Whitemane"] = "0,10",
+		["Jucyboi-Whitemane"] = "0,10",
 		["Panbie-Whitemane"] = "0,10",
 		["Batchat-Whitemane"] = "0,10",
 		["Pikapikaq-Whitemane"] = "0,10",
@@ -47293,6 +47293,1800 @@ TRAFFIC = {
 		"1590732249", -- [10]
 		"1592089801.545", -- [11]
 	}, -- [2274]
+	{
+		"Guild", -- [1]
+		"Gokuclose", -- [2]
+		"Decayed EPGP -10% (20_06_04 decay)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591320337, -- [9]
+		1591610537.6, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2275]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +3 - Razorgore the Untamed", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591322483, -- [9]
+		1591614829.38, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2276]
+	{
+		"Zhanan", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		348, -- [4]
+		348, -- [5]
+		153, -- [6]
+		173, -- [7]
+		"|cffa335ee|Hitem:16934:::::::::::::|h[Nemesis Bracers]|h|r", -- [8]
+		1591322527, -- [9]
+		1591614917.897, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2277]
+	{
+		"Pigecha", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		182, -- [4]
+		182, -- [5]
+		182, -- [6]
+		202, -- [7]
+		"|cffa335ee|Hitem:16943:::::::::::::|h[Bracers of Ten Storms]|h|r", -- [8]
+		1591322549, -- [9]
+		1591614961.727, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2278]
+	{
+		"Agoblin", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 0 (Full Price)", -- [3]
+		66, -- [4]
+		66, -- [5]
+		28, -- [6]
+		28, -- [7]
+		"|cffa335ee|Hitem:19336:::::::::::::|h[Arcane Infused Gem]|h|r", -- [8]
+		1591322581, -- [9]
+		1591615025.634, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2279]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +3 - Vaelastrasz the Corrupt", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591322991, -- [9]
+		1591615845.378, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2280]
+	{
+		"Yatanana", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		132, -- [4]
+		132, -- [5]
+		73, -- [6]
+		93, -- [7]
+		"|cffa335ee|Hitem:16910:::::::::::::|h[Bloodfang Belt]|h|r", -- [8]
+		1591323048, -- [9]
+		1591615959.437, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2281]
+	{
+		"Tuyi", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		151, -- [4]
+		151, -- [5]
+		58, -- [6]
+		78, -- [7]
+		"|cffa335ee|Hitem:16818:::::::::::::|h[Netherwind Belt]|h|r", -- [8]
+		1591323072, -- [9]
+		1591616008.09, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2282]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:19340:::::::::::::|h[Rune of Metamorphosis]|h|r", -- [8]
+		1591323106, -- [9]
+		1591616075.67, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2283]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +3 - Broodlord Lashlayer", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591324326, -- [9]
+		1591618516.027, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2284]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:19341:::::::::::::|h[Lifegiving Gem]|h|r", -- [8]
+		1591324359, -- [9]
+		1591618581.43, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2285]
+	{
+		"Tuyi", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		154, -- [4]
+		154, -- [5]
+		78, -- [6]
+		98, -- [7]
+		"|cffa335ee|Hitem:16912:::::::::::::|h[Netherwind Boots]|h|r", -- [8]
+		1591324379, -- [9]
+		1591618622.036, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2286]
+	{
+		"Toxiccow", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		72, -- [4]
+		72, -- [5]
+		43, -- [6]
+		63, -- [7]
+		"|cffa335ee|Hitem:16949:::::::::::::|h[Greaves of Ten Storms]|h|r", -- [8]
+		1591324394, -- [9]
+		1591618651.601, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2287]
+	{
+		"Sleepywayge", -- [1]
+		"Gokuclose", -- [2]
+		"Subtract EP -6 (afk)", -- [3]
+		333, -- [4]
+		327, -- [5]
+		171, -- [6]
+		171, -- [7]
+		"", -- [8]
+		1591324508, -- [9]
+		1591618879.944, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2288]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +3 - Firemaw", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591324935, -- [9]
+		1591619733.537, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2289]
+	{
+		"Booyah", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		150, -- [4]
+		150, -- [5]
+		90, -- [6]
+		110, -- [7]
+		"|cffa335ee|Hitem:16907:::::::::::::|h[Bloodfang Gloves]|h|r", -- [8]
+		1591324990, -- [9]
+		1591619843.395, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2290]
+	{
+		"Sleepywayge", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 4 (gp20)", -- [3]
+		330, -- [4]
+		330, -- [5]
+		171, -- [6]
+		175, -- [7]
+		"|cffa335ee|Hitem:19399:::::::::::::|h[Black Ash Robe]|h|r", -- [8]
+		1591325026, -- [9]
+		1591619915.406, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2291]
+	{
+		"Booyah", -- [1]
+		"Gokuclose", -- [2]
+		"Subtract GP -20 (t2 hand)", -- [3]
+		150, -- [4]
+		150, -- [5]
+		110, -- [6]
+		90, -- [7]
+		"", -- [8]
+		1591325833, -- [9]
+		1591621529.579, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2292]
+	{
+		"Yatanana", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP +20 (t2 hand)", -- [3]
+		138, -- [4]
+		138, -- [5]
+		93, -- [6]
+		113, -- [7]
+		"", -- [8]
+		1591325840, -- [9]
+		1591621543.999, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2293]
+	{
+		"Yatanana", -- [1]
+		"Gokuclose", -- [2]
+		"Subtract GP -5 (t2 hand)", -- [3]
+		138, -- [4]
+		138, -- [5]
+		113, -- [6]
+		108, -- [7]
+		"", -- [8]
+		1591326049, -- [9]
+		1591621961.949, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2294]
+	{
+		"Yatanana", -- [1]
+		"Gokuclose", -- [2]
+		"Subtract GP -5 (t2 yaodai)", -- [3]
+		138, -- [4]
+		138, -- [5]
+		108, -- [6]
+		103, -- [7]
+		"", -- [8]
+		1591326060, -- [9]
+		1591621983.207, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2295]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +3 - Ebonroc", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591326290, -- [9]
+		1591622444.064, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2296]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16913:::::::::::::|h[Netherwind Gloves]|h|r", -- [8]
+		1591326333, -- [9]
+		1591622529.481, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2297]
+	{
+		"Xiaoguangtou", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 40 (Full Price)", -- [3]
+		337, -- [4]
+		337, -- [5]
+		57, -- [6]
+		97, -- [7]
+		"|cffa335ee|Hitem:19403:::::::::::::|h[Band of Forced Concentration]|h|r", -- [8]
+		1591326375, -- [9]
+		1591622613.586, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2298]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +3 - Flamegor", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591326510, -- [9]
+		1591622883.846, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2299]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16899:::::::::::::|h[Stormrage Handguards]|h|r", -- [8]
+		1591326552, -- [9]
+		1591622967.475, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2300]
+	{
+		"Zhanan", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 16 (gp80)", -- [3]
+		363, -- [4]
+		363, -- [5]
+		173, -- [6]
+		189, -- [7]
+		"|cffa335ee|Hitem:19367:::::::::::::|h[Dragon's Touch]|h|r", -- [8]
+		1591326580, -- [9]
+		1591623023.781, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2301]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +3 - Chromaggus", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591327133, -- [9]
+		1591624129.229, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2302]
+	{
+		"Frozenj", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		353, -- [4]
+		353, -- [5]
+		118, -- [6]
+		138, -- [7]
+		"|cffa335ee|Hitem:16917:::::::::::::|h[Netherwind Mantle]|h|r", -- [8]
+		1591327162, -- [9]
+		1591624187.764, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2303]
+	{
+		"Toxiccow", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		84, -- [4]
+		84, -- [5]
+		63, -- [6]
+		83, -- [7]
+		"|cffa335ee|Hitem:16945:::::::::::::|h[Epaulets of Ten Storms]|h|r", -- [8]
+		1591327180, -- [9]
+		1591624223.661, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2304]
+	{
+		"Frozenj", -- [1]
+		"Gokuclose", -- [2]
+		"Subtract GP -5 (t2 shoulder)", -- [3]
+		353, -- [4]
+		353, -- [5]
+		138, -- [6]
+		133, -- [7]
+		"", -- [8]
+		1591327193, -- [9]
+		1591624249.404, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2305]
+	{
+		"Gwokgwok", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 60 (Full Price)", -- [3]
+		378, -- [4]
+		378, -- [5]
+		96, -- [6]
+		156, -- [7]
+		"|cffa335ee|Hitem:19387:::::::::::::|h[Chromatic Boots]|h|r", -- [8]
+		1591327229, -- [9]
+		1591624321.648, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2306]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:19386:::::::::::::|h[Elementium Threaded Cloak]|h|r", -- [8]
+		1591327259, -- [9]
+		1591624382.002, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2307]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +5 - Nefarian", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591328271, -- [9]
+		1591626405.755, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2308]
+	{
+		"Chaospower", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 120 (Full Price)", -- [3]
+		305, -- [4]
+		305, -- [5]
+		81, -- [6]
+		201, -- [7]
+		"|cffa335ee|Hitem:19364:::::::::::::|h[Ashkandi, Greatsword of the Brotherhood]|h|r", -- [8]
+		1591328304, -- [9]
+		1591626471.398, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2309]
+	{
+		"Grouchygroom", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 60 (Full Price)", -- [3]
+		386, -- [4]
+		386, -- [5]
+		63, -- [6]
+		123, -- [7]
+		"|cffa335ee|Hitem:19375:::::::::::::|h[Mish'undare, Circlet of the Mind Flayer]|h|r", -- [8]
+		1591328340, -- [9]
+		1591626543.782, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2310]
+	{
+		"Zhanan", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 40 (Full Price)", -- [3]
+		371, -- [4]
+		371, -- [5]
+		189, -- [6]
+		229, -- [7]
+		"|cffa335ee|Hitem:19002:::::::::::::|h[Head of Nefarian]|h|r", -- [8]
+		1591328394, -- [9]
+		1591626651.174, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2311]
+	{
+		"Yatanana", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		152, -- [4]
+		152, -- [5]
+		103, -- [6]
+		123, -- [7]
+		"|cffa335ee|Hitem:16905:::::::::::::|h[Bloodfang Chestpiece]|h|r", -- [8]
+		1591328410, -- [9]
+		1591626683.335, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2312]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16931:::::::::::::|h[Nemesis Robes]|h|r", -- [8]
+		1591328431, -- [9]
+		1591626725.385, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2313]
+	{
+		"Zhanan", -- [1]
+		"Gokuclose", -- [2]
+		"Subtract GP -5 (t2 shouwan)", -- [3]
+		371, -- [4]
+		371, -- [5]
+		229, -- [6]
+		224, -- [7]
+		"", -- [8]
+		1591333412, -- [9]
+		1591636687.773, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2314]
+	{
+		"Agoblin", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP +25 (3*t1 + xunji)", -- [3]
+		89, -- [4]
+		89, -- [5]
+		28, -- [6]
+		53, -- [7]
+		"", -- [8]
+		1591333627, -- [9]
+		1591637117.472, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2315]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +6 (mc)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591333793, -- [9]
+		1591637449.738, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2316]
+	{
+		"Babiefat", -- [1]
+		"Gokuclose", -- [2]
+		"Subtract EP -5 (mc)", -- [3]
+		349, -- [4]
+		344, -- [5]
+		163, -- [6]
+		163, -- [7]
+		"", -- [8]
+		1591333812, -- [9]
+		1591637487.211, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2317]
+	{
+		"Gokuclose", -- [1]
+		"Gokuclose", -- [2]
+		"Subtract EP -5 (mc)", -- [3]
+		77, -- [4]
+		72, -- [5]
+		153, -- [6]
+		153, -- [7]
+		"", -- [8]
+		1591333816, -- [9]
+		1591637495.928, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2318]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +3 (jiesan)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591333926, -- [9]
+		1591637715.607, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2319]
+	{
+		"Moneyu", -- [1]
+		"Gokuclose", -- [2]
+		"Add EP +3 (jiesan)", -- [3]
+		291, -- [4]
+		294, -- [5]
+		80, -- [6]
+		80, -- [7]
+		"", -- [8]
+		1591333933, -- [9]
+		1591637729.56, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2320]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16851:::::::::::::|h[Giantstalker's Belt]|h|r", -- [8]
+		1591333985, -- [9]
+		1591637833.167, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2321]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +1 - Sulfuron Harbinger", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591334197, -- [9]
+		1591638257.394, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2322]
+	{
+		"Agoblin", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		99, -- [4]
+		99, -- [5]
+		53, -- [6]
+		58, -- [7]
+		"|cffa335ee|Hitem:16848:::::::::::::|h[Giantstalker's Epaulets]|h|r", -- [8]
+		1591334212, -- [9]
+		1591638287.848, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2323]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16823:::::::::::::|h[Nightslayer Shoulder Pads]|h|r", -- [8]
+		1591334241, -- [9]
+		1591638345.148, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2324]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +1 - Golemagg the Incinerator", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591334814, -- [9]
+		1591639491.277, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2325]
+	{
+		"Deathcheater", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		328, -- [4]
+		328, -- [5]
+		115, -- [6]
+		120, -- [7]
+		"|cffa335ee|Hitem:17072:::::::::::::|h[Blastershot Launcher]|h|r", -- [8]
+		1591334975, -- [9]
+		1591639813.532, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2326]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16833:::::::::::::|h[Cenarion Vestments]|h|r", -- [8]
+		1591334999, -- [9]
+		1591639861.823, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2327]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16809:::::::::::::|h[Felheart Robes]|h|r", -- [8]
+		1591335017, -- [9]
+		1591639897.658, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2328]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +1 - Majordomo Executus", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591335351, -- [9]
+		1591640565.313, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2329]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:18812:::::::::::::|h[Wristguards of True Flight]|h|r", -- [8]
+		1591335409, -- [9]
+		1591640682.024, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2330]
+	{
+		"Deathcheater", -- [1]
+		"Gokuclose", -- [2]
+		"Subtract GP -5 (baojilieqiang)", -- [3]
+		329, -- [4]
+		329, -- [5]
+		120, -- [6]
+		115, -- [7]
+		"", -- [8]
+		1591335424, -- [9]
+		1591640711.916, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2331]
+	{
+		"Saveuras", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP +5 (baojilieqiang)", -- [3]
+		181, -- [4]
+		181, -- [5]
+		85, -- [6]
+		90, -- [7]
+		"", -- [8]
+		1591335464, -- [9]
+		1591640791.312, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2332]
+	{
+		"Chaospower", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP +5 (zhenlong huwan)", -- [3]
+		317, -- [4]
+		317, -- [5]
+		201, -- [6]
+		206, -- [7]
+		"", -- [8]
+		1591335483, -- [9]
+		1591640829.843, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2333]
+	{
+		"Raid", -- [1]
+		"Gokuclose", -- [2]
+		"Add Raid EP +1 - Ragnaros", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591335939, -- [9]
+		1591641741.823, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2334]
+	{
+		"Fishsheep", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 10 (Full Price)", -- [3]
+		370, -- [4]
+		370, -- [5]
+		96, -- [6]
+		106, -- [7]
+		"|cffa335ee|Hitem:18814:::::::::::::|h[Choker of the Fire Lord]|h|r", -- [8]
+		1591336000, -- [9]
+		1591641864.037, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2335]
+	{
+		"Tinaer", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 10 (Full Price)", -- [3]
+		202, -- [4]
+		202, -- [5]
+		25, -- [6]
+		35, -- [7]
+		"|cffa335ee|Hitem:17063:::::::::::::|h[Band of Accuria]|h|r", -- [8]
+		1591336025, -- [9]
+		1591641913.336, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2336]
+	{
+		"Yatanana", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 10 (Full Price)", -- [3]
+		165, -- [4]
+		165, -- [5]
+		123, -- [6]
+		133, -- [7]
+		"|cffa335ee|Hitem:16909:::::::::::::|h[Bloodfang Pants]|h|r", -- [8]
+		1591336045, -- [9]
+		1591641953.17, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2337]
+	{
+		"", -- [1]
+		"Gokuclose", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16946:::::::::::::|h[Legplates of Ten Storms]|h|r", -- [8]
+		1591336069, -- [9]
+		1591642001.48, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2338]
+	{
+		"Saveuras", -- [1]
+		"Gokuclose", -- [2]
+		"Add GP 50 (Full Price)", -- [3]
+		182, -- [4]
+		182, -- [5]
+		90, -- [6]
+		140, -- [7]
+		"|cffff8000|Hitem:17204:::::::::::::|h[Eye of Sulfuras]|h|r", -- [8]
+		1591336204, -- [9]
+		1591642271.569, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2339]
+	{
+		"Babiefat", -- [1]
+		"Gokuclose", -- [2]
+		"Add EP +17 (tibu)", -- [3]
+		351, -- [4]
+		368, -- [5]
+		163, -- [6]
+		163, -- [7]
+		"", -- [8]
+		1591336316, -- [9]
+		1591642495.489, -- [10]
+		"Player-4395-01416513", -- [11]
+	}, -- [2340]
+	{
+		"Guild", -- [1]
+		"Titanhecate", -- [2]
+		"Decayed EPGP -10% (20_06_11 decay)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591923086, -- [9]
+		1591927348.965, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2341]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 (jihe)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591926535, -- [9]
+		1591934246.954, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2342]
+	{
+		"Noeita", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract EP -3 (jihe(buzai))", -- [3]
+		332, -- [4]
+		329, -- [5]
+		141, -- [6]
+		141, -- [7]
+		"", -- [8]
+		1591926547, -- [9]
+		1591934271.452, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2343]
+	{
+		"Toxiccow", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract EP -3 (jihe(buzai))", -- [3]
+		94, -- [4]
+		91, -- [5]
+		74, -- [6]
+		74, -- [7]
+		"", -- [8]
+		1591926554, -- [9]
+		1591934285, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2344]
+	{
+		"Fishsheep", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract EP -3 (jihe(buzai))", -- [3]
+		336, -- [4]
+		333, -- [5]
+		95, -- [6]
+		95, -- [7]
+		"", -- [8]
+		1591926581, -- [9]
+		1591934338.891, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2345]
+	{
+		"Tuyi", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +15 (t2(huwan))", -- [3]
+		168, -- [4]
+		168, -- [5]
+		88, -- [6]
+		103, -- [7]
+		"", -- [8]
+		1591927895, -- [9]
+		1591936967.779, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2346]
+	{
+		"Saveuras", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +15 (t2(huwan))", -- [3]
+		166, -- [4]
+		166, -- [5]
+		126, -- [6]
+		141, -- [7]
+		"", -- [8]
+		1591927938, -- [9]
+		1591937053.457, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2347]
+	{
+		"Cityhunter", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +15 (t2(yaodai))", -- [3]
+		348, -- [4]
+		348, -- [5]
+		30, -- [6]
+		45, -- [7]
+		"", -- [8]
+		1591929366, -- [9]
+		1591939909.587, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2348]
+	{
+		"Doublefat", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +40 (feilong pifeng)", -- [3]
+		264, -- [4]
+		264, -- [5]
+		136, -- [6]
+		176, -- [7]
+		"", -- [8]
+		1591929684, -- [9]
+		1591940545.589, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2349]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Broodlord Lashlayer", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591930645, -- [9]
+		1591942466.897, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2350]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16927:::::::::::::|h[Nemesis Boots]|h|r", -- [8]
+		1591930678, -- [9]
+		1591942533.149, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2351]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16949:::::::::::::|h[Greaves of Ten Storms]|h|r", -- [8]
+		1591930696, -- [9]
+		1591942569.786, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2352]
+	{
+		"Grankain", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 0 (Full Price)", -- [3]
+		361, -- [4]
+		361, -- [5]
+		64, -- [6]
+		64, -- [7]
+		"|cffa335ee|Hitem:19341:::::::::::::|h[Lifegiving Gem]|h|r", -- [8]
+		1591930708, -- [9]
+		1591942593.126, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2353]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Firemaw", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591931268, -- [9]
+		1591943713.189, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2354]
+	{
+		"Gwokgwok", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		365, -- [4]
+		365, -- [5]
+		140, -- [6]
+		160, -- [7]
+		"|cffa335ee|Hitem:16964:::::::::::::|h[Gauntlets of Wrath]|h|r", -- [8]
+		1591931305, -- [9]
+		1591943787.086, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2355]
+	{
+		"Tuyi", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		174, -- [4]
+		174, -- [5]
+		103, -- [6]
+		123, -- [7]
+		"|cffa335ee|Hitem:19400:::::::::::::|h[Firemaw's Clutch]|h|r", -- [8]
+		1591931338, -- [9]
+		1591943852.941, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2356]
+	{
+		"Gwokgwok", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract GP -5 (t2 hand)", -- [3]
+		365, -- [4]
+		365, -- [5]
+		160, -- [6]
+		155, -- [7]
+		"", -- [8]
+		1591931359, -- [9]
+		1591943895.391, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2357]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Ebonroc", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591932471, -- [9]
+		1591946118.908, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2358]
+	{
+		"Tarli", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		333, -- [4]
+		333, -- [5]
+		178, -- [6]
+		198, -- [7]
+		"|cffa335ee|Hitem:16964:::::::::::::|h[Gauntlets of Wrath]|h|r", -- [8]
+		1591932505, -- [9]
+		1591946187.802, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2359]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:19345:::::::::::::|h[Aegis of Preservation]|h|r", -- [8]
+		1591932572, -- [9]
+		1591946321.26, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2360]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Flamegor", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591932745, -- [9]
+		1591946667.216, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2361]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16899:::::::::::::|h[Stormrage Handguards]|h|r", -- [8]
+		1591932779, -- [9]
+		1591946735.235, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2362]
+	{
+		"Saveuras", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 40 (Full Price)", -- [3]
+		178, -- [4]
+		178, -- [5]
+		141, -- [6]
+		181, -- [7]
+		"|cffa335ee|Hitem:19431:::::::::::::|h[Styleen's Impeding Scarab]|h|r", -- [8]
+		1591932804, -- [9]
+		1591946785.317, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2363]
+	{
+		"Tarli", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract GP -20 (t2 hand)", -- [3]
+		336, -- [4]
+		336, -- [5]
+		198, -- [6]
+		178, -- [7]
+		"", -- [8]
+		1591932852, -- [9]
+		1591946881.395, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2364]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:19439:::::::::::::|h[Interlaced Shadow Jerkin]|h|r", -- [8]
+		1591932962, -- [9]
+		1591947101.175, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2365]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 - Chromaggus", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591933344, -- [9]
+		1591947865.524, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2366]
+	{
+		"Miomioo", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 120 (Full Price)", -- [3]
+		330, -- [4]
+		330, -- [5]
+		97, -- [6]
+		217, -- [7]
+		"|cffa335ee|Hitem:19352:::::::::::::|h[Chromatically Tempered Sword]|h|r", -- [8]
+		1591933385, -- [9]
+		1591947947.331, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2367]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16945:::::::::::::|h[Epaulets of Ten Storms]|h|r", -- [8]
+		1591933411, -- [9]
+		1591947999.224, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2368]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16932:::::::::::::|h[Nemesis Spaulders]|h|r", -- [8]
+		1591933458, -- [9]
+		1591948093.206, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2369]
+	{
+		"Pigecha", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 4 (gp20)", -- [3]
+		214, -- [4]
+		214, -- [5]
+		181, -- [6]
+		185, -- [7]
+		"|cffa335ee|Hitem:19393:::::::::::::|h[Primalist's Linked Waistguard]|h|r", -- [8]
+		1591933503, -- [9]
+		1591948183.506, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2370]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +5 - Nefarian", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591934456, -- [9]
+		1591950089.504, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2371]
+	{
+		"Yiyibaby", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 60 (Full Price)", -- [3]
+		309, -- [4]
+		309, -- [5]
+		56, -- [6]
+		116, -- [7]
+		"|cffa335ee|Hitem:19382:::::::::::::|h[Pure Elementium Band]|h|r", -- [8]
+		1591934512, -- [9]
+		1591950201.74, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2372]
+	{
+		"Yatanana", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 40 (Full Price)", -- [3]
+		171, -- [4]
+		171, -- [5]
+		119, -- [6]
+		159, -- [7]
+		"|cffa335ee|Hitem:19002:::::::::::::|h[Head of Nefarian]|h|r", -- [8]
+		1591934534, -- [9]
+		1591950245.612, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2373]
+	{
+		"Wannister", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		367, -- [4]
+		367, -- [5]
+		140, -- [6]
+		160, -- [7]
+		"|cffa335ee|Hitem:16942:::::::::::::|h[Dragonstalker's Breastplate]|h|r", -- [8]
+		1591934554, -- [9]
+		1591950285.024, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2374]
+	{
+		"Niubility", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		178, -- [4]
+		178, -- [5]
+		70, -- [6]
+		90, -- [7]
+		"|cffa335ee|Hitem:16897:::::::::::::|h[Stormrage Chestguard]|h|r", -- [8]
+		1591934584, -- [9]
+		1591950344.984, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2375]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:19376:::::::::::::|h[Archimtiros' Ring of Reckoning]|h|r", -- [8]
+		1591934616, -- [9]
+		1591950409.745, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2376]
+	{
+		"Niubility", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract GP -5 (t2 chest)", -- [3]
+		178, -- [4]
+		178, -- [5]
+		90, -- [6]
+		85, -- [7]
+		"", -- [8]
+		1591934671, -- [9]
+		1591950519.083, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2377]
+	{
+		"Wannister", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract GP -5 (t2 chest)", -- [3]
+		367, -- [4]
+		367, -- [5]
+		160, -- [6]
+		155, -- [7]
+		"", -- [8]
+		1591934680, -- [9]
+		1591950537.535, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2378]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Lucifron", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591936368, -- [9]
+		1591953913.162, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2379]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:17109:::::::::::::|h[Choker of Enlightenment]|h|r", -- [8]
+		1591936397, -- [9]
+		1591953971.741, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2380]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:18872:::::::::::::|h[Manastorm Leggings]|h|r", -- [8]
+		1591936409, -- [9]
+		1591953995.48, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2381]
+	{
+		"Titanhecate", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +10 (choker of)", -- [3]
+		253, -- [4]
+		253, -- [5]
+		32, -- [6]
+		42, -- [7]
+		"", -- [8]
+		1591936479, -- [9]
+		1591954135.878, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2382]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Magmadar", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591936734, -- [9]
+		1591954645.635, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2383]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16835:::::::::::::|h[Cenarion Leggings]|h|r", -- [8]
+		1591936768, -- [9]
+		1591954712.991, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2384]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Gehennas", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591937341, -- [9]
+		1591955859.563, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2385]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16826:::::::::::::|h[Nightslayer Gloves]|h|r", -- [8]
+		1591937379, -- [9]
+		1591955935.367, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2386]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:18823:::::::::::::|h[Aged Core Leather Gloves]|h|r", -- [8]
+		1591938051, -- [9]
+		1591957279.46, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2387]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:17066:::::::::::::|h[Drillborer Disk]|h|r", -- [8]
+		1591938083, -- [9]
+		1591957343.353, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2388]
+	{
+		"Deathcheater", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 5 (Full Price)", -- [3]
+		323, -- [4]
+		323, -- [5]
+		103, -- [6]
+		108, -- [7]
+		"|cffa335ee|Hitem:16821:::::::::::::|h[Nightslayer Cover]|h|r", -- [8]
+		1591938105, -- [9]
+		1591957387.569, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2389]
+	{
+		"Deathcheater", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract GP -5 (t1 head)", -- [3]
+		323, -- [4]
+		323, -- [5]
+		108, -- [6]
+		103, -- [7]
+		"", -- [8]
+		1591938121, -- [9]
+		1591957419.634, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2390]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +3 (jiesan)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591938180, -- [9]
+		1591957537.422, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2391]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Baron Geddon", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591938543, -- [9]
+		1591958263.348, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2392]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:18829:::::::::::::|h[Deep Earth Spaulders]|h|r", -- [8]
+		1591938593, -- [9]
+		1591958363.495, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2393]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Shazzrah", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591939069, -- [9]
+		1591959315.869, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2394]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16852:::::::::::::|h[Giantstalker's Gloves]|h|r", -- [8]
+		1591939112, -- [9]
+		1591959400.996, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2395]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 (boss 4)", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591939223, -- [9]
+		1591959623.686, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2396]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Sulfuron Harbinger", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591939729, -- [9]
+		1591960635.552, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2397]
+	{
+		"Fishsheep", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 10 (Full Price)", -- [3]
+		363, -- [4]
+		363, -- [5]
+		95, -- [6]
+		105, -- [7]
+		"|cffa335ee|Hitem:19147:::::::::::::|h[Ring of Spell Power]|h|r", -- [8]
+		1591939768, -- [9]
+		1591960713.412, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2398]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16816:::::::::::::|h[Mantle of Prophecy]|h|r", -- [8]
+		1591939780, -- [9]
+		1591960737.151, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2399]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Golemagg the Incinerator", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591940135, -- [9]
+		1591961447.179, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2400]
+	{
+		"Huluwa", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 10 (Full Price)", -- [3]
+		185, -- [4]
+		185, -- [5]
+		51, -- [6]
+		61, -- [7]
+		"|cffa335ee|Hitem:18821:::::::::::::|h[Quick Strike Ring]|h|r", -- [8]
+		1591940199, -- [9]
+		1591961575.126, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2401]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16833:::::::::::::|h[Cenarion Vestments]|h|r", -- [8]
+		1591940216, -- [9]
+		1591961609.101, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2402]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Majordomo Executus", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591940518, -- [9]
+		1591962213.178, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2403]
+	{
+		"Cityhunter", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP 20 (Full Price)", -- [3]
+		380, -- [4]
+		380, -- [5]
+		45, -- [6]
+		65, -- [7]
+		"|cffa335ee|Hitem:18805:::::::::::::|h[Core Hound Tooth]|h|r", -- [8]
+		1591940573, -- [9]
+		1591962323.213, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2404]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:18810:::::::::::::|h[Wild Growth Spaulders]|h|r", -- [8]
+		1591940614, -- [9]
+		1591962404.989, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2405]
+	{
+		"Huluwa", -- [1]
+		"Titanhecate", -- [2]
+		"Subtract GP -10 (quick ring)", -- [3]
+		186, -- [4]
+		186, -- [5]
+		61, -- [6]
+		51, -- [7]
+		"", -- [8]
+		1591940874, -- [9]
+		1591962925.034, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2406]
+	{
+		"Biebibi", -- [1]
+		"Titanhecate", -- [2]
+		"Add GP +10 (quick ring)", -- [3]
+		386, -- [4]
+		386, -- [5]
+		150, -- [6]
+		160, -- [7]
+		"", -- [8]
+		1591940899, -- [9]
+		1591962975.398, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2407]
+	{
+		"Raid", -- [1]
+		"Titanhecate", -- [2]
+		"Add Raid EP +1 - Ragnaros", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"", -- [8]
+		1591941267, -- [9]
+		1591963711.076, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2408]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:19137:::::::::::::|h[Onslaught Girdle]|h|r", -- [8]
+		1591941309, -- [9]
+		1591963795.11, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2409]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16922:::::::::::::|h[Leggings of Transcendence]|h|r", -- [8]
+		1591941332, -- [9]
+		1591963841.114, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2410]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:16938:::::::::::::|h[Dragonstalker's Legguards]|h|r", -- [8]
+		1591941354, -- [9]
+		1591963885.697, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2411]
+	{
+		"", -- [1]
+		"Titanhecate", -- [2]
+		"Manually Awarded", -- [3]
+		"", -- [4]
+		"", -- [5]
+		"", -- [6]
+		"", -- [7]
+		"|cffa335ee|Hitem:18817:::::::::::::|h[Crown of Destruction]|h|r", -- [8]
+		1591941391, -- [9]
+		1591963959.112, -- [10]
+		"Player-4395-0067E2F0", -- [11]
+	}, -- [2412]
 }
 CEPGP_raid_logs = {
 }
