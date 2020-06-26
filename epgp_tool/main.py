@@ -1,13 +1,14 @@
 import utility
 
 team_2_fuhuizhang = ('Titanhecate', 'Gigihadid', 'Omarlittlee')
+team_2_level = ('二团老铁', '副会长','Requiem','会长','Leader','Officer','公会收人')
 
 
 def check_diff_within_week(baseline, current):
     data_baseline = utility.read_in_csv(baseline)
     data_current = utility.read_in_csv(current)
 
-    get_tuple = ('二团老铁', '副会长')  #
+    get_tuple = team_2_level
 
     # build data dictionary
     dict_baseline = utility.get_epgp_dict_by_level(data_baseline, get_tuple, team_2_fuhuizhang)
@@ -26,7 +27,7 @@ def check_diff_decay_week(baseline, current, decay):
     data_baseline = utility.read_in_csv(baseline)
     data_current = utility.read_in_csv(current)
 
-    get_tuple = ('二团老铁', '副会长')  #
+    get_tuple = team_2_level
 
     # build data dictionary
     dict_baseline = utility.get_epgp_dict_by_level(data_baseline, get_tuple, team_2_fuhuizhang)
@@ -58,7 +59,7 @@ def fix_decay_issue():
     data_pre_raid = utility.read_in_csv(pre_raid)
     data_post_raid = utility.read_in_csv(post_raid)
 
-    get_tuple = ('二团老铁', '副会长')  #
+    get_tuple = team_2_level #
 
     # build data dictionary
     dict_baseline = utility.get_epgp_dict_by_level(data_baseline, get_tuple, team_2_fuhuizhang)
@@ -79,7 +80,7 @@ def fix_decay_issue():
     print("n_diff: ", len(dict_week_diff), "diff: ", dict_week_diff)
     print("total should be: ", total)
 
-    # get pre-decay dict
+    # get pre-raid.txt dict
     dict_pre_decay = dict_baseline.copy()
     # give 02_10 epgp
     for name, epgp in dict_pre_decay.items():
@@ -143,7 +144,7 @@ def fix_epgp_within_week(baseline, current):
     data_baseline = utility.read_in_csv(baseline)
     data_current = utility.read_in_csv(current)
 
-    get_tuple = ('二团老铁', '副会长')  #
+    get_tuple = team_2_level
 
     # build data dictionary
     dict_baseline = utility.get_epgp_dict_by_level(data_baseline, get_tuple, team_2_fuhuizhang)
@@ -190,8 +191,12 @@ def fix_epgp_within_week(baseline, current):
 
 
 if __name__ == "__main__":
-    baseline_file = r"D:\python\ala_epgp\20_03_30 post.txt"
-    current_file = r"D:\python\ala_epgp\after_fix"
+    current_file = r"D:\python\ala_epgp\ala_new_epgp.txt"
+    baseline_file = r"D:\python\ala_epgp\pre-raid.txt"
+    #
+    # baseline_file = r"D:\python\ala_epgp\ala_new_epgp.txt"
+    # current_file = r"D:\python\ala_epgp\pre-decay.txt"
+
     check_diff_within_week(baseline_file, current_file)
     # check_diff_decay_week(baseline_file, current_file, 0.9)
     # out_text = fix_decay_issue()
