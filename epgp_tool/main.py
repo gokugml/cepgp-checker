@@ -1,10 +1,17 @@
 import utility
 
-team_2_fuhuizhang = ('Titanhecate', 'Gigihadid', 'Omarlittlee')
+team_2_fuhuizhang = ('Titanhecate', 'Gigihadid', 'Omarlittlee') # for SHARED_LEVEL in utility, get those member only
 team_2_level = ('二团老铁', '副会长','Requiem','会长','Leader','Officer','公会收人')
 
 
 def check_diff_within_week(baseline, current):
+    '''
+    Check epgp difference without scale (decay) to get difference
+
+    :param baseline:
+    :param current:
+    :return:
+    '''
     data_baseline = utility.read_in_csv(baseline)
     data_current = utility.read_in_csv(current)
 
@@ -24,6 +31,14 @@ def check_diff_within_week(baseline, current):
 
 
 def check_diff_decay_week(baseline, current, decay):
+    '''
+    Check epgp difference for decay purpose to verify decay issue
+
+    :param baseline:
+    :param current:
+    :param decay:
+    :return:
+    '''
     data_baseline = utility.read_in_csv(baseline)
     data_current = utility.read_in_csv(current)
 
@@ -191,11 +206,21 @@ def fix_epgp_within_week(baseline, current):
 
 
 if __name__ == "__main__":
-    current_file = r"D:\python\ala_epgp\ala_new_epgp.txt"
-    baseline_file = r"D:\python\ala_epgp\pre-raid.txt"
-    #
-    # baseline_file = r"D:\python\ala_epgp\ala_new_epgp.txt"
-    # current_file = r"D:\python\ala_epgp\pre-decay.txt"
+    '''
+    ala_new_epgp.txt: AFTER RAID final roster
+    pre-raid.txt: PRE RAID roster. in order to compare epgp change within raid
+    pre-mc.txt: if 2 raid within a day, use this file to check differences for each raid.
+    pre-decay.txt: pre-decay means final roster for previous week. decay means the starting point for next week. 
+    post-decay.txt: used for checking decay (fix bug purpose)
+    '''
+
+    # check epgp changes within raid
+    current_file = r"../ala_new_epgp.txt"
+    baseline_file = r"../pre-raid.txt"
+
+    # check epgp changes before decay (within week): "no change" is expected
+    # baseline_file = r"../ala_new_epgp.txt"
+    # current_file = r"../pre-decay.txt"
 
     check_diff_within_week(baseline_file, current_file)
     # check_diff_decay_week(baseline_file, current_file, 0.9)
