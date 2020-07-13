@@ -12,6 +12,14 @@ def read_in_csv(file_path, delimiter=','):
     return data_list
 
 
+def write_csv(data_list, output_file_path, delimiter=','):
+    with open(output_file_path, 'w') as csv_file:
+        csvwriter = csv.writer(csv_file, delimiter=delimiter)
+        csvwriter.writerows(data_list)
+        # for item in data_list:
+        #     csvwriter.writerow(s)
+
+
 def get_epgp_dict_by_level(cvs_data, tuple_get_level, tuple_member_in_shared_level=None):
     dict_res = {}
     for row in cvs_data:
@@ -110,3 +118,11 @@ def decay_epgp(dict_pre_decay, decay_rate=0.9):
             decay_gp = 10
         dict_post_decay.update({name: [decay_ep, decay_gp]})
     return dict_post_decay
+
+
+def look_up_wcl_score(name, wcl_text):
+    for line in wcl_text.splitlines():
+        line_list = line.split()
+        if line_list[0] == name:
+            return line_list[1]
+    return -1
