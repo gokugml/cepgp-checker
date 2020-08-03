@@ -29,4 +29,4 @@ if __name__ == "__main__":
     healers = ('Gokuclose', 'Tombradyy', 'Grumpybride', 'Xiaoyan', 'Toxictotem', 'Niubility', 'Sleepywayge', 'Babiefat',
                'Yiyibaby', 'Pigecha', 'Toxiccow', 'Cblue')
     current_list = append_wcl_score(file_epgp, file_damage, file_heal, healers)
-    utility.write_csv(current_list, "../wishlist.cvs)
+    utility.write_csv(current_list, "../wishlist.cvs")
